@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/components/BadgeNote.tsx","./src/components/Recapitulatif.tsx","./src/components/Terrain.tsx","./src/components/ZoneTirage.tsx","./src/game/formation.ts","./src/game/palier.ts","./src/game/tirage.ts","./src/game/types.ts"],"version":"5.9.3"}

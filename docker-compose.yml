@@ -1,0 +1,7 @@
+services:
+  makeeleven:
+    build: .
+    container_name: makeeleven
+    ports:
+      - "8080:80"
+    restart: unless-stopped

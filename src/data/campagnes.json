@@ -1,0 +1,2010 @@
+[
+  {
+    "id": "espagne-2010",
+    "pays": "Espagne",
+    "annee": 2010,
+    "competition": "Coupe du Monde",
+    "resultat": "Championne du monde",
+    "selectionneur": "Vicente del Bosque",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Iker Casillas",
+        "poste": "GB",
+        "note": 89
+      },
+      {
+        "numero": 2,
+        "nom": "Raúl Albiol",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 3,
+        "nom": "Gerard Piqué",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 4,
+        "nom": "Carlos Marchena",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 5,
+        "nom": "Carles Puyol",
+        "poste": "DC",
+        "note": 88
+      },
+      {
+        "numero": 6,
+        "nom": "Andrés Iniesta",
+        "poste": "MIL",
+        "note": 91
+      },
+      {
+        "numero": 7,
+        "nom": "David Villa",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 8,
+        "nom": "Xavi",
+        "poste": "MIL",
+        "note": 92
+      },
+      {
+        "numero": 9,
+        "nom": "Fernando Torres",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 10,
+        "nom": "Cesc Fàbregas",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 11,
+        "nom": "Joan Capdevila",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 12,
+        "nom": "Víctor Valdés",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 13,
+        "nom": "Juan Mata",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 14,
+        "nom": "Xabi Alonso",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 15,
+        "nom": "Sergio Ramos",
+        "poste": "DD",
+        "note": 85
+      },
+      {
+        "numero": 16,
+        "nom": "Sergio Busquets",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 17,
+        "nom": "Álvaro Arbeloa",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 18,
+        "nom": "Pedro",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 19,
+        "nom": "Fernando Llorente",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 20,
+        "nom": "Javi Martínez",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 21,
+        "nom": "David Silva",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 22,
+        "nom": "Jesús Navas",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 23,
+        "nom": "Pepe Reina",
+        "poste": "GB",
+        "note": 81
+      }
+    ]
+  },
+  {
+    "id": "espagne-2026",
+    "pays": "Espagne",
+    "annee": 2026,
+    "competition": "Coupe du Monde",
+    "resultat": "Finaliste (en cours)",
+    "selectionneur": "Luis de la Fuente",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "David Raya",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Marc Pubill",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 3,
+        "nom": "Alejandro Grimaldo",
+        "poste": "DG",
+        "note": 82
+      },
+      {
+        "numero": 4,
+        "nom": "Eric García",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 5,
+        "nom": "Marcos Llorente",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 6,
+        "nom": "Mikel Merino",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 7,
+        "nom": "Ferran Torres",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 8,
+        "nom": "Fabián Ruiz",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 9,
+        "nom": "Gavi",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 10,
+        "nom": "Dani Olmo",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 11,
+        "nom": "Yeremy Pino",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 12,
+        "nom": "Pedro Porro",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 13,
+        "nom": "Joan García",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 14,
+        "nom": "Aymeric Laporte",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 15,
+        "nom": "Álex Baena",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 16,
+        "nom": "Rodri",
+        "poste": "MIL",
+        "note": 90
+      },
+      {
+        "numero": 17,
+        "nom": "Nico Williams",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 18,
+        "nom": "Martín Zubimendi",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 19,
+        "nom": "Lamine Yamal",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 20,
+        "nom": "Pedri",
+        "poste": "MIL",
+        "note": 89
+      },
+      {
+        "numero": 21,
+        "nom": "Mikel Oyarzabal",
+        "poste": "ATT",
+        "note": 84
+      },
+      {
+        "numero": 22,
+        "nom": "Pau Cubarsí",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 23,
+        "nom": "Unai Simón",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 24,
+        "nom": "Marc Cucurella",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 25,
+        "nom": "Víctor Muñoz",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 26,
+        "nom": "Borja Iglesias",
+        "poste": "ATT",
+        "note": 73
+      }
+    ]
+  },
+  {
+    "id": "portugal-euro2016",
+    "pays": "Portugal",
+    "annee": 2016,
+    "competition": "Euro",
+    "resultat": "Championne d'Europe",
+    "selectionneur": "Fernando Santos",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Rui Patrício",
+        "poste": "GB",
+        "note": 82
+      },
+      {
+        "numero": 2,
+        "nom": "Bruno Alves",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 3,
+        "nom": "Pepe",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 4,
+        "nom": "José Fonte",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 5,
+        "nom": "Raphaël Guerreiro",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 6,
+        "nom": "Ricardo Carvalho",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 7,
+        "nom": "Cristiano Ronaldo",
+        "poste": "ATT",
+        "note": 91
+      },
+      {
+        "numero": 8,
+        "nom": "João Moutinho",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 9,
+        "nom": "Éder",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 10,
+        "nom": "João Mário",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 11,
+        "nom": "Vieirinha",
+        "poste": "DD",
+        "note": 74
+      },
+      {
+        "numero": 12,
+        "nom": "Anthony Lopes",
+        "poste": "GB",
+        "note": 70
+      },
+      {
+        "numero": 13,
+        "nom": "Danilo Pereira",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 14,
+        "nom": "William Carvalho",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 15,
+        "nom": "André Gomes",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 16,
+        "nom": "Renato Sanches",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "Nani",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 18,
+        "nom": "Rafa Silva",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Eliseu",
+        "poste": "DG",
+        "note": 74
+      },
+      {
+        "numero": 20,
+        "nom": "Ricardo Quaresma",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 21,
+        "nom": "Cédric Soares",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 22,
+        "nom": "Eduardo",
+        "poste": "GB",
+        "note": 70
+      },
+      {
+        "numero": 23,
+        "nom": "Adrien Silva",
+        "poste": "MIL",
+        "note": 77
+      }
+    ]
+  },
+  {
+    "id": "croatie-2018",
+    "pays": "Croatie",
+    "annee": 2018,
+    "competition": "Coupe du Monde",
+    "resultat": "Finaliste",
+    "selectionneur": "Zlatko Dalić",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Lovre Kalinić",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 2,
+        "nom": "Šime Vrsaljko",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 3,
+        "nom": "Ivan Strinić",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 4,
+        "nom": "Ivan Perišić",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 5,
+        "nom": "Vedran Ćorluka",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 6,
+        "nom": "Dejan Lovren",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 7,
+        "nom": "Ivan Rakitić",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 8,
+        "nom": "Mateo Kovačić",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Andrej Kramarić",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 10,
+        "nom": "Luka Modrić",
+        "poste": "MIL",
+        "note": 90
+      },
+      {
+        "numero": 11,
+        "nom": "Marcelo Brozović",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 12,
+        "nom": "Lovre Kalinić",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 13,
+        "nom": "Tin Jedvaj",
+        "poste": "DD",
+        "note": 73
+      },
+      {
+        "numero": 14,
+        "nom": "Filip Bradarić",
+        "poste": "MIL",
+        "note": 71
+      },
+      {
+        "numero": 15,
+        "nom": "Duje Ćaleta-Car",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 16,
+        "nom": "Nikola Kalinić",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 17,
+        "nom": "Mario Mandžukić",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 18,
+        "nom": "Ante Rebić",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 19,
+        "nom": "Milan Badelj",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 20,
+        "nom": "Marko Pjaca",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 21,
+        "nom": "Domagoj Vida",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 22,
+        "nom": "Josip Pivarić",
+        "poste": "DG",
+        "note": 71
+      },
+      {
+        "numero": 23,
+        "nom": "Danijel Subašić",
+        "poste": "GB",
+        "note": 82
+      }
+    ]
+  },
+  {
+    "id": "pays-bas-2022",
+    "pays": "Pays-Bas",
+    "annee": 2022,
+    "competition": "Coupe du Monde",
+    "resultat": "Quart de finale",
+    "selectionneur": "Louis van Gaal",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Remko Pasveer",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 2,
+        "nom": "Jurriën Timber",
+        "poste": "DD",
+        "note": 82
+      },
+      {
+        "numero": 3,
+        "nom": "Matthijs de Ligt",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 4,
+        "nom": "Virgil van Dijk",
+        "poste": "DC",
+        "note": 90
+      },
+      {
+        "numero": 5,
+        "nom": "Nathan Aké",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 6,
+        "nom": "Stefan de Vrij",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 7,
+        "nom": "Steven Bergwijn",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 8,
+        "nom": "Cody Gakpo",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 9,
+        "nom": "Luuk de Jong",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 10,
+        "nom": "Memphis Depay",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 11,
+        "nom": "Steven Berghuis",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 12,
+        "nom": "Noa Lang",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Justin Bijlow",
+        "poste": "GB",
+        "note": 79
+      },
+      {
+        "numero": 14,
+        "nom": "Davy Klaassen",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 15,
+        "nom": "Marten de Roon",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 16,
+        "nom": "Tyrell Malacia",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "Daley Blind",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 18,
+        "nom": "Vincent Janssen",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 19,
+        "nom": "Wout Weghorst",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 20,
+        "nom": "Teun Koopmeiners",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 21,
+        "nom": "Frenkie de Jong",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 22,
+        "nom": "Denzel Dumfries",
+        "poste": "DD",
+        "note": 82
+      },
+      {
+        "numero": 23,
+        "nom": "Andries Noppert",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 24,
+        "nom": "Kenneth Taylor",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Xavi Simons",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 26,
+        "nom": "Jeremie Frimpong",
+        "poste": "DD",
+        "note": 76
+      }
+    ]
+  },
+  {
+    "id": "france-2018",
+    "pays": "France",
+    "annee": 2018,
+    "competition": "Coupe du Monde",
+    "resultat": "Championne du monde",
+    "selectionneur": "Didier Deschamps",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Hugo Lloris",
+        "poste": "GB",
+        "note": 88
+      },
+      {
+        "numero": 2,
+        "nom": "Benjamin Pavard",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 3,
+        "nom": "Presnel Kimpembe",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Raphaël Varane",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 5,
+        "nom": "Samuel Umtiti",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 6,
+        "nom": "Paul Pogba",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 7,
+        "nom": "Antoine Griezmann",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 8,
+        "nom": "Thomas Lemar",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 9,
+        "nom": "Olivier Giroud",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 10,
+        "nom": "Kylian Mbappé",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 11,
+        "nom": "Ousmane Dembélé",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 12,
+        "nom": "Corentin Tolisso",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 13,
+        "nom": "N'Golo Kanté",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 14,
+        "nom": "Blaise Matuidi",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 15,
+        "nom": "Steven N'Zonzi",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 16,
+        "nom": "Steve Mandanda",
+        "poste": "GB",
+        "note": 82
+      },
+      {
+        "numero": 17,
+        "nom": "Nabil Fekir",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 18,
+        "nom": "Florian Thauvin",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Djibril Sidibé",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 20,
+        "nom": "Adil Rami",
+        "poste": "DC",
+        "note": 74
+      },
+      {
+        "numero": 21,
+        "nom": "Lucas Hernandez",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 22,
+        "nom": "Benjamin Mendy",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 23,
+        "nom": "Alphonse Areola",
+        "poste": "GB",
+        "note": 80
+      }
+    ]
+  },
+  {
+    "id": "france-2022",
+    "pays": "France",
+    "annee": 2022,
+    "competition": "Coupe du Monde",
+    "resultat": "Finaliste",
+    "selectionneur": "Didier Deschamps",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Hugo Lloris",
+        "poste": "GB",
+        "note": 87
+      },
+      {
+        "numero": 2,
+        "nom": "Benjamin Pavard",
+        "poste": "DD",
+        "note": 82
+      },
+      {
+        "numero": 3,
+        "nom": "Axel Disasi",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 4,
+        "nom": "Raphaël Varane",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 5,
+        "nom": "Jules Koundé",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 6,
+        "nom": "Aurélien Tchouaméni",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 7,
+        "nom": "Antoine Griezmann",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 8,
+        "nom": "Youssouf Fofana",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 9,
+        "nom": "Olivier Giroud",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 10,
+        "nom": "Kylian Mbappé",
+        "poste": "ATT",
+        "note": 91
+      },
+      {
+        "numero": 11,
+        "nom": "Ousmane Dembélé",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 12,
+        "nom": "Randal Kolo Muani",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 13,
+        "nom": "Matteo Guendouzi",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 14,
+        "nom": "Adrien Rabiot",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 15,
+        "nom": "Jordan Veretout",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 16,
+        "nom": "Steve Mandanda",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 17,
+        "nom": "William Saliba",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 18,
+        "nom": "Dayot Upamecano",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 19,
+        "nom": "Karim Benzema",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 20,
+        "nom": "Kingsley Coman",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 21,
+        "nom": "Lucas Hernandez",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 22,
+        "nom": "Théo Hernandez",
+        "poste": "DG",
+        "note": 82
+      },
+      {
+        "numero": 23,
+        "nom": "Alphonse Areola",
+        "poste": "GB",
+        "note": 79
+      },
+      {
+        "numero": 24,
+        "nom": "Ibrahima Konaté",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 25,
+        "nom": "Eduardo Camavinga",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 26,
+        "nom": "Marcus Thuram",
+        "poste": "ATT",
+        "note": 79
+      }
+    ]
+  },
+  {
+    "id": "maroc-2022",
+    "pays": "Maroc",
+    "annee": 2022,
+    "competition": "Coupe du Monde",
+    "resultat": "4e place (meilleure performance africaine/arabe)",
+    "selectionneur": "Walid Regragui",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Yassine Bounou",
+        "poste": "GB",
+        "note": 84
+      },
+      {
+        "numero": 2,
+        "nom": "Achraf Hakimi",
+        "poste": "DD",
+        "note": 88
+      },
+      {
+        "numero": 3,
+        "nom": "Noussair Mazraoui",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 4,
+        "nom": "Sofyan Amrabat",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 5,
+        "nom": "Nayef Aguerd",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 6,
+        "nom": "Romain Saïss",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 7,
+        "nom": "Hakim Ziyech",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 8,
+        "nom": "Azzedine Ounahi",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 9,
+        "nom": "Abderrazak Hamdallah",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 10,
+        "nom": "Anass Zaroury",
+        "poste": "ATT",
+        "note": 71
+      },
+      {
+        "numero": 11,
+        "nom": "Abdelhamid Sabiri",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 12,
+        "nom": "Munir Mohamedi",
+        "poste": "GB",
+        "note": 73
+      },
+      {
+        "numero": 13,
+        "nom": "Ilias Chair",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 14,
+        "nom": "Zakaria Aboukhlal",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 15,
+        "nom": "Selim Amallah",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 16,
+        "nom": "Abde Ezzalzouli",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 17,
+        "nom": "Sofiane Boufal",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 18,
+        "nom": "Jawad El Yamiq",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 19,
+        "nom": "Youssef En-Nesyri",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 20,
+        "nom": "Achraf Dari",
+        "poste": "DC",
+        "note": 71
+      },
+      {
+        "numero": 21,
+        "nom": "Walid Cheddira",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 22,
+        "nom": "Ahmed Reda Tagnaouti",
+        "poste": "GB",
+        "note": 72
+      },
+      {
+        "numero": 23,
+        "nom": "Bilal El Khannouss",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 24,
+        "nom": "Badr Benoun",
+        "poste": "DD",
+        "note": 70
+      },
+      {
+        "numero": 25,
+        "nom": "Yahia Attiyat Allah",
+        "poste": "DG",
+        "note": 72
+      },
+      {
+        "numero": 26,
+        "nom": "Yahya Jabrane",
+        "poste": "MIL",
+        "note": 71
+      }
+    ]
+  },
+  {
+    "id": "bresil-2002",
+    "pays": "Brésil",
+    "annee": 2002,
+    "competition": "Coupe du Monde",
+    "resultat": "Champion du monde",
+    "selectionneur": "Luiz Felipe Scolari",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Marcos",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Cafu",
+        "poste": "DD",
+        "note": 88
+      },
+      {
+        "numero": 3,
+        "nom": "Lúcio",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 4,
+        "nom": "Roque Júnior",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 5,
+        "nom": "Edmílson",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 6,
+        "nom": "Roberto Carlos",
+        "poste": "DG",
+        "note": 92
+      },
+      {
+        "numero": 7,
+        "nom": "Ricardinho",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 8,
+        "nom": "Gilberto Silva",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Ronaldo",
+        "poste": "ATT",
+        "note": 94
+      },
+      {
+        "numero": 10,
+        "nom": "Rivaldo",
+        "poste": "MIL",
+        "note": 91
+      },
+      {
+        "numero": 11,
+        "nom": "Ronaldinho",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 12,
+        "nom": "Dida",
+        "poste": "GB",
+        "note": 81
+      },
+      {
+        "numero": 13,
+        "nom": "Juliano Belletti",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 14,
+        "nom": "Anderson Polga",
+        "poste": "DC",
+        "note": 73
+      },
+      {
+        "numero": 15,
+        "nom": "Kléberson",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 16,
+        "nom": "Júnior",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 17,
+        "nom": "Denílson",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 18,
+        "nom": "Vampeta",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 19,
+        "nom": "Juninho Paulista",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 20,
+        "nom": "Edílson",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 21,
+        "nom": "Luizão",
+        "poste": "ATT",
+        "note": 72
+      },
+      {
+        "numero": 22,
+        "nom": "Rogério Ceni",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 23,
+        "nom": "Kaká",
+        "poste": "MIL",
+        "note": 79
+      }
+    ]
+  },
+  {
+    "id": "france-1998",
+    "pays": "France",
+    "annee": 1998,
+    "competition": "Coupe du Monde",
+    "resultat": "Championne du monde",
+    "selectionneur": "Aimé Jacquet",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Bernard Lama",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 2,
+        "nom": "Vincent Candela",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 3,
+        "nom": "Bixente Lizarazu",
+        "poste": "DG",
+        "note": 87
+      },
+      {
+        "numero": 4,
+        "nom": "Patrick Vieira",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 5,
+        "nom": "Laurent Blanc",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 6,
+        "nom": "Youri Djorkaeff",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 7,
+        "nom": "Didier Deschamps",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 8,
+        "nom": "Marcel Desailly",
+        "poste": "DC",
+        "note": 88
+      },
+      {
+        "numero": 9,
+        "nom": "Stéphane Guivarc'h",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 10,
+        "nom": "Zinedine Zidane",
+        "poste": "MIL",
+        "note": 91
+      },
+      {
+        "numero": 11,
+        "nom": "Robert Pirès",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 12,
+        "nom": "Thierry Henry",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Bernard Diomède",
+        "poste": "ATT",
+        "note": 71
+      },
+      {
+        "numero": 14,
+        "nom": "Alain Boghossian",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 15,
+        "nom": "Lilian Thuram",
+        "poste": "DD",
+        "note": 83
+      },
+      {
+        "numero": 16,
+        "nom": "Fabien Barthez",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 17,
+        "nom": "Emmanuel Petit",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 18,
+        "nom": "Frank Leboeuf",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 19,
+        "nom": "Christian Karembeu",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 20,
+        "nom": "David Trezeguet",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 21,
+        "nom": "Christophe Dugarry",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 22,
+        "nom": "Lionel Charbonnier",
+        "poste": "GB",
+        "note": 72
+      }
+    ]
+  },
+  {
+    "id": "italie-2006",
+    "pays": "Italie",
+    "annee": 2006,
+    "competition": "Coupe du Monde",
+    "resultat": "Championne du monde",
+    "selectionneur": "Marcello Lippi",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Gianluigi Buffon",
+        "poste": "GB",
+        "note": 91
+      },
+      {
+        "numero": 2,
+        "nom": "Cristian Zaccardo",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 3,
+        "nom": "Fabio Grosso",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 4,
+        "nom": "Daniele De Rossi",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 5,
+        "nom": "Fabio Cannavaro",
+        "poste": "DC",
+        "note": 90
+      },
+      {
+        "numero": 6,
+        "nom": "Andrea Barzagli",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 7,
+        "nom": "Alessandro Del Piero",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 8,
+        "nom": "Gennaro Gattuso",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Luca Toni",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 10,
+        "nom": "Francesco Totti",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 11,
+        "nom": "Alberto Gilardino",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 12,
+        "nom": "Angelo Peruzzi",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Alessandro Nesta",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 14,
+        "nom": "Marco Amelia",
+        "poste": "GB",
+        "note": 71
+      },
+      {
+        "numero": 15,
+        "nom": "Vincenzo Iaquinta",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 16,
+        "nom": "Mauro Camoranesi",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 17,
+        "nom": "Simone Barone",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 18,
+        "nom": "Filippo Inzaghi",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Gianluca Zambrotta",
+        "poste": "DD",
+        "note": 83
+      },
+      {
+        "numero": 20,
+        "nom": "Simone Perrotta",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 21,
+        "nom": "Andrea Pirlo",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 22,
+        "nom": "Massimo Oddo",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 23,
+        "nom": "Marco Materazzi",
+        "poste": "DC",
+        "note": 81
+      }
+    ]
+  },
+  {
+    "id": "angleterre-2026",
+    "pays": "Angleterre",
+    "annee": 2026,
+    "competition": "Coupe du Monde",
+    "resultat": "Demi-finale",
+    "selectionneur": "Thomas Tuchel",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Jordan Pickford",
+        "poste": "GB",
+        "note": 85
+      },
+      {
+        "numero": 2,
+        "nom": "Ezri Konsa",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Nico O'Reilly",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 4,
+        "nom": "Declan Rice",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 5,
+        "nom": "John Stones",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 6,
+        "nom": "Marc Guéhi",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 7,
+        "nom": "Bukayo Saka",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 8,
+        "nom": "Elliot Anderson",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 9,
+        "nom": "Harry Kane",
+        "poste": "ATT",
+        "note": 89
+      },
+      {
+        "numero": 10,
+        "nom": "Jude Bellingham",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 11,
+        "nom": "Marcus Rashford",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 12,
+        "nom": "Trevoh Chalobah",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Dean Henderson",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 14,
+        "nom": "Jordan Henderson",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 15,
+        "nom": "Dan Burn",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 16,
+        "nom": "Kobbie Mainoo",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 17,
+        "nom": "Morgan Rogers",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 18,
+        "nom": "Anthony Gordon",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 19,
+        "nom": "Ollie Watkins",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 20,
+        "nom": "Noni Madueke",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 21,
+        "nom": "Eberechi Eze",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 22,
+        "nom": "Ivan Toney",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 23,
+        "nom": "James Trafford",
+        "poste": "GB",
+        "note": 79
+      },
+      {
+        "numero": 24,
+        "nom": "Reece James",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 25,
+        "nom": "Djed Spence",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 26,
+        "nom": "Jarell Quansah",
+        "poste": "DC",
+        "note": 73
+      }
+    ]
+  },
+  {
+    "id": "belgique-2018",
+    "pays": "Belgique",
+    "annee": 2018,
+    "competition": "Coupe du Monde",
+    "resultat": "3e place",
+    "selectionneur": "Roberto Martínez",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Thibaut Courtois",
+        "poste": "GB",
+        "note": 89
+      },
+      {
+        "numero": 2,
+        "nom": "Toby Alderweireld",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 3,
+        "nom": "Thomas Vermaelen",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 4,
+        "nom": "Vincent Kompany",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 5,
+        "nom": "Jan Vertonghen",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 6,
+        "nom": "Axel Witsel",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 7,
+        "nom": "Kevin De Bruyne",
+        "poste": "MIL",
+        "note": 91
+      },
+      {
+        "numero": 8,
+        "nom": "Marouane Fellaini",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 9,
+        "nom": "Romelu Lukaku",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 10,
+        "nom": "Eden Hazard",
+        "poste": "ATT",
+        "note": 90
+      },
+      {
+        "numero": 11,
+        "nom": "Yannick Carrasco",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 12,
+        "nom": "Simon Mignolet",
+        "poste": "GB",
+        "note": 79
+      },
+      {
+        "numero": 13,
+        "nom": "Koen Casteels",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 14,
+        "nom": "Dries Mertens",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 15,
+        "nom": "Thomas Meunier",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 16,
+        "nom": "Thorgan Hazard",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 17,
+        "nom": "Youri Tielemans",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 18,
+        "nom": "Adnan Januzaj",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Mousa Dembélé",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 20,
+        "nom": "Dedryck Boyata",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 21,
+        "nom": "Michy Batshuayi",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 22,
+        "nom": "Nacer Chadli",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 23,
+        "nom": "Leander Dendoncker",
+        "poste": "DC",
+        "note": 76
+      }
+    ]
+  }
+]
