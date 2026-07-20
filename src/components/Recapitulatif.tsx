@@ -1,58 +1,55 @@
-import type { JoueurComposition } from '../game/types'
-import { FORMATION_442 } from '../game/formation'
+import type { DefinitionSlot, JoueurComposition, PosteJoueur } from '../game/types'
 import { palierNote } from '../game/palier'
-import BadgeNote from './BadgeNote'
+import Terrain from './Terrain'
 
 interface RecapitulatifProps {
   composition: JoueurComposition[]
+  formation: DefinitionSlot[]
+  labelPoste: Record<PosteJoueur, string>
+  variante?: 'foot' | 'nba'
   onRecommencer: () => void
 }
 
-const LABEL_POSTE: Record<string, string> = {
-  GB: 'Gardien',
-  DC: 'Défenseur central',
-  DD: 'Défenseur droit',
-  DG: 'Défenseur gauche',
-  MIL: 'Milieu',
-  ATT: 'Attaquant',
+const LABEL_PALIER: Record<string, string> = {
+  bronze: 'Bronze',
+  argent: 'Argent',
+  or: 'Or',
+  diamant: 'Diamant',
+  rainbow: 'Rainbow',
+  goat: 'GOAT',
 }
 
-export default function Recapitulatif({ composition, onRecommencer }: RecapitulatifProps) {
-  const parSlot = new Map(composition.map((j) => [j.slotId, j]))
+export default function Recapitulatif({ composition, formation, labelPoste, variante = 'foot', onRecommencer }: RecapitulatifProps) {
   const campagnesOrigine = Array.from(new Set(composition.map((j) => `${j.pays} ${j.annee}`))).sort()
   const noteMoyenne = Math.round(composition.reduce((somme, j) => somme + j.note, 0) / composition.length)
+  const palierEquipe = palierNote(noteMoyenne)
+  const badgeComplet = variante === 'nba' ? 'Cinq complet' : 'Onze complet'
 
   return (
     <div className="recapitulatif">
       <div className="recapitulatif-entete">
-        <span className="recapitulatif-badge">Onze complet</span>
+        <span className="recapitulatif-badge">{badgeComplet}</span>
         <h2>Ton équipe de légende</h2>
-        <p>Composée de joueurs piochés dans {campagnesOrigine.length} campagne{campagnesOrigine.length > 1 ? 's' : ''}.</p>
-        <div className="recapitulatif-note-moyenne">
-          <span>Note d'équipe</span>
-          <BadgeNote note={noteMoyenne} />
-        </div>
+        <p>
+          Composée de joueurs piochés dans {campagnesOrigine.length} campagne{campagnesOrigine.length > 1 ? 's' : ''}.
+        </p>
       </div>
 
-      <ul className="recapitulatif-liste">
-        {FORMATION_442.map((slot) => {
-          const joueur = parSlot.get(slot.id)
-          if (!joueur) return null
-          return (
-            <li key={slot.id} className={`recapitulatif-ligne recapitulatif-ligne-${palierNote(joueur.note)}`}>
-              <span className="recapitulatif-maillot">{joueur.numero}</span>
-              <span className="recapitulatif-nom-poste">
-                <span className="recapitulatif-nom">{joueur.nom}</span>
-                <span className="recapitulatif-poste">{LABEL_POSTE[joueur.poste]}</span>
-              </span>
-              <BadgeNote note={joueur.note} />
-              <span className="recapitulatif-origine">
-                {joueur.pays} {joueur.annee}
-              </span>
-            </li>
-          )
-        })}
-      </ul>
+      <div className={`note-equipe note-equipe-${palierEquipe}`}>
+        <span className="note-equipe-label">Note d'équipe</span>
+        <span className="note-equipe-valeur">{noteMoyenne}</span>
+        <span className="note-equipe-palier">{LABEL_PALIER[palierEquipe]}</span>
+      </div>
+
+      <div className="recapitulatif-terrain">
+        <Terrain
+          composition={composition}
+          formation={formation}
+          labelPoste={labelPoste}
+          dernierSlotRempli={null}
+          variante={variante}
+        />
+      </div>
 
       <div className="recapitulatif-campagnes">
         {campagnesOrigine.map((c) => (

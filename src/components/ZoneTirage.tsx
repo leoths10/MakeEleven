@@ -1,27 +1,22 @@
-import type { Campagne, JoueurPioche } from '../game/types'
-import type { PhaseTirage } from '../App'
+import type { Campagne, JoueurPioche, PosteJoueur } from '../game/types'
+import type { PhaseTirage } from '../Jeu'
 import { palierNote } from '../game/palier'
 import BadgeNote from './BadgeNote'
+import SilhouetteJoueur from './SilhouetteJoueur'
 
 interface ZoneTirageProps {
   campagne: Campagne | null
   joueurs: JoueurPioche[]
   slotsRestants: number
   retirageDisponible: boolean
+  pioche5AutresDisponible: boolean
   tirageBloque: boolean
   phase: PhaseTirage
   nbJoueursRevele: number
+  labelPoste: Record<PosteJoueur, string>
   onChoisir: (joueur: JoueurPioche) => void
   onTirer: () => void
-}
-
-const LABEL_POSTE: Record<string, string> = {
-  GB: 'Gardien',
-  DC: 'Défenseur central',
-  DD: 'Défenseur droit',
-  DG: 'Défenseur gauche',
-  MIL: 'Milieu',
-  ATT: 'Attaquant',
+  onPiocherCinqAutres: () => void
 }
 
 export default function ZoneTirage({
@@ -29,16 +24,20 @@ export default function ZoneTirage({
   joueurs,
   slotsRestants,
   retirageDisponible,
+  pioche5AutresDisponible,
   tirageBloque,
   phase,
   nbJoueursRevele,
+  labelPoste,
   onChoisir,
   onTirer,
+  onPiocherCinqAutres,
 }: ZoneTirageProps) {
   const choixLimite = phase === 'joueurs' && joueurs.length > 0 && joueurs.length < 5
   const tirageEnCours = phase !== 'inactif'
   const paysVisible = phase === 'pays' || phase === 'annee' || phase === 'joueurs'
   const anneeVisible = phase === 'annee' || phase === 'joueurs'
+  const piocheCinqAutresPossible = tirageEnCours && phase === 'joueurs' && pioche5AutresDisponible && !!campagne
 
   return (
     <div className="zone-tirage">
@@ -46,9 +45,48 @@ export default function ZoneTirage({
         {tirageEnCours ? 'Retirer 5 joueurs' : 'Tirer 5 joueurs'}
       </button>
 
-      <span className={`jeton-retirage${retirageDisponible ? '' : ' jeton-retirage-utilise'}`}>
-        {retirageDisponible ? 'Retirage disponible : 1' : 'Retirage utilisé'}
-      </span>
+      <div className="jokers">
+        <span
+          className={`joker joker-retirage${retirageDisponible ? ' joker-disponible' : ' joker-utilise'}`}
+          title={retirageDisponible ? 'Change de campagne et retire un nouveau lot de 5 joueurs' : 'Retirage déjà utilisé'}
+        >
+          <span className="joker-icone" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="1 4 1 10 7 10" />
+              <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+            </svg>
+          </span>
+          <span className="joker-texte">
+            <span className="joker-label">Retirage</span>
+            <span className="joker-etat">{retirageDisponible ? 'Disponible' : 'Utilisé'}</span>
+          </span>
+        </span>
+
+        <button
+          type="button"
+          className={`joker joker-piocher${pioche5AutresDisponible ? ' joker-disponible' : ' joker-utilise'}${piocheCinqAutresPossible ? ' joker-actif' : ''}`}
+          onClick={piocheCinqAutresPossible ? onPiocherCinqAutres : undefined}
+          disabled={!piocheCinqAutresPossible}
+          title={
+            pioche5AutresDisponible
+              ? 'Repioche 5 autres joueurs dans la même équipe'
+              : 'Repioche déjà utilisée'
+          }
+        >
+          <span className="joker-icone" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="3" y="3" width="7" height="7" rx="1.5" />
+              <rect x="14" y="3" width="7" height="7" rx="1.5" />
+              <rect x="3" y="14" width="7" height="7" rx="1.5" />
+              <rect x="14" y="14" width="7" height="7" rx="1.5" />
+            </svg>
+          </span>
+          <span className="joker-texte">
+            <span className="joker-label">Autres joueurs</span>
+            <span className="joker-etat">{pioche5AutresDisponible ? 'Disponible' : 'Utilisé'}</span>
+          </span>
+        </button>
+      </div>
 
       {tirageEnCours ? (
         <p className={`zone-tirage-aide${tirageBloque && phase === 'joueurs' ? ' zone-tirage-aide-alerte' : ''}`}>
@@ -95,7 +133,7 @@ export default function ZoneTirage({
         <div className="cartes-tirage cartes-tirage-empilees">
           {joueurs.slice(0, nbJoueursRevele).map((joueur) => {
             const palier = palierNote(joueur.note)
-            const exceptionnel = joueur.note >= 85
+            const exceptionnel = joueur.note > 85
             return (
               <button
                 key={joueur.numero}
@@ -103,12 +141,17 @@ export default function ZoneTirage({
                 onClick={() => onChoisir(joueur)}
               >
                 <span className="carte-eclat" aria-hidden="true" />
-                {exceptionnel && <span className="carte-rayons" aria-hidden="true" />}
+                {palier === 'diamant' && <span className="carte-facettes" aria-hidden="true" />}
+                {palier === 'rainbow' && <span className="carte-rayons" aria-hidden="true" />}
+                {palier === 'goat' && <span className="carte-eclairs" aria-hidden="true" />}
                 <BadgeNote note={joueur.note} />
-                <div className="carte-maillot">{joueur.numero}</div>
+                <div className={`carte-maillot carte-maillot-${palier}`}>
+                  <SilhouetteJoueur className="silhouette-joueur" />
+                  <span className="carte-maillot-numero">{joueur.numero}</span>
+                </div>
                 <div className="carte-nom-poste">
                   <div className="carte-nom">{joueur.nom}</div>
-                  <div className="carte-poste">{LABEL_POSTE[joueur.poste]}</div>
+                  <div className="carte-poste">{labelPoste[joueur.poste]}</div>
                 </div>
                 <span className="carte-cta">Choisir</span>
               </button>

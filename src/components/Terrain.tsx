@@ -1,32 +1,38 @@
-import type { DefinitionSlot, JoueurComposition, SlotId } from '../game/types'
+import type { DefinitionSlot, JoueurComposition, PosteJoueur, SlotId } from '../game/types'
 import { palierNote } from '../game/palier'
 import BadgeNote from './BadgeNote'
+import SilhouetteJoueur from './SilhouetteJoueur'
 
 interface TerrainProps {
   composition: JoueurComposition[]
   formation: DefinitionSlot[]
+  labelPoste: Record<PosteJoueur, string>
   dernierSlotRempli: SlotId | null
+  variante?: 'foot' | 'nba'
 }
 
-const LABEL_POSTE: Record<string, string> = {
-  GB: 'Gardien',
-  DC: 'Défenseur central',
-  DD: 'Défenseur droit',
-  DG: 'Défenseur gauche',
-  MIL: 'Milieu',
-  ATT: 'Attaquant',
-}
-
-export default function Terrain({ composition, formation, dernierSlotRempli }: TerrainProps) {
+export default function Terrain({ composition, formation, labelPoste, dernierSlotRempli, variante = 'foot' }: TerrainProps) {
   const parSlot = new Map(composition.map((j) => [j.slotId, j]))
 
   return (
-    <div className="terrain">
+    <div className={`terrain terrain-${variante}`}>
       <div className="terrain-lignes">
-        <div className="ligne-milieu" />
-        <div className="rond-central" />
-        <div className="surface surface-haut" />
-        <div className="surface surface-bas" />
+        {variante === 'foot' ? (
+          <>
+            <div className="ligne-milieu" />
+            <div className="rond-central" />
+            <div className="surface surface-haut" />
+            <div className="surface surface-bas" />
+          </>
+        ) : (
+          <>
+            <div className="rond-central rond-central-nba" />
+            <div className="raquette raquette-haut" />
+            <div className="raquette raquette-bas" />
+            <div className="ligne-3points ligne-3points-haut" />
+            <div className="ligne-3points ligne-3points-bas" />
+          </>
+        )}
       </div>
 
       {formation.map((slot) => {
@@ -47,9 +53,12 @@ export default function Terrain({ composition, formation, dernierSlotRempli }: T
                 title={`Pioché en ${joueur.pays} ${joueur.annee}`}
               >
                 <BadgeNote note={joueur.note} />
-                <div className="maillot">{joueur.numero}</div>
+                <div className={`maillot maillot-${palierNote(joueur.note)}`}>
+                  <SilhouetteJoueur className="silhouette-joueur" />
+                  <span className="maillot-numero">{joueur.numero}</span>
+                </div>
                 <div className="nom-joueur">{joueur.nom}</div>
-                <div className="poste-joueur">{LABEL_POSTE[joueur.poste]}</div>
+                <div className="poste-joueur">{labelPoste[joueur.poste]}</div>
                 <div className="origine-joueur">
                   {joueur.pays} {joueur.annee}
                 </div>

@@ -3,6 +3,8 @@
   --fond-elevee: #101c15;
   --pelouse-claire: #1f7a45;
   --pelouse-sombre: #0d4527;
+  --parquet-claire: #c1873f;
+  --parquet-sombre: #96652b;
   --ligne: #eef4ec;
   --accent: #e0b34c;
   --accent-vif: #f2c661;
@@ -85,12 +87,40 @@ body {
 /* En-tête */
 
 .entete {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   text-align: center;
   margin-bottom: 36px;
+}
+
+.bouton-changer-mode {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-family: var(--police-corps);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--contour);
+  background: var(--fond-elevee);
+  color: var(--texte-att);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.bouton-changer-mode:hover {
+  border-color: var(--accent);
+  color: var(--accent-vif);
+  transform: translateX(-2px);
+}
+
+.bouton-changer-mode:focus-visible {
+  outline: 2px solid var(--accent-vif);
+  outline-offset: 2px;
 }
 
 .entete-eyebrow {
@@ -200,21 +230,134 @@ body {
   outline-offset: 3px;
 }
 
-.jeton-retirage {
-  margin-top: -10px;
-  font-family: var(--police-data);
-  font-size: 0.66rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 4px 10px;
-  border-radius: 999px;
+.jokers {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.joker {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 12px;
   border: 1px solid var(--contour);
+  background: var(--fond-elevee);
+  font-family: var(--police-corps);
+  text-align: left;
+  cursor: default;
+  transition: border-color 0.18s ease, background 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease;
+}
+
+.joker-icone {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--contour);
   color: var(--texte-att);
 }
 
-.jeton-retirage-utilise {
-  border-color: rgba(224, 179, 76, 0.4);
+.joker-icone svg {
+  width: 15px;
+  height: 15px;
+}
+
+.joker-texte {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.joker-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--texte);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.joker-etat {
+  font-family: var(--police-data);
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--texte-att);
+}
+
+/* Retirage : teinte or */
+
+.joker-retirage.joker-disponible .joker-icone {
+  background: rgba(224, 179, 76, 0.18);
+  color: var(--accent-vif);
+}
+
+.joker-retirage.joker-disponible {
+  border-color: rgba(224, 179, 76, 0.35);
+}
+
+.joker-retirage.joker-disponible .joker-etat {
   color: var(--accent);
+}
+
+/* Piocher 5 autres : teinte diamant */
+
+.joker-piocher {
+  font-family: inherit;
+  border: 1px solid var(--contour);
+}
+
+.joker-piocher.joker-disponible .joker-icone {
+  background: rgba(147, 219, 251, 0.15);
+  color: #93dbfb;
+}
+
+.joker-piocher.joker-disponible {
+  border-color: rgba(147, 219, 251, 0.3);
+}
+
+.joker-piocher.joker-disponible .joker-etat {
+  color: #93dbfb;
+}
+
+.joker-piocher.joker-actif {
+  cursor: pointer;
+  animation: glisser-apparaitre 0.25s ease;
+}
+
+.joker-piocher.joker-actif:hover {
+  border-color: #93dbfb;
+  background: rgba(147, 219, 251, 0.08);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px -12px rgba(147, 219, 251, 0.5);
+}
+
+.joker-piocher.joker-actif:focus-visible {
+  outline: 2px solid #93dbfb;
+  outline-offset: 2px;
+}
+
+.joker-piocher:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+/* État utilisé : commun aux deux jokers */
+
+.joker-utilise {
+  opacity: 0.55;
+}
+
+.joker-utilise .joker-etat {
+  color: var(--texte-att);
 }
 
 .zone-tirage-aide {
@@ -447,27 +590,77 @@ body {
   box-shadow: 0 10px 26px -14px rgba(224, 179, 76, 0.5);
 }
 
-.carte-joueur-legende {
-  border-color: rgba(242, 198, 97, 0.9);
+/* Diamant : palette bleu/blanc éclatant, facettes cristallines animées */
+
+.carte-joueur-diamant {
+  border-color: rgba(147, 219, 251, 0.9);
   background:
-    radial-gradient(130% 110% at 50% 0%, rgba(242, 198, 97, 0.26), transparent 65%),
+    radial-gradient(130% 110% at 50% 0%, rgba(147, 219, 251, 0.28), transparent 65%),
     linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
-  box-shadow: 0 12px 30px -12px rgba(242, 198, 97, 0.55);
-  animation: monter-apparaitre 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards, lueur-legende 2.6s ease-in-out infinite;
+  box-shadow: 0 12px 30px -12px rgba(147, 219, 251, 0.55);
+  animation: monter-apparaitre 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards, lueur-diamant 2.4s ease-in-out infinite;
 }
 
-.carte-joueur-legende:hover {
-  border-color: var(--accent-vif);
-  box-shadow: 0 18px 36px -12px rgba(242, 198, 97, 0.7);
+.carte-joueur-diamant:hover {
+  border-color: #d6f3ff;
+  box-shadow: 0 18px 36px -12px rgba(147, 219, 251, 0.75);
 }
 
-@keyframes lueur-legende {
+@keyframes lueur-diamant {
   0%,
   100% {
-    box-shadow: 0 12px 30px -12px rgba(242, 198, 97, 0.55);
+    box-shadow: 0 12px 30px -12px rgba(147, 219, 251, 0.55);
   }
   50% {
-    box-shadow: 0 12px 34px -10px rgba(242, 198, 97, 0.85);
+    box-shadow: 0 12px 34px -10px rgba(214, 243, 255, 0.9);
+  }
+}
+
+.carte-facettes {
+  position: absolute;
+  inset: -20%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(214, 243, 255, 0.22) 15deg,
+    transparent 30deg,
+    transparent 90deg,
+    rgba(147, 219, 251, 0.22) 105deg,
+    transparent 120deg,
+    transparent 180deg,
+    rgba(255, 255, 255, 0.22) 195deg,
+    transparent 210deg,
+    transparent 270deg,
+    rgba(147, 219, 251, 0.22) 285deg,
+    transparent 300deg
+  );
+  animation: tourner-rayons 5s linear infinite;
+  pointer-events: none;
+}
+
+/* Rainbow : dégradé multicolore en mouvement, palier ultime */
+
+.carte-joueur-rainbow {
+  position: relative;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(165deg, var(--fond-elevee), var(--carte-fond)) padding-box,
+    linear-gradient(90deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0, #ff5f6d) border-box;
+  background-size: 100% 100%, 300% 100%;
+  box-shadow: 0 14px 34px -12px rgba(120, 90, 220, 0.55);
+  animation: monter-apparaitre 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards, glisser-rainbow 3.5s linear infinite;
+}
+
+.carte-joueur-rainbow:hover {
+  box-shadow: 0 20px 42px -12px rgba(120, 90, 220, 0.75);
+}
+
+@keyframes glisser-rainbow {
+  from {
+    background-position: 0 0, 0% 0;
+  }
+  to {
+    background-position: 0 0, 300% 0;
   }
 }
 
@@ -477,19 +670,22 @@ body {
   background: conic-gradient(
     from 0deg,
     transparent 0deg,
-    rgba(242, 198, 97, 0.16) 15deg,
+    rgba(255, 95, 109, 0.18) 10deg,
     transparent 30deg,
-    transparent 90deg,
-    rgba(242, 198, 97, 0.16) 105deg,
-    transparent 120deg,
-    transparent 180deg,
-    rgba(242, 198, 97, 0.16) 195deg,
-    transparent 210deg,
+    transparent 70deg,
+    rgba(255, 195, 113, 0.18) 90deg,
+    transparent 110deg,
+    transparent 150deg,
+    rgba(111, 220, 140, 0.18) 170deg,
+    transparent 190deg,
+    transparent 230deg,
+    rgba(79, 210, 232, 0.18) 250deg,
     transparent 270deg,
-    rgba(242, 198, 97, 0.16) 285deg,
-    transparent 300deg
+    transparent 310deg,
+    rgba(200, 105, 224, 0.18) 330deg,
+    transparent 350deg
   );
-  animation: tourner-rayons 6s linear infinite;
+  animation: tourner-rayons 4s linear infinite;
   pointer-events: none;
 }
 
@@ -500,6 +696,52 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* GOAT : palier ultime, contraste noir/blanc/or maximal */
+
+.carte-joueur-goat {
+  position: relative;
+  border: 2px solid #ffffff;
+  background: linear-gradient(165deg, #17151b, #05050a);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 16px 38px -12px rgba(255, 255, 255, 0.35);
+  animation: monter-apparaitre 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards, lueur-goat 2s ease-in-out infinite;
+}
+
+.carte-joueur-goat:hover {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25) inset, 0 22px 46px -12px rgba(224, 179, 76, 0.55);
+}
+
+@keyframes lueur-goat {
+  0%,
+  100% {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 16px 38px -12px rgba(255, 255, 255, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 1px rgba(224, 179, 76, 0.4) inset, 0 16px 42px -10px rgba(224, 179, 76, 0.75);
+  }
+}
+
+.carte-eclairs {
+  position: absolute;
+  inset: -30%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(224, 179, 76, 0.3) 8deg,
+    transparent 20deg,
+    transparent 88deg,
+    rgba(255, 255, 255, 0.28) 96deg,
+    transparent 108deg,
+    transparent 178deg,
+    rgba(224, 179, 76, 0.3) 186deg,
+    transparent 198deg,
+    transparent 268deg,
+    rgba(255, 255, 255, 0.28) 276deg,
+    transparent 288deg
+  );
+  animation: tourner-rayons 3.2s linear infinite;
+  pointer-events: none;
 }
 
 .carte-joueur-exceptionnelle {
@@ -521,6 +763,8 @@ body {
 }
 
 .carte-maillot {
+  position: relative;
+  flex-shrink: 0;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -529,10 +773,87 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.carte-maillot-argent {
+  background: linear-gradient(180deg, #cdd6cf, #8b978f);
+}
+
+.carte-maillot-or {
+  background: linear-gradient(180deg, var(--accent-vif), var(--accent));
+}
+
+.carte-maillot-diamant {
+  background: linear-gradient(180deg, #eafcff, #93dbfb 55%, #4fa9d6);
+}
+
+.carte-maillot-rainbow {
+  background: linear-gradient(180deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0);
+  background-size: 100% 300%;
+  animation: glisser-rainbow-vertical 3.5s linear infinite;
+}
+
+.carte-maillot-goat {
+  background: radial-gradient(circle at 35% 30%, #2a2730, #05050a 70%);
+  border-color: rgba(224, 179, 76, 0.7);
+}
+
+@keyframes glisser-rainbow-vertical {
+  from {
+    background-position: 0 0%;
+  }
+  to {
+    background-position: 0 300%;
+  }
+}
+
+.silhouette-joueur {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.carte-maillot-argent .silhouette-joueur,
+.carte-maillot-or .silhouette-joueur,
+.carte-maillot-diamant .silhouette-joueur {
+  color: rgba(26, 18, 6, 0.55);
+}
+
+.carte-maillot-rainbow .silhouette-joueur {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.carte-maillot-goat .silhouette-joueur {
+  color: rgba(224, 179, 76, 0.65);
+}
+
+.carte-maillot-numero {
+  position: relative;
   font-family: var(--police-data);
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--ligne);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carte-maillot-or .carte-maillot-numero,
+.carte-maillot-diamant .carte-maillot-numero {
+  color: #1a1206;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.carte-maillot-rainbow .carte-maillot-numero {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.carte-maillot-goat .carte-maillot-numero {
+  color: var(--accent-vif);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .carte-nom {
@@ -568,9 +889,45 @@ body {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 4px 10px -4px rgba(0, 0, 0, 0.6);
 }
 
-.badge-note-legende {
-  background: linear-gradient(160deg, #fff3c4, #f2c661 45%, #c98a2c);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 4px 12px -3px rgba(242, 198, 97, 0.75);
+.badge-note-goat {
+  background: linear-gradient(160deg, #2a2730, #05050a);
+  color: var(--accent-vif);
+  border: 1px solid rgba(224, 179, 76, 0.7);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 4px 14px -3px rgba(224, 179, 76, 0.6);
+  animation: lueur-goat-badge 2s ease-in-out infinite;
+}
+
+@keyframes lueur-goat-badge {
+  0%,
+  100% {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 4px 14px -3px rgba(224, 179, 76, 0.6);
+  }
+  50% {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 4px 16px -2px rgba(224, 179, 76, 0.9);
+  }
+}
+
+.badge-note-rainbow {
+  background: linear-gradient(120deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0);
+  background-size: 300% 100%;
+  color: #12081f;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 4px 12px -3px rgba(120, 90, 220, 0.75);
+  animation: glisser-rainbow-simple 3.5s linear infinite;
+}
+
+@keyframes glisser-rainbow-simple {
+  from {
+    background-position: 0% 0;
+  }
+  to {
+    background-position: 300% 0;
+  }
+}
+
+.badge-note-diamant {
+  background: linear-gradient(160deg, #eafcff, #93dbfb 45%, #4fa9d6);
+  color: #072433;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset, 0 4px 12px -3px rgba(147, 219, 251, 0.8);
 }
 
 .badge-note-or {
@@ -676,6 +1033,63 @@ body {
   border-top: none;
 }
 
+.terrain-nba {
+  background:
+    radial-gradient(120% 90% at 50% 8%, rgba(255, 255, 255, 0.08), transparent 55%),
+    repeating-linear-gradient(
+      90deg,
+      var(--parquet-claire) 0,
+      var(--parquet-claire) 10px,
+      var(--parquet-sombre) 10px,
+      var(--parquet-sombre) 20px
+    );
+}
+
+.rond-central-nba {
+  width: 96px;
+  height: 96px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.raquette {
+  position: absolute;
+  left: 50%;
+  width: 190px;
+  height: 96px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transform: translateX(-50%);
+}
+
+.raquette-haut {
+  top: 0;
+  border-top: none;
+}
+
+.raquette-bas {
+  bottom: 0;
+  border-bottom: none;
+}
+
+.ligne-3points {
+  position: absolute;
+  left: 50%;
+  width: 340px;
+  height: 170px;
+  border: 2px solid rgba(255, 255, 255, 0.32);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.ligne-3points-haut {
+  top: -110px;
+  border-bottom: none;
+}
+
+.ligne-3points-bas {
+  bottom: -110px;
+  border-top: none;
+}
+
 .surface-bas {
   bottom: 0;
   border-bottom: none;
@@ -706,16 +1120,76 @@ body {
 }
 
 .maillot {
+  position: relative;
+  flex-shrink: 0;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   background: linear-gradient(180deg, var(--accent-vif), var(--accent));
-  color: #1a1206;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.maillot-bronze {
+  background: linear-gradient(180deg, #d99a63, #a9683a);
+}
+
+.maillot-argent {
+  background: linear-gradient(180deg, #cdd6cf, #8b978f);
+}
+
+.maillot-diamant {
+  background: linear-gradient(180deg, #eafcff, #93dbfb 55%, #4fa9d6);
+}
+
+.maillot-rainbow {
+  background: linear-gradient(180deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0);
+  background-size: 100% 300%;
+  animation: glisser-rainbow-vertical 3.5s linear infinite;
+}
+
+.maillot-goat {
+  background: radial-gradient(circle at 35% 30%, #2a2730, #05050a 70%);
+  border: 1px solid rgba(224, 179, 76, 0.7);
+}
+
+.maillot .silhouette-joueur {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  color: rgba(26, 18, 6, 0.5);
+}
+
+.maillot-bronze .silhouette-joueur,
+.maillot-argent .silhouette-joueur,
+.maillot-rainbow .silhouette-joueur {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.maillot-goat .silhouette-joueur {
+  color: rgba(224, 179, 76, 0.65);
+}
+
+.maillot-numero {
+  position: relative;
   font-family: var(--police-data);
   font-weight: 700;
+  color: #1a1206;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.maillot-rainbow .maillot-numero {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.maillot-goat .maillot-numero {
+  color: var(--accent-vif);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .nom-joueur {
@@ -754,15 +1228,42 @@ body {
   box-shadow: 0 10px 24px -12px rgba(224, 179, 76, 0.5);
 }
 
-.carte-slot-legende {
+.carte-slot-diamant {
   border-color: rgba(242, 198, 97, 0.95);
   box-shadow: 0 10px 26px -10px rgba(242, 198, 97, 0.65);
-  animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), lueur-legende 2.6s ease-in-out infinite;
+  animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), lueur-diamant 2.6s ease-in-out infinite;
 }
 
-.carte-slot-legende.carte-slot-nouvelle {
+.carte-slot-diamant.carte-slot-nouvelle {
   animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), pulsation-or 0.9s ease-out,
-    lueur-legende 2.6s ease-in-out 0.9s infinite;
+    lueur-diamant 2.6s ease-in-out 0.9s infinite;
+}
+
+.carte-slot-rainbow {
+  border: 2px solid transparent;
+  background:
+    rgba(10, 18, 14, 0.82) padding-box,
+    linear-gradient(90deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0, #ff5f6d) border-box;
+  background-size: 100% 100%, 300% 100%;
+  box-shadow: 0 12px 30px -12px rgba(120, 90, 220, 0.6);
+  animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), glisser-rainbow 3.5s linear infinite;
+}
+
+.carte-slot-rainbow.carte-slot-nouvelle {
+  animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), pulsation-or 0.9s ease-out,
+    glisser-rainbow 3.5s linear 0.9s infinite;
+}
+
+.carte-slot-goat {
+  border: 2px solid #ffffff;
+  background: linear-gradient(165deg, #17151b, #05050a);
+  box-shadow: 0 12px 30px -12px rgba(255, 255, 255, 0.35);
+  animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), lueur-goat 2s ease-in-out infinite;
+}
+
+.carte-slot-goat.carte-slot-nouvelle {
+  animation: monter-apparaitre 0.3s cubic-bezier(0.22, 1, 0.36, 1), pulsation-or 0.9s ease-out,
+    lueur-goat 2s ease-in-out 0.9s infinite;
 }
 
 @keyframes pulsation-or {
@@ -807,9 +1308,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
   margin-bottom: 40px;
-  padding: 28px 20px;
+  padding: 32px 24px;
   border-radius: 18px;
   border: 1px solid var(--contour);
   background: linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
@@ -848,97 +1349,133 @@ body {
   font-size: 0.9rem;
 }
 
-.recapitulatif-note-moyenne {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 4px;
-}
+/* Encadré note d'équipe, stylé selon le palier atteint */
 
-.recapitulatif-note-moyenne span {
-  font-family: var(--police-data);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--texte-att);
-}
-
-.recapitulatif-liste {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 480px;
+.note-equipe {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 2px;
-}
-
-.recapitulatif-ligne {
-  display: grid;
-  grid-template-columns: 32px 1fr auto auto;
   align-items: center;
-  column-gap: 12px;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border-bottom: 1px solid var(--contour);
-  border-left: 3px solid transparent;
+  gap: 4px;
+  padding: 20px 40px;
+  border-radius: 16px;
+  border: 1px solid var(--contour);
+  background: linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
+  overflow: hidden;
 }
 
-.recapitulatif-ligne-argent {
-  border-left-color: rgba(185, 196, 189, 0.7);
-}
-
-.recapitulatif-ligne-or {
-  border-left-color: var(--accent);
-}
-
-.recapitulatif-ligne-legende {
-  border-left-color: var(--accent-vif);
-  background: linear-gradient(90deg, rgba(242, 198, 97, 0.08), transparent 60%);
-}
-
-.recapitulatif-ligne:last-child {
-  border-bottom: none;
-}
-
-.recapitulatif-maillot {
+.note-equipe-label {
   font-family: var(--police-data);
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--accent);
-  font-variant-numeric: tabular-nums;
-}
-
-.recapitulatif-nom-poste {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.recapitulatif-nom {
-  font-weight: 600;
-  font-size: 0.92rem;
-}
-
-.recapitulatif-poste {
-  font-family: var(--police-data);
-  font-size: 0.62rem;
-  color: var(--texte-att);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.recapitulatif-origine {
   font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
   color: var(--texte-att);
-  white-space: nowrap;
 }
 
-.recapitulatif-ligne .badge-note {
-  font-size: 0.78rem;
-  min-width: 24px;
-  padding: 3px 5px 3px;
+.note-equipe-valeur {
+  font-family: var(--police-display);
+  font-weight: 700;
+  font-size: clamp(3rem, 8vw, 4rem);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--texte);
+}
+
+.note-equipe-palier {
+  font-family: var(--police-data);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+
+.note-equipe-bronze {
+  border-color: rgba(169, 104, 58, 0.6);
+}
+
+.note-equipe-bronze .note-equipe-valeur {
+  color: #d99a63;
+}
+
+.note-equipe-bronze .note-equipe-palier {
+  color: #d99a63;
+}
+
+.note-equipe-argent {
+  border-color: rgba(185, 196, 189, 0.7);
+}
+
+.note-equipe-argent .note-equipe-valeur,
+.note-equipe-argent .note-equipe-palier {
+  color: #cdd6cf;
+}
+
+.note-equipe-or {
+  border-color: rgba(224, 179, 76, 0.85);
+  box-shadow: 0 14px 32px -16px rgba(224, 179, 76, 0.55);
+}
+
+.note-equipe-or .note-equipe-valeur,
+.note-equipe-or .note-equipe-palier {
+  color: var(--accent-vif);
+}
+
+.note-equipe-diamant {
+  border-color: rgba(147, 219, 251, 0.9);
+  box-shadow: 0 16px 36px -14px rgba(147, 219, 251, 0.55);
+  animation: lueur-diamant 2.4s ease-in-out infinite;
+}
+
+.note-equipe-diamant .note-equipe-valeur,
+.note-equipe-diamant .note-equipe-palier {
+  color: #93dbfb;
+}
+
+.note-equipe-rainbow {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(165deg, var(--fond-elevee), var(--carte-fond)) padding-box,
+    linear-gradient(90deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0, #ff5f6d) border-box;
+  background-size: 100% 100%, 300% 100%;
+  box-shadow: 0 18px 40px -14px rgba(120, 90, 220, 0.6);
+  animation: glisser-rainbow 3.5s linear infinite;
+}
+
+.note-equipe-rainbow .note-equipe-valeur {
+  background: linear-gradient(120deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: glisser-rainbow-simple 3.5s linear infinite;
+}
+
+.note-equipe-rainbow .note-equipe-palier {
+  color: #c869e0;
+}
+
+.note-equipe-goat {
+  border: 2px solid #ffffff;
+  background: linear-gradient(165deg, #17151b, #05050a);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 20px 44px -14px rgba(224, 179, 76, 0.5);
+  animation: lueur-goat 2s ease-in-out infinite;
+}
+
+.note-equipe-goat .note-equipe-valeur {
+  color: var(--accent-vif);
+}
+
+.note-equipe-goat .note-equipe-palier {
+  color: #ffffff;
+}
+
+.recapitulatif-terrain {
+  width: 100%;
+}
+
+.recapitulatif-terrain .terrain {
+  box-shadow: none;
+  border-radius: 14px;
 }
 
 .recapitulatif-campagnes {
@@ -980,20 +1517,204 @@ body {
   }
 }
 
+/* Écran de choix de mode */
+
+.toggle-boost {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 420px;
+  margin: 0 auto 28px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--contour);
+  background: var(--fond-elevee);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.toggle-boost input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-boost-actif {
+  border-color: transparent;
+  background:
+    linear-gradient(165deg, var(--fond-elevee), var(--carte-fond)) padding-box,
+    linear-gradient(100deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 12px 28px -16px rgba(120, 90, 220, 0.55);
+}
+
+.toggle-boost-piste {
+  flex-shrink: 0;
+  width: 42px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--contour);
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.toggle-boost-actif .toggle-boost-piste {
+  background: linear-gradient(90deg, var(--accent-vif), var(--accent));
+}
+
+.toggle-boost-curseur {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--texte);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.toggle-boost-actif .toggle-boost-curseur {
+  transform: translateX(18px);
+  background: #1a1206;
+}
+
+.toggle-boost-texte {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.toggle-boost-titre {
+  font-family: var(--police-display);
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--texte);
+}
+
+.toggle-boost-detail {
+  font-size: 0.74rem;
+  color: var(--texte-att);
+}
+
+.choix-mode-grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.carte-mode {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 28px 24px;
+  border-radius: 18px;
+  border: 1px solid var(--contour);
+  background:
+    radial-gradient(120% 100% at 0% 0%, rgba(224, 179, 76, 0.1), transparent 60%),
+    linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
+  color: var(--texte);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+  animation: monter-apparaitre 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+.choix-mode-grille .carte-mode:nth-child(2) {
+  animation-delay: 0.06s;
+}
+
+.carte-mode:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -18px rgba(0, 0, 0, 0.5);
+}
+
+.carte-mode:focus-visible {
+  outline: 2px solid var(--accent-vif);
+  outline-offset: 3px;
+}
+
+.carte-mode-titre {
+  font-family: var(--police-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--accent-vif);
+}
+
+.carte-mode-description {
+  font-size: 0.9rem;
+  color: var(--texte-att);
+  line-height: 1.4;
+}
+
+.carte-mode-compte {
+  font-family: var(--police-data);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--texte-att);
+  margin-top: 4px;
+}
+
+.carte-mode-cta {
+  margin-top: 12px;
+  font-family: var(--police-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+  transition: transform 0.18s ease;
+}
+
+.carte-mode:hover .carte-mode-cta {
+  transform: translateX(4px);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carte-joueur,
-  .carte-joueur-legende,
+  .carte-joueur-diamant,
+  .carte-joueur-rainbow,
+  .carte-joueur-goat,
   .carte-joueur-exceptionnelle,
   .carte-rayons,
+  .carte-facettes,
+  .carte-eclairs,
   .carte-slot,
   .carte-slot-nouvelle,
-  .carte-slot-legende,
+  .carte-slot-diamant,
+  .carte-slot-rainbow,
+  .carte-slot-goat,
+  .carte-maillot-rainbow,
+  .maillot-rainbow,
+  .maillot-goat,
+  .badge-note-rainbow,
+  .badge-note-goat,
+  .note-equipe-diamant,
+  .note-equipe-rainbow,
+  .note-equipe-rainbow .note-equipe-valeur,
+  .note-equipe-goat,
   .recapitulatif,
   .info-campagne,
   .campagne-titre,
   .campagne-detail,
   .suspense-point,
   .alerte-choix-limite,
+  .joker-piocher.joker-actif,
+  .carte-mode,
   .progression-remplissage {
     animation: none !important;
     transition: none !important;
@@ -1017,5 +1738,10 @@ body {
 
   .carte-joueur {
     width: 118px;
+  }
+
+  .bouton-changer-mode {
+    position: static;
+    margin-bottom: 4px;
   }
 }

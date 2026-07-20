@@ -1,0 +1,4256 @@
+[
+  {
+    "id": "psg-2025",
+    "annee": 2025,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (5-0 vs Inter Milan)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Gianluigi Donnarumma",
+        "poste": "GB",
+        "note": 88,
+        "note_booster": 106
+      },
+      {
+        "numero": 2,
+        "nom": "Achraf Hakimi",
+        "poste": "DD",
+        "note": 87
+      },
+      {
+        "numero": 3,
+        "nom": "Presnel Kimpembe",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 5,
+        "nom": "Marquinhos",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 7,
+        "nom": "Khvicha Kvaratskhelia",
+        "poste": "ATT",
+        "note": 86
+      },
+      {
+        "numero": 8,
+        "nom": "Fabián Ruiz",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 9,
+        "nom": "Gonçalo Ramos",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Ousmane Dembélé",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 116
+      },
+      {
+        "numero": 14,
+        "nom": "Désiré Doué",
+        "poste": "ATT",
+        "note": 83,
+        "note_booster": 102
+      },
+      {
+        "numero": 17,
+        "nom": "Vitinha",
+        "poste": "MIL",
+        "note": 85,
+        "note_booster": 99
+      },
+      {
+        "numero": 19,
+        "nom": "Lee Kang-In",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 21,
+        "nom": "Lucas Hernández",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 24,
+        "nom": "Senny Mayulu",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 25,
+        "nom": "Nuno Mendes",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 29,
+        "nom": "Bradley Barcola",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 33,
+        "nom": "Warren Zaïre-Emery",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 35,
+        "nom": "Lucas Beraldo",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 39,
+        "nom": "Matvey Safonov",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 49,
+        "nom": "Ibrahim Mbaye",
+        "poste": "ATT",
+        "note": 71
+      },
+      {
+        "numero": 51,
+        "nom": "Willian Pacho",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 80,
+        "nom": "Arnau Tenas",
+        "poste": "GB",
+        "note": 72
+      },
+      {
+        "numero": 87,
+        "nom": "João Neves",
+        "poste": "MIL",
+        "note": 83
+      }
+    ],
+    "pays": "Paris Saint-Germain",
+    "selectionneur": "Luis Enrique"
+  },
+  {
+    "id": "real-madrid-2018",
+    "annee": 2018,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (3-1 vs Liverpool)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Keylor Navas",
+        "poste": "GB",
+        "note": 85
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Carvajal",
+        "poste": "DD",
+        "note": 82
+      },
+      {
+        "numero": 3,
+        "nom": "Raphaël Varane",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 4,
+        "nom": "Sergio Ramos",
+        "poste": "DC",
+        "note": 90
+      },
+      {
+        "numero": 5,
+        "nom": "Marcelo",
+        "poste": "DG",
+        "note": 85
+      },
+      {
+        "numero": 6,
+        "nom": "Nacho",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 7,
+        "nom": "Cristiano Ronaldo",
+        "poste": "ATT",
+        "note": 94,
+        "note_booster": 120
+      },
+      {
+        "numero": 8,
+        "nom": "Toni Kroos",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 9,
+        "nom": "Karim Benzema",
+        "poste": "ATT",
+        "note": 86
+      },
+      {
+        "numero": 10,
+        "nom": "Luka Modrić",
+        "poste": "MIL",
+        "note": 90,
+        "note_booster": 105
+      },
+      {
+        "numero": 11,
+        "nom": "Gareth Bale",
+        "poste": "ATT",
+        "note": 86,
+        "note_booster": 108
+      },
+      {
+        "numero": 13,
+        "nom": "Kiko Casilla",
+        "poste": "GB",
+        "note": 73
+      },
+      {
+        "numero": 14,
+        "nom": "Casemiro",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 15,
+        "nom": "Theo Hernández",
+        "poste": "DG",
+        "note": 74
+      },
+      {
+        "numero": 17,
+        "nom": "Lucas Vázquez",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 19,
+        "nom": "Marco Asensio",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 20,
+        "nom": "Marcos Llorente",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 22,
+        "nom": "Isco",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 23,
+        "nom": "Achraf Hakimi",
+        "poste": "DD",
+        "note": 73
+      },
+      {
+        "numero": 24,
+        "nom": "Dani Ceballos",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Jesús Vallejo",
+        "poste": "DC",
+        "note": 72
+      },
+      {
+        "numero": 26,
+        "nom": "Mateo Kovačić",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 21,
+        "nom": "Borja Mayoral",
+        "poste": "ATT",
+        "note": 73
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Zinédine Zidane"
+  },
+  {
+    "id": "barcelone-2015",
+    "annee": 2015,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (3-1 vs Juventus)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Marc-André ter Stegen",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Alves",
+        "poste": "DD",
+        "note": 85
+      },
+      {
+        "numero": 3,
+        "nom": "Gerard Piqué",
+        "poste": "DC",
+        "note": 86
+      },
+      {
+        "numero": 4,
+        "nom": "Ivan Rakitić",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 5,
+        "nom": "Javier Mascherano",
+        "poste": "DC",
+        "note": 84
+      },
+      {
+        "numero": 6,
+        "nom": "Xavi Hernández",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 8,
+        "nom": "Andrés Iniesta",
+        "poste": "MIL",
+        "note": 89
+      },
+      {
+        "numero": 9,
+        "nom": "Luis Suárez",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 106
+      },
+      {
+        "numero": 10,
+        "nom": "Lionel Messi",
+        "poste": "ATT",
+        "note": 95,
+        "note_booster": 118
+      },
+      {
+        "numero": 11,
+        "nom": "Neymar",
+        "poste": "ATT",
+        "note": 89,
+        "note_booster": 104
+      },
+      {
+        "numero": 13,
+        "nom": "Claudio Bravo",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 14,
+        "nom": "Jérémy Mathieu",
+        "poste": "DC",
+        "note": 77
+      },
+      {
+        "numero": 17,
+        "nom": "Adriano Correia",
+        "poste": "DG",
+        "note": 75
+      },
+      {
+        "numero": 18,
+        "nom": "Jordi Alba",
+        "poste": "DG",
+        "note": 84
+      },
+      {
+        "numero": 19,
+        "nom": "Marc Bartra",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 20,
+        "nom": "Sergio Busquets",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 21,
+        "nom": "Adama Traoré",
+        "poste": "ATT",
+        "note": 70
+      },
+      {
+        "numero": 22,
+        "nom": "Rafinha",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Sergi Roberto",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 27,
+        "nom": "Pedro Rodríguez",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 30,
+        "nom": "Sandro Ramírez",
+        "poste": "ATT",
+        "note": 71
+      },
+      {
+        "numero": 31,
+        "nom": "Munir El Haddadi",
+        "poste": "ATT",
+        "note": 71
+      },
+      {
+        "numero": 33,
+        "nom": "Sergi Samper",
+        "poste": "MIL",
+        "note": 70
+      }
+    ],
+    "pays": "FC Barcelone",
+    "selectionneur": "Luis Enrique"
+  },
+  {
+    "id": "psg-2013",
+    "annee": 2013,
+    "competition": "Ligue des Champions",
+    "resultat": "Quart de finale",
+    "joueurs": [
+      {
+        "numero": 2,
+        "nom": "Thiago Silva",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 3,
+        "nom": "Alex",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 5,
+        "nom": "Gregory van der Wiel",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 6,
+        "nom": "Zoumana Camara",
+        "poste": "DC",
+        "note": 73
+      },
+      {
+        "numero": 7,
+        "nom": "Jérémy Ménez",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 10,
+        "nom": "Nenê",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 11,
+        "nom": "Ezequiel Lavezzi",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 13,
+        "nom": "Alex (Alex Rodrigo)",
+        "poste": "DC",
+        "note": 74
+      },
+      {
+        "numero": 14,
+        "nom": "Blaise Matuidi",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 17,
+        "nom": "Maxwell",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 18,
+        "nom": "Zlatan Ibrahimović",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 106
+      },
+      {
+        "numero": 19,
+        "nom": "Kevin Gameiro",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 20,
+        "nom": "Clément Chantôme",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 24,
+        "nom": "Marco Verratti",
+        "poste": "MIL",
+        "note": 81,
+        "note_booster": 96
+      },
+      {
+        "numero": 26,
+        "nom": "Christophe Jallet",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 27,
+        "nom": "Javier Pastore",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 28,
+        "nom": "Thiago Motta",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 29,
+        "nom": "Lucas Moura",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 30,
+        "nom": "Salvatore Sirigu",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 32,
+        "nom": "David Beckham",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 22,
+        "nom": "Sylvain Armand",
+        "poste": "DG",
+        "note": 72
+      },
+      {
+        "numero": 15,
+        "nom": "Mamadou Sakho",
+        "poste": "DC",
+        "note": 78
+      }
+    ],
+    "pays": "Paris Saint-Germain",
+    "selectionneur": "Carlo Ancelotti"
+  },
+  {
+    "id": "bayern-2021",
+    "annee": 2021,
+    "competition": "Ligue des Champions",
+    "resultat": "Quart de finale",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Manuel Neuer",
+        "poste": "GB",
+        "note": 90,
+        "note_booster": 102
+      },
+      {
+        "numero": 4,
+        "nom": "Niklas Süle",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 5,
+        "nom": "Benjamin Pavard",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 6,
+        "nom": "Joshua Kimmich",
+        "poste": "MIL",
+        "note": 89
+      },
+      {
+        "numero": 8,
+        "nom": "Javi Martínez",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 10,
+        "nom": "Leroy Sané",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 11,
+        "nom": "Mickaël Cuisance",
+        "poste": "MIL",
+        "note": 71
+      },
+      {
+        "numero": 13,
+        "nom": "Eric Maxim Choupo-Moting",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 14,
+        "nom": "Joshua Zirkzee",
+        "poste": "ATT",
+        "note": 72
+      },
+      {
+        "numero": 17,
+        "nom": "Jérôme Boateng",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 18,
+        "nom": "Leon Goretzka",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 19,
+        "nom": "Alphonso Davies",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 21,
+        "nom": "Lucas Hernández",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 24,
+        "nom": "Corentin Tolisso",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Thomas Müller",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 100
+      },
+      {
+        "numero": 27,
+        "nom": "David Alaba",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 9,
+        "nom": "Robert Lewandowski",
+        "poste": "ATT",
+        "note": 93,
+        "note_booster": 110
+      },
+      {
+        "numero": 29,
+        "nom": "Kingsley Coman",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 26,
+        "nom": "Sven Ulreich",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 35,
+        "nom": "Alexander Nübel",
+        "poste": "GB",
+        "note": 72
+      }
+    ],
+    "pays": "Bayern Munich",
+    "selectionneur": "Hansi Flick"
+  },
+  {
+    "id": "manchester-city-2023",
+    "annee": 2023,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-0 vs Inter Milan)",
+    "joueurs": [
+      {
+        "numero": 31,
+        "nom": "Ederson",
+        "poste": "GB",
+        "note": 87
+      },
+      {
+        "numero": 2,
+        "nom": "Kyle Walker",
+        "poste": "DD",
+        "note": 84
+      },
+      {
+        "numero": 3,
+        "nom": "Rúben Dias",
+        "poste": "DC",
+        "note": 88
+      },
+      {
+        "numero": 4,
+        "nom": "Kalvin Phillips",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 5,
+        "nom": "John Stones",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 6,
+        "nom": "Nathan Aké",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 8,
+        "nom": "İlkay Gündoğan",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 9,
+        "nom": "Erling Haaland",
+        "poste": "ATT",
+        "note": 91,
+        "note_booster": 112
+      },
+      {
+        "numero": 10,
+        "nom": "Jack Grealish",
+        "poste": "ATT",
+        "note": 84
+      },
+      {
+        "numero": 14,
+        "nom": "Aymeric Laporte",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 16,
+        "nom": "Rodri",
+        "poste": "MIL",
+        "note": 88,
+        "note_booster": 100
+      },
+      {
+        "numero": 17,
+        "nom": "Kevin De Bruyne",
+        "poste": "MIL",
+        "note": 91,
+        "note_booster": 106
+      },
+      {
+        "numero": 18,
+        "nom": "Stefan Ortega",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 19,
+        "nom": "Julián Álvarez",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 20,
+        "nom": "Bernardo Silva",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 21,
+        "nom": "Sergio Gómez",
+        "poste": "DG",
+        "note": 73
+      },
+      {
+        "numero": 25,
+        "nom": "Manuel Akanji",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 26,
+        "nom": "Riyad Mahrez",
+        "poste": "ATT",
+        "note": 84
+      },
+      {
+        "numero": 32,
+        "nom": "Máximo Perrone",
+        "poste": "MIL",
+        "note": 71
+      },
+      {
+        "numero": 33,
+        "nom": "Scott Carson",
+        "poste": "GB",
+        "note": 68
+      },
+      {
+        "numero": 47,
+        "nom": "Phil Foden",
+        "poste": "ATT",
+        "note": 86
+      },
+      {
+        "numero": 80,
+        "nom": "Cole Palmer",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 82,
+        "nom": "Rico Lewis",
+        "poste": "DD",
+        "note": 74
+      }
+    ],
+    "pays": "Manchester City",
+    "selectionneur": "Pep Guardiola"
+  },
+  {
+    "id": "manchester-united-2008",
+    "annee": 2008,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-1, 6-5 t.a.b. vs Chelsea)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Edwin van der Sar",
+        "poste": "GB",
+        "note": 86
+      },
+      {
+        "numero": 3,
+        "nom": "Patrice Evra",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 5,
+        "nom": "Rio Ferdinand",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 6,
+        "nom": "Wes Brown",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 7,
+        "nom": "Cristiano Ronaldo",
+        "poste": "ATT",
+        "note": 92,
+        "note_booster": 118
+      },
+      {
+        "numero": 8,
+        "nom": "Anderson",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Wayne Rooney",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 100
+      },
+      {
+        "numero": 11,
+        "nom": "Ryan Giggs",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 15,
+        "nom": "Nemanja Vidić",
+        "poste": "DC",
+        "note": 86,
+        "note_booster": 98
+      },
+      {
+        "numero": 16,
+        "nom": "Michael Carrick",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 17,
+        "nom": "Nani",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 18,
+        "nom": "Paul Scholes",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 19,
+        "nom": "Dimitar Berbatov",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 20,
+        "nom": "Owen Hargreaves",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 22,
+        "nom": "John O'Shea",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 24,
+        "nom": "Darren Fletcher",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 27,
+        "nom": "Mikaël Silvestre",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 29,
+        "nom": "Tomasz Kuszczak",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 32,
+        "nom": "Carlos Tevez",
+        "poste": "ATT",
+        "note": 83
+      }
+    ],
+    "pays": "Manchester United",
+    "selectionneur": "Alex Ferguson"
+  },
+  {
+    "id": "barcelone-2009",
+    "annee": 2009,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (2-0 vs Manchester United)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Víctor Valdés",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Márquez",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 3,
+        "nom": "Gerard Piqué",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 4,
+        "nom": "Rafael Márquez",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 5,
+        "nom": "Carles Puyol",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 6,
+        "nom": "Xavi Hernández",
+        "poste": "MIL",
+        "note": 89,
+        "note_booster": 102
+      },
+      {
+        "numero": 7,
+        "nom": "Samuel Eto'o",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 100
+      },
+      {
+        "numero": 8,
+        "nom": "Andrés Iniesta",
+        "poste": "MIL",
+        "note": 88,
+        "note_booster": 104
+      },
+      {
+        "numero": 11,
+        "nom": "Bojan Krkić",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Pinto",
+        "poste": "GB",
+        "note": 70
+      },
+      {
+        "numero": 14,
+        "nom": "Thierry Henry",
+        "poste": "ATT",
+        "note": 86
+      },
+      {
+        "numero": 15,
+        "nom": "Sylvinho",
+        "poste": "DG",
+        "note": 74
+      },
+      {
+        "numero": 16,
+        "nom": "Sergio Busquets",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "Yaya Touré",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 18,
+        "nom": "Gabriel Milito",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 19,
+        "nom": "Maxwell",
+        "poste": "DG",
+        "note": 77
+      },
+      {
+        "numero": 20,
+        "nom": "Aliaksandr Hleb",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 21,
+        "nom": "Dani Alves",
+        "poste": "DD",
+        "note": 84
+      },
+      {
+        "numero": 22,
+        "nom": "Éric Abidal",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 27,
+        "nom": "Pedro Rodríguez",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 10,
+        "nom": "Lionel Messi",
+        "poste": "ATT",
+        "note": 91,
+        "note_booster": 112
+      },
+      {
+        "numero": 30,
+        "nom": "Sergio Busquets",
+        "poste": "MIL",
+        "note": 78
+      }
+    ],
+    "pays": "FC Barcelone",
+    "selectionneur": "Pep Guardiola"
+  },
+  {
+    "id": "liverpool-2019",
+    "annee": 2019,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (2-0 vs Tottenham)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Alisson",
+        "poste": "GB",
+        "note": 89,
+        "note_booster": 100
+      },
+      {
+        "numero": 66,
+        "nom": "Trent Alexander-Arnold",
+        "poste": "DD",
+        "note": 85
+      },
+      {
+        "numero": 4,
+        "nom": "Virgil van Dijk",
+        "poste": "DC",
+        "note": 91,
+        "note_booster": 108
+      },
+      {
+        "numero": 32,
+        "nom": "Joël Matip",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 26,
+        "nom": "Andrew Robertson",
+        "poste": "DG",
+        "note": 85
+      },
+      {
+        "numero": 3,
+        "nom": "Fabinho",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 14,
+        "nom": "Jordan Henderson",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 5,
+        "nom": "Georginio Wijnaldum",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 11,
+        "nom": "Mohamed Salah",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 104
+      },
+      {
+        "numero": 10,
+        "nom": "Sadio Mané",
+        "poste": "ATT",
+        "note": 89
+      },
+      {
+        "numero": 9,
+        "nom": "Roberto Firmino",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 7,
+        "nom": "James Milner",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 33,
+        "nom": "Joe Gomez",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 27,
+        "nom": "Divock Origi",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 2,
+        "nom": "Alberto Moreno",
+        "poste": "DG",
+        "note": 73
+      },
+      {
+        "numero": 19,
+        "nom": "Alex Oxlade-Chamberlain",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 23,
+        "nom": "Xherdan Shaqiri",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 15,
+        "nom": "Adam Lallana",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 21,
+        "nom": "Dejan Lovren",
+        "poste": "DC",
+        "note": 77
+      },
+      {
+        "numero": 6,
+        "nom": "Dejan Lovren (bis)",
+        "poste": "DC",
+        "note": 77
+      },
+      {
+        "numero": 22,
+        "nom": "Simon Mignolet",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 62,
+        "nom": "Caoimhin Kelleher",
+        "poste": "GB",
+        "note": 70
+      },
+      {
+        "numero": 24,
+        "nom": "Rhian Brewster",
+        "poste": "ATT",
+        "note": 68
+      },
+      {
+        "numero": 18,
+        "nom": "Daniel Sturridge",
+        "poste": "ATT",
+        "note": 75
+      }
+    ],
+    "pays": "Liverpool",
+    "selectionneur": "Jürgen Klopp"
+  },
+  {
+    "id": "arsenal-2026",
+    "annee": 2026,
+    "competition": "Ligue des Champions",
+    "resultat": "Finaliste (perdu 1-1, 3-4 t.a.b. vs PSG)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "David Raya",
+        "poste": "GB",
+        "note": 87
+      },
+      {
+        "numero": 13,
+        "nom": "Kepa Arrizabalaga",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 2,
+        "nom": "William Saliba",
+        "poste": "DC",
+        "note": 88
+      },
+      {
+        "numero": 3,
+        "nom": "Cristhian Mosquera",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Ben White",
+        "poste": "DD",
+        "note": 81
+      },
+      {
+        "numero": 5,
+        "nom": "Piero Hincapié",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 6,
+        "nom": "Gabriel Magalhães",
+        "poste": "DC",
+        "note": 86
+      },
+      {
+        "numero": 12,
+        "nom": "Jurriën Timber",
+        "poste": "DD",
+        "note": 82
+      },
+      {
+        "numero": 33,
+        "nom": "Riccardo Calafiori",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 49,
+        "nom": "Myles Lewis-Skelly",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 8,
+        "nom": "Martin Ødegaard",
+        "poste": "MIL",
+        "note": 87,
+        "note_booster": 100
+      },
+      {
+        "numero": 16,
+        "nom": "Christian Nørgaard",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 23,
+        "nom": "Mikel Merino",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 36,
+        "nom": "Martín Zubimendi",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 41,
+        "nom": "Declan Rice",
+        "poste": "MIL",
+        "note": 88,
+        "note_booster": 102
+      },
+      {
+        "numero": 7,
+        "nom": "Bukayo Saka",
+        "poste": "ATT",
+        "note": 89,
+        "note_booster": 106
+      },
+      {
+        "numero": 9,
+        "nom": "Gabriel Jesus",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 10,
+        "nom": "Eberechi Eze",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 11,
+        "nom": "Gabriel Martinelli",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 14,
+        "nom": "Viktor Gyökeres",
+        "poste": "ATT",
+        "note": 84
+      },
+      {
+        "numero": 19,
+        "nom": "Leandro Trossard",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 20,
+        "nom": "Noni Madueke",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 29,
+        "nom": "Kai Havertz",
+        "poste": "ATT",
+        "note": 83
+      }
+    ],
+    "pays": "Arsenal",
+    "selectionneur": "Mikel Arteta"
+  },
+  {
+    "id": "manchester-city-2026",
+    "annee": 2026,
+    "competition": "Ligue des Champions",
+    "resultat": "Huitième de finale (élim. 5-1 par le Real Madrid)",
+    "joueurs": [
+      {
+        "numero": 31,
+        "nom": "Gianluigi Donnarumma",
+        "poste": "GB",
+        "note": 88
+      },
+      {
+        "numero": 33,
+        "nom": "Marcus Bettinelli",
+        "poste": "GB",
+        "note": 68
+      },
+      {
+        "numero": 18,
+        "nom": "Stefan Ortega",
+        "poste": "GB",
+        "note": 77
+      },
+      {
+        "numero": 27,
+        "nom": "Matheus Nunes",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 15,
+        "nom": "Nathan Aké",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Rúben Dias",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 25,
+        "nom": "Abdukodir Khusanov",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 5,
+        "nom": "John Stones",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 84,
+        "nom": "Rayan Aït-Nouri",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 24,
+        "nom": "Joško Gvardiol",
+        "poste": "DG",
+        "note": 84
+      },
+      {
+        "numero": 6,
+        "nom": "Nico González",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 16,
+        "nom": "Rodri",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 8,
+        "nom": "Mateo Kovačić",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 4,
+        "nom": "Tijjani Reijnders",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 20,
+        "nom": "Bernardo Silva",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 10,
+        "nom": "Rayan Cherki",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 47,
+        "nom": "Phil Foden",
+        "poste": "ATT",
+        "note": 84,
+        "note_booster": 98
+      },
+      {
+        "numero": 52,
+        "nom": "Oscar Bobb",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 26,
+        "nom": "Savinho",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 9,
+        "nom": "Erling Haaland",
+        "poste": "ATT",
+        "note": 92,
+        "note_booster": 108
+      },
+      {
+        "numero": 7,
+        "nom": "Omar Marmoush",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 11,
+        "nom": "Jérémy Doku",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 63,
+        "nom": "Divine Mukasa",
+        "poste": "ATT",
+        "note": 68
+      }
+    ],
+    "pays": "Manchester City",
+    "selectionneur": "Pep Guardiola"
+  },
+  {
+    "id": "juventus-2019",
+    "annee": 2019,
+    "competition": "Ligue des Champions",
+    "resultat": "Quart de finale (élim. par l'Ajax)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Wojciech Szczęsny",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Mattia De Sciglio",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 5,
+        "nom": "Miralem Pjanić",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 7,
+        "nom": "Cristiano Ronaldo",
+        "poste": "ATT",
+        "note": 93,
+        "note_booster": 114
+      },
+      {
+        "numero": 10,
+        "nom": "Paulo Dybala",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 12,
+        "nom": "Alex Sandro",
+        "poste": "DG",
+        "note": 81
+      },
+      {
+        "numero": 14,
+        "nom": "Blaise Matuidi",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 19,
+        "nom": "Leonardo Bonucci",
+        "poste": "DC",
+        "note": 86
+      },
+      {
+        "numero": 23,
+        "nom": "Emre Can",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 24,
+        "nom": "Daniele Rugani",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 33,
+        "nom": "Federico Bernardeschi",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 3,
+        "nom": "Giorgio Chiellini",
+        "poste": "DC",
+        "note": 86
+      },
+      {
+        "numero": 4,
+        "nom": "Mario Mandžukić",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 6,
+        "nom": "Sami Khedira",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 20,
+        "nom": "Federico Bernardeschi (bis)",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 21,
+        "nom": "Gonzalo Higuaín",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 30,
+        "nom": "Rodrigo Bentancur",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 15,
+        "nom": "Andrea Barzagli",
+        "poste": "DC",
+        "note": 78
+      }
+    ],
+    "pays": "Juventus",
+    "selectionneur": "Massimiliano Allegri"
+  },
+  {
+    "id": "chelsea-2012",
+    "annee": 2012,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-1, 4-3 t.a.b. vs Bayern Munich)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Petr Čech",
+        "poste": "GB",
+        "note": 85,
+        "note_booster": 100
+      },
+      {
+        "numero": 2,
+        "nom": "Branislav Ivanović",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Ashley Cole",
+        "poste": "DG",
+        "note": 85
+      },
+      {
+        "numero": 4,
+        "nom": "David Luiz",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 6,
+        "nom": "John Terry",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 8,
+        "nom": "Frank Lampard",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 10,
+        "nom": "Juan Mata",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 11,
+        "nom": "Didier Drogba",
+        "poste": "ATT",
+        "note": 87,
+        "note_booster": 108
+      },
+      {
+        "numero": 12,
+        "nom": "John Obi Mikel",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 15,
+        "nom": "Ryan Bertrand",
+        "poste": "DG",
+        "note": 73
+      },
+      {
+        "numero": 20,
+        "nom": "Josh McEachran",
+        "poste": "MIL",
+        "note": 68
+      },
+      {
+        "numero": 17,
+        "nom": "José Bosingwa",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Paulo Ferreira",
+        "poste": "DD",
+        "note": 73
+      },
+      {
+        "numero": 21,
+        "nom": "Salomon Kalou",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 23,
+        "nom": "Daniel Sturridge",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 24,
+        "nom": "Gary Cahill",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 9,
+        "nom": "Fernando Torres",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 5,
+        "nom": "Michael Essien",
+        "poste": "MIL",
+        "note": 80
+      }
+    ],
+    "pays": "Chelsea",
+    "selectionneur": "Roberto Di Matteo"
+  },
+  {
+    "id": "real-madrid-2022",
+    "annee": 2022,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-0 vs Liverpool)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Thibaut Courtois",
+        "poste": "GB",
+        "note": 90,
+        "note_booster": 106
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Carvajal",
+        "poste": "DD",
+        "note": 83
+      },
+      {
+        "numero": 3,
+        "nom": "Éder Militão",
+        "poste": "DC",
+        "note": 84
+      },
+      {
+        "numero": 4,
+        "nom": "David Alaba",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 23,
+        "nom": "Ferland Mendy",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 14,
+        "nom": "Casemiro",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 10,
+        "nom": "Luka Modrić",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 8,
+        "nom": "Toni Kroos",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 15,
+        "nom": "Federico Valverde",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 20,
+        "nom": "Vinícius Júnior",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 102
+      },
+      {
+        "numero": 9,
+        "nom": "Karim Benzema",
+        "poste": "ATT",
+        "note": 91,
+        "note_booster": 118
+      },
+      {
+        "numero": 6,
+        "nom": "Nacho",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 7,
+        "nom": "Eden Hazard",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 11,
+        "nom": "Marco Asensio",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 12,
+        "nom": "Marcelo",
+        "poste": "DG",
+        "note": 79
+      },
+      {
+        "numero": 13,
+        "nom": "Andriy Lunin",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 17,
+        "nom": "Lucas Vázquez",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 19,
+        "nom": "Dani Ceballos",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 21,
+        "nom": "Rodrygo",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 25,
+        "nom": "Eduardo Camavinga",
+        "poste": "MIL",
+        "note": 81
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Carlo Ancelotti"
+  },
+  {
+    "id": "real-madrid-2024",
+    "annee": 2024,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (2-0 vs Borussia Dortmund)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Thibaut Courtois",
+        "poste": "GB",
+        "note": 89
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Carvajal",
+        "poste": "DD",
+        "note": 84,
+        "note_booster": 98
+      },
+      {
+        "numero": 22,
+        "nom": "Antonio Rüdiger",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 6,
+        "nom": "Nacho",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 23,
+        "nom": "Ferland Mendy",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 15,
+        "nom": "Federico Valverde",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 12,
+        "nom": "Eduardo Camavinga",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 8,
+        "nom": "Toni Kroos",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 5,
+        "nom": "Jude Bellingham",
+        "poste": "MIL",
+        "note": 89,
+        "note_booster": 110
+      },
+      {
+        "numero": 11,
+        "nom": "Rodrygo",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 7,
+        "nom": "Vinícius Júnior",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 106
+      },
+      {
+        "numero": 13,
+        "nom": "Andriy Lunin",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Kepa Arrizabalaga",
+        "poste": "GB",
+        "note": 75
+      },
+      {
+        "numero": 3,
+        "nom": "Éder Militão",
+        "poste": "DC",
+        "note": 84
+      },
+      {
+        "numero": 4,
+        "nom": "Alaba",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 10,
+        "nom": "Luka Modrić",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 14,
+        "nom": "Joselu",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 17,
+        "nom": "Lucas Vázquez",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 18,
+        "nom": "Aurélien Tchouaméni",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 19,
+        "nom": "Dani Ceballos",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 20,
+        "nom": "Fran García",
+        "poste": "DG",
+        "note": 75
+      },
+      {
+        "numero": 21,
+        "nom": "Brahim Díaz",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 24,
+        "nom": "Arda Güler",
+        "poste": "ATT",
+        "note": 76
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Carlo Ancelotti"
+  },
+  {
+    "id": "atletico-madrid-2017",
+    "annee": 2017,
+    "competition": "Ligue des Champions",
+    "resultat": "Demi-finale (élim. par le Real Madrid)",
+    "joueurs": [
+      {
+        "numero": 13,
+        "nom": "Jan Oblak",
+        "poste": "GB",
+        "note": 88
+      },
+      {
+        "numero": 2,
+        "nom": "Diego Godín",
+        "poste": "DC",
+        "note": 87
+      },
+      {
+        "numero": 15,
+        "nom": "Stefan Savić",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Filipe Luís",
+        "poste": "DG",
+        "note": 81
+      },
+      {
+        "numero": 20,
+        "nom": "Juanfran Torres",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 12,
+        "nom": "Augusto Fernández",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 17,
+        "nom": "Saúl Ñíguez",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 6,
+        "nom": "Koke",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 14,
+        "nom": "Gabi",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 7,
+        "nom": "Antoine Griezmann",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 106
+      },
+      {
+        "numero": 9,
+        "nom": "Fernando Torres",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Yannick Carrasco",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 8,
+        "nom": "Ángel Correa",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 18,
+        "nom": "Diego",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 24,
+        "nom": "José Giménez",
+        "poste": "DC",
+        "note": 78
+      }
+    ],
+    "pays": "Atlético Madrid",
+    "selectionneur": "Diego Simeone"
+  },
+  {
+    "id": "bayern-2026",
+    "annee": 2026,
+    "competition": "Ligue des Champions",
+    "resultat": "Demi-finale (élim. par le PSG)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Manuel Neuer",
+        "poste": "GB",
+        "note": 85
+      },
+      {
+        "numero": 15,
+        "nom": "Josip Stanišić",
+        "poste": "DD",
+        "note": 77
+      },
+      {
+        "numero": 2,
+        "nom": "Dayot Upamecano",
+        "poste": "DC",
+        "note": 84
+      },
+      {
+        "numero": 4,
+        "nom": "Jonathan Tah",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 19,
+        "nom": "Alphonso Davies",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 6,
+        "nom": "Joshua Kimmich",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 25,
+        "nom": "Aleksandar Pavlović",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 22,
+        "nom": "Konrad Laimer",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Michael Olise",
+        "poste": "ATT",
+        "note": 86,
+        "note_booster": 100
+      },
+      {
+        "numero": 42,
+        "nom": "Jamal Musiala",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 104
+      },
+      {
+        "numero": 7,
+        "nom": "Luis Díaz",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Harry Kane",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 108
+      },
+      {
+        "numero": 18,
+        "nom": "Raphaël Guerreiro",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 26,
+        "nom": "Sacha Boey",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 21,
+        "nom": "Kim Min-jae",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 8,
+        "nom": "Leon Goretzka",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 11,
+        "nom": "Serge Gnabry",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 14,
+        "nom": "Tom Bischof",
+        "poste": "MIL",
+        "note": 73
+      }
+    ],
+    "pays": "Bayern Munich",
+    "selectionneur": "Vincent Kompany"
+  },
+  {
+    "id": "inter-milan-2025",
+    "annee": 2025,
+    "competition": "Ligue des Champions",
+    "resultat": "Finaliste (perdu 0-5 vs PSG)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Yann Sommer",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 28,
+        "nom": "Benjamin Pavard",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 15,
+        "nom": "Francesco Acerbi",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 95,
+        "nom": "Alessandro Bastoni",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 2,
+        "nom": "Denzel Dumfries",
+        "poste": "DD",
+        "note": 83
+      },
+      {
+        "numero": 32,
+        "nom": "Federico Dimarco",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 20,
+        "nom": "Hakan Çalhanoğlu",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 23,
+        "nom": "Nicolò Barella",
+        "poste": "MIL",
+        "note": 85,
+        "note_booster": 100
+      },
+      {
+        "numero": 22,
+        "nom": "Henrikh Mkhitaryan",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 9,
+        "nom": "Marcus Thuram",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 10,
+        "nom": "Lautaro Martínez",
+        "poste": "ATT",
+        "note": 87,
+        "note_booster": 104
+      },
+      {
+        "numero": 12,
+        "nom": "Raffaele Di Gennaro",
+        "poste": "GB",
+        "note": 68
+      },
+      {
+        "numero": 13,
+        "nom": "Josep Martínez",
+        "poste": "GB",
+        "note": 73
+      },
+      {
+        "numero": 6,
+        "nom": "Stefan de Vrij",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 7,
+        "nom": "Piotr Zieliński",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 8,
+        "nom": "Marko Arnautović",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 16,
+        "nom": "Davide Frattesi",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 21,
+        "nom": "Kristjan Asllani",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 30,
+        "nom": "Carlos Augusto",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 31,
+        "nom": "Yann Bisseck",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 36,
+        "nom": "Matteo Darmian",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 59,
+        "nom": "Nicola Zalewski",
+        "poste": "DG",
+        "note": 74
+      },
+      {
+        "numero": 99,
+        "nom": "Mehdi Taremi",
+        "poste": "ATT",
+        "note": 76
+      }
+    ],
+    "pays": "Inter Milan",
+    "selectionneur": "Simone Inzaghi"
+  },
+  {
+    "id": "inter-miami-2025",
+    "annee": 2025,
+    "competition": "Coupe du Monde des Clubs FIFA",
+    "resultat": "Huitième de finale",
+    "joueurs": [
+      {
+        "numero": 10,
+        "nom": "Lionel Messi",
+        "poste": "ATT",
+        "note": 90,
+        "note_booster": 106
+      },
+      {
+        "numero": 9,
+        "nom": "Luis Suárez",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 5,
+        "nom": "Sergio Busquets",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 3,
+        "nom": "Jordi Alba",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Óscar Ustari",
+        "poste": "GB",
+        "note": 72
+      },
+      {
+        "numero": 32,
+        "nom": "Noah Allen",
+        "poste": "DD",
+        "note": 71
+      },
+      {
+        "numero": 37,
+        "nom": "Maximiliano Falcón",
+        "poste": "DC",
+        "note": 73
+      },
+      {
+        "numero": 6,
+        "nom": "Marcelo Weigandt",
+        "poste": "DD",
+        "note": 72
+      },
+      {
+        "numero": 57,
+        "nom": "Ian Fray",
+        "poste": "DC",
+        "note": 70
+      },
+      {
+        "numero": 8,
+        "nom": "Telasco Segovia",
+        "poste": "MIL",
+        "note": 72
+      },
+      {
+        "numero": 55,
+        "nom": "Federico Redondo",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 21,
+        "nom": "Tadeo Allende",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 26,
+        "nom": "Benjamin Cremaschi",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 30,
+        "nom": "Fafa Picault",
+        "poste": "ATT",
+        "note": 70
+      },
+      {
+        "numero": 17,
+        "nom": "Allen Obando",
+        "poste": "ATT",
+        "note": 68
+      },
+      {
+        "numero": 25,
+        "nom": "Leo Afonso",
+        "poste": "ATT",
+        "note": 68
+      }
+    ],
+    "pays": "Inter Miami",
+    "selectionneur": "Javier Mascherano"
+  },
+  {
+    "id": "ajax-2019",
+    "annee": 2019,
+    "competition": "Ligue des Champions",
+    "resultat": "Demi-finale (élim. par Tottenham, but à l'extérieur)",
+    "joueurs": [
+      {
+        "numero": 24,
+        "nom": "André Onana",
+        "poste": "GB",
+        "note": 81
+      },
+      {
+        "numero": 12,
+        "nom": "Noussair Mazraoui",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 4,
+        "nom": "Matthijs de Ligt",
+        "poste": "DC",
+        "note": 85,
+        "note_booster": 108
+      },
+      {
+        "numero": 31,
+        "nom": "Nicolás Tagliafico",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "Daley Blind",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 21,
+        "nom": "Frenkie de Jong",
+        "poste": "MIL",
+        "note": 85,
+        "note_booster": 104
+      },
+      {
+        "numero": 20,
+        "nom": "Lasse Schöne",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 6,
+        "nom": "Donny van de Beek",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Dušan Tadić",
+        "poste": "ATT",
+        "note": 82,
+        "note_booster": 98
+      },
+      {
+        "numero": 22,
+        "nom": "Hakim Ziyech",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 25,
+        "nom": "Kasper Dolberg",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 11,
+        "nom": "David Neres",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 19,
+        "nom": "Joël Veltman",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 26,
+        "nom": "Maximilian Wöber",
+        "poste": "DC",
+        "note": 73
+      },
+      {
+        "numero": 16,
+        "nom": "Daley Sinkgraven",
+        "poste": "DG",
+        "note": 72
+      },
+      {
+        "numero": 8,
+        "nom": "Zakaria Labyad",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 2,
+        "nom": "Rasmus Kristensen",
+        "poste": "DD",
+        "note": 73
+      },
+      {
+        "numero": 29,
+        "nom": "Kostas Lamprou",
+        "poste": "GB",
+        "note": 68
+      }
+    ],
+    "pays": "Ajax",
+    "selectionneur": "Erik ten Hag"
+  },
+  {
+    "id": "ac-milan-2006",
+    "annee": 2007,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (2-1 vs Liverpool)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Dida",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Cafu",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 13,
+        "nom": "Alessandro Nesta",
+        "poste": "DC",
+        "note": 86
+      },
+      {
+        "numero": 3,
+        "nom": "Paolo Maldini",
+        "poste": "DC",
+        "note": 85,
+        "note_booster": 102
+      },
+      {
+        "numero": 18,
+        "nom": "Massimo Ambrosini",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 8,
+        "nom": "Gennaro Gattuso",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 21,
+        "nom": "Andrea Pirlo",
+        "poste": "MIL",
+        "note": 87,
+        "note_booster": 100
+      },
+      {
+        "numero": 4,
+        "nom": "Clarence Seedorf",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 22,
+        "nom": "Kaká",
+        "poste": "MIL",
+        "note": 90,
+        "note_booster": 116
+      },
+      {
+        "numero": 9,
+        "nom": "Filippo Inzaghi",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 11,
+        "nom": "Alberto Gilardino",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 16,
+        "nom": "Massimo Oddo",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 6,
+        "nom": "Marek Jankulovski",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Kakha Kaladze",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 10,
+        "nom": "Clarence Seedorf (bis)",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 7,
+        "nom": "Ronaldinho",
+        "poste": "ATT",
+        "note": 70
+      },
+      {
+        "numero": 32,
+        "nom": "Christian Abbiati",
+        "poste": "GB",
+        "note": 76
+      }
+    ],
+    "pays": "AC Milan",
+    "selectionneur": "Carlo Ancelotti"
+  },
+  {
+    "id": "bayern-2013",
+    "annee": 2013,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (2-1 vs Borussia Dortmund)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Manuel Neuer",
+        "poste": "GB",
+        "note": 88
+      },
+      {
+        "numero": 21,
+        "nom": "Philipp Lahm",
+        "poste": "DD",
+        "note": 87
+      },
+      {
+        "numero": 4,
+        "nom": "Dante",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 17,
+        "nom": "Jérôme Boateng",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 27,
+        "nom": "David Alaba",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 31,
+        "nom": "Bastian Schweinsteiger",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 39,
+        "nom": "Toni Kroos",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 8,
+        "nom": "Javi Martínez",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 25,
+        "nom": "Thomas Müller",
+        "poste": "ATT",
+        "note": 85,
+        "note_booster": 100
+      },
+      {
+        "numero": 7,
+        "nom": "Franck Ribéry",
+        "poste": "ATT",
+        "note": 89,
+        "note_booster": 112
+      },
+      {
+        "numero": 10,
+        "nom": "Arjen Robben",
+        "poste": "ATT",
+        "note": 89,
+        "note_booster": 108
+      },
+      {
+        "numero": 9,
+        "nom": "Mario Mandžukić",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 18,
+        "nom": "Luiz Gustavo",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 23,
+        "nom": "Xherdan Shaqiri",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 33,
+        "nom": "Mario Gómez",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 19,
+        "nom": "Rafinha",
+        "poste": "DD",
+        "note": 75
+      }
+    ],
+    "pays": "Bayern Munich",
+    "selectionneur": "Jupp Heynckes"
+  },
+  {
+    "id": "real-madrid-2006",
+    "annee": 2006,
+    "competition": "Ligue des Champions",
+    "resultat": "Huitième de finale (élim. par Arsenal)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Iker Casillas",
+        "poste": "GB",
+        "note": 86
+      },
+      {
+        "numero": 2,
+        "nom": "Michel Salgado",
+        "poste": "DD",
+        "note": 77
+      },
+      {
+        "numero": 4,
+        "nom": "Sergio Ramos",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 5,
+        "nom": "Fabio Cannavaro",
+        "poste": "DC",
+        "note": 85,
+        "note_booster": 112
+      },
+      {
+        "numero": 3,
+        "nom": "Roberto Carlos",
+        "poste": "DG",
+        "note": 84
+      },
+      {
+        "numero": 6,
+        "nom": "Thomas Gravesen",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 8,
+        "nom": "Emerson",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 23,
+        "nom": "David Beckham",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 7,
+        "nom": "Raúl",
+        "poste": "ATT",
+        "note": 85,
+        "note_booster": 100
+      },
+      {
+        "numero": 9,
+        "nom": "Ronaldo",
+        "poste": "ATT",
+        "note": 87,
+        "note_booster": 104
+      },
+      {
+        "numero": 11,
+        "nom": "Robinho",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 21,
+        "nom": "Julio Baptista",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 14,
+        "nom": "Guti",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 13,
+        "nom": "Antonio Cassano",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 24,
+        "nom": "Jonathan Woodgate",
+        "poste": "DC",
+        "note": 73
+      },
+      {
+        "numero": 25,
+        "nom": "Diego López",
+        "poste": "GB",
+        "note": 72
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Vanderlei Luxemburgo / Juan Ramón López Caro"
+  },
+  {
+    "id": "psg-2023",
+    "annee": 2023,
+    "competition": "Ligue des Champions",
+    "resultat": "Huitième de finale (élim. par le Bayern Munich)",
+    "joueurs": [
+      {
+        "numero": 99,
+        "nom": "Gianluigi Donnarumma",
+        "poste": "GB",
+        "note": 86
+      },
+      {
+        "numero": 2,
+        "nom": "Achraf Hakimi",
+        "poste": "DD",
+        "note": 85
+      },
+      {
+        "numero": 4,
+        "nom": "Sergio Ramos",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 5,
+        "nom": "Marquinhos",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 25,
+        "nom": "Nuno Mendes",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 15,
+        "nom": "Danilo Pereira",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 6,
+        "nom": "Marco Verratti",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 28,
+        "nom": "Carlos Soler",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 33,
+        "nom": "Warren Zaïre-Emery",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 7,
+        "nom": "Kylian Mbappé",
+        "poste": "ATT",
+        "note": 92,
+        "note_booster": 116
+      },
+      {
+        "numero": 10,
+        "nom": "Neymar",
+        "poste": "ATT",
+        "note": 88,
+        "note_booster": 108
+      },
+      {
+        "numero": 30,
+        "nom": "Lionel Messi",
+        "poste": "ATT",
+        "note": 92,
+        "note_booster": 116
+      },
+      {
+        "numero": 19,
+        "nom": "Juan Bernat",
+        "poste": "DG",
+        "note": 75
+      },
+      {
+        "numero": 8,
+        "nom": "Fabián Ruiz",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 26,
+        "nom": "Renato Sanches",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 38,
+        "nom": "Hugo Ekitiké",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 40,
+        "nom": "Sergio Rico",
+        "poste": "GB",
+        "note": 72
+      }
+    ],
+    "pays": "Paris Saint-Germain",
+    "selectionneur": "Christophe Galtier"
+  },
+  {
+    "id": "arsenal-2006",
+    "annee": 2006,
+    "competition": "Ligue des Champions",
+    "resultat": "Finaliste (perdu 2-1 vs Barcelone)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Jens Lehmann",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 2,
+        "nom": "Lauren",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 23,
+        "nom": "Sol Campbell",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 5,
+        "nom": "Kolo Touré",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Ashley Cole",
+        "poste": "DG",
+        "note": 83
+      },
+      {
+        "numero": 19,
+        "nom": "Gilberto Silva",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 4,
+        "nom": "Patrick Vieira",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 7,
+        "nom": "Robert Pirès",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 15,
+        "nom": "Alexander Hleb",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Emmanuel Eboué",
+        "poste": "DD",
+        "note": 73
+      },
+      {
+        "numero": 14,
+        "nom": "Thierry Henry",
+        "poste": "ATT",
+        "note": 91,
+        "note_booster": 112
+      },
+      {
+        "numero": 10,
+        "nom": "Dennis Bergkamp",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 8,
+        "nom": "Freddie Ljungberg",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 16,
+        "nom": "Mathieu Flamini",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 11,
+        "nom": "José Antonio Reyes",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 29,
+        "nom": "Cesc Fàbregas",
+        "poste": "MIL",
+        "note": 77,
+        "note_booster": 96
+      },
+      {
+        "numero": 13,
+        "nom": "Manuel Almunia",
+        "poste": "GB",
+        "note": 73
+      }
+    ],
+    "pays": "Arsenal",
+    "selectionneur": "Arsène Wenger"
+  },
+  {
+    "id": "psg-2026",
+    "annee": 2026,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-1, 4-3 t.a.b. vs Arsenal)",
+    "joueurs": [
+      {
+        "numero": 40,
+        "nom": "Matvey Safonov",
+        "poste": "GB",
+        "note": 82
+      },
+      {
+        "numero": 2,
+        "nom": "Achraf Hakimi",
+        "poste": "DD",
+        "note": 88
+      },
+      {
+        "numero": 5,
+        "nom": "Marquinhos",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 51,
+        "nom": "Willian Pacho",
+        "poste": "DC",
+        "note": 86
+      },
+      {
+        "numero": 25,
+        "nom": "Nuno Mendes",
+        "poste": "DG",
+        "note": 88
+      },
+      {
+        "numero": 87,
+        "nom": "João Neves",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 17,
+        "nom": "Vitinha",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 8,
+        "nom": "Fabián Ruiz",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 14,
+        "nom": "Désiré Doué",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 10,
+        "nom": "Ousmane Dembélé",
+        "poste": "ATT",
+        "note": 91
+      },
+      {
+        "numero": 7,
+        "nom": "Khvicha Kvaratskhelia",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 1,
+        "nom": "Gianluigi Donnarumma",
+        "poste": "GB",
+        "note": 85
+      },
+      {
+        "numero": 21,
+        "nom": "Lucas Hernández",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 33,
+        "nom": "Warren Zaïre-Emery",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 19,
+        "nom": "Lee Kang-In",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 29,
+        "nom": "Bradley Barcola",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 35,
+        "nom": "Lucas Beraldo",
+        "poste": "DC",
+        "note": 75
+      },
+      {
+        "numero": 49,
+        "nom": "Senny Mayulu",
+        "poste": "ATT",
+        "note": 74
+      }
+    ],
+    "pays": "Paris Saint-Germain",
+    "selectionneur": "Luis Enrique"
+  },
+  {
+    "id": "real-madrid-2026",
+    "annee": 2026,
+    "competition": "Ligue des Champions",
+    "resultat": "Quart de finale (élim. 6-4 agg. par le Bayern Munich)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Thibaut Courtois",
+        "poste": "GB",
+        "note": 88
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Carvajal",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Éder Militão",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 6,
+        "nom": "Antonio Rüdiger",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 23,
+        "nom": "Ferland Mendy",
+        "poste": "DG",
+        "note": 77
+      },
+      {
+        "numero": 5,
+        "nom": "Jude Bellingham",
+        "poste": "MIL",
+        "note": 89
+      },
+      {
+        "numero": 12,
+        "nom": "Eduardo Camavinga",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 15,
+        "nom": "Federico Valverde",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 24,
+        "nom": "Arda Güler",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 7,
+        "nom": "Kylian Mbappé",
+        "poste": "ATT",
+        "note": 95
+      },
+      {
+        "numero": 11,
+        "nom": "Rodrygo",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 13,
+        "nom": "Andriy Lunin",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 4,
+        "nom": "David Alaba",
+        "poste": "DC",
+        "note": 79
+      },
+      {
+        "numero": 18,
+        "nom": "Aurélien Tchouaméni",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 20,
+        "nom": "Vinícius Júnior",
+        "poste": "ATT",
+        "note": 89
+      },
+      {
+        "numero": 22,
+        "nom": "Fran García",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 17,
+        "nom": "Lucas Vázquez",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 19,
+        "nom": "Dani Ceballos",
+        "poste": "MIL",
+        "note": 76
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Xabi Alonso"
+  },
+  {
+    "id": "barcelone-2026",
+    "annee": 2026,
+    "competition": "Ligue des Champions",
+    "resultat": "Quart de finale (élim. 3-2 agg. par l'Atlético Madrid)",
+    "joueurs": [
+      {
+        "numero": 13,
+        "nom": "Joan García",
+        "poste": "GB",
+        "note": 81
+      },
+      {
+        "numero": 25,
+        "nom": "Wojciech Szczęsny",
+        "poste": "GB",
+        "note": 77
+      },
+      {
+        "numero": 23,
+        "nom": "Jules Koundé",
+        "poste": "DD",
+        "note": 84
+      },
+      {
+        "numero": 5,
+        "nom": "Pau Cubarsí",
+        "poste": "DC",
+        "note": 84
+      },
+      {
+        "numero": 4,
+        "nom": "Ronald Araújo",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 15,
+        "nom": "Andreas Christensen",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 18,
+        "nom": "Gerard Martín",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 3,
+        "nom": "Alejandro Balde",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 2,
+        "nom": "João Cancelo",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 8,
+        "nom": "Pedri",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 21,
+        "nom": "Frenkie de Jong",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 6,
+        "nom": "Gavi",
+        "poste": "MIL",
+        "note": 81
+      },
+      {
+        "numero": 17,
+        "nom": "Marc Casadó",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 22,
+        "nom": "Marc Bernal",
+        "poste": "MIL",
+        "note": 74
+      },
+      {
+        "numero": 10,
+        "nom": "Lamine Yamal",
+        "poste": "ATT",
+        "note": 91
+      },
+      {
+        "numero": 9,
+        "nom": "Robert Lewandowski",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 11,
+        "nom": "Raphinha",
+        "poste": "ATT",
+        "note": 86
+      },
+      {
+        "numero": 7,
+        "nom": "Ferran Torres",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 14,
+        "nom": "Marcus Rashford",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 20,
+        "nom": "Dani Olmo",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 16,
+        "nom": "Fermín López",
+        "poste": "MIL",
+        "note": 78
+      }
+    ],
+    "pays": "FC Barcelone",
+    "selectionneur": "Hansi Flick"
+  },
+  {
+    "id": "real-madrid-2002",
+    "annee": 2002,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (2-1 vs Bayer Leverkusen, La Novena)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "César Sánchez",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 2,
+        "nom": "Michel Salgado",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 20,
+        "nom": "Fernando Hierro",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 6,
+        "nom": "Iván Helguera",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 3,
+        "nom": "Roberto Carlos",
+        "poste": "DG",
+        "note": 89
+      },
+      {
+        "numero": 10,
+        "nom": "Luís Figo",
+        "poste": "ATT",
+        "note": 93
+      },
+      {
+        "numero": 16,
+        "nom": "Claude Makélélé",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 21,
+        "nom": "Santiago Solari",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 5,
+        "nom": "Zinedine Zidane",
+        "poste": "MIL",
+        "note": 96
+      },
+      {
+        "numero": 7,
+        "nom": "Raúl",
+        "poste": "ATT",
+        "note": 91
+      },
+      {
+        "numero": 9,
+        "nom": "Fernando Morientes",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 25,
+        "nom": "Iker Casillas",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 17,
+        "nom": "Steve McManaman",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 14,
+        "nom": "Guti",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 4,
+        "nom": "Ivan Campo",
+        "poste": "DC",
+        "note": 77
+      },
+      {
+        "numero": 19,
+        "nom": "Flavio Conceição",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 8,
+        "nom": "Albert Celades",
+        "poste": "MIL",
+        "note": 74
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Vicente del Bosque"
+  },
+  {
+    "id": "chelsea-2021",
+    "annee": 2021,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-0 vs Manchester City)",
+    "joueurs": [
+      {
+        "numero": 16,
+        "nom": "Édouard Mendy",
+        "poste": "GB",
+        "note": 83
+      },
+      {
+        "numero": 24,
+        "nom": "Reece James",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 6,
+        "nom": "Thiago Silva",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 4,
+        "nom": "Andreas Christensen",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 21,
+        "nom": "Ben Chilwell",
+        "poste": "DG",
+        "note": 79
+      },
+      {
+        "numero": 5,
+        "nom": "Jorginho",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 7,
+        "nom": "N'Golo Kanté",
+        "poste": "MIL",
+        "note": 88
+      },
+      {
+        "numero": 8,
+        "nom": "Mateo Kovačić",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 29,
+        "nom": "Kai Havertz",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 19,
+        "nom": "Mason Mount",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 11,
+        "nom": "Timo Werner",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 1,
+        "nom": "Kepa Arrizabalaga",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 3,
+        "nom": "Marcos Alonso",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 15,
+        "nom": "Emerson Palmieri",
+        "poste": "DG",
+        "note": 75
+      },
+      {
+        "numero": 28,
+        "nom": "César Azpilicueta",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 17,
+        "nom": "Hakim Ziyech",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Christian Pulisic",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 18,
+        "nom": "Olivier Giroud",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 9,
+        "nom": "Tammy Abraham",
+        "poste": "ATT",
+        "note": 74
+      }
+    ],
+    "pays": "Chelsea",
+    "selectionneur": "Thomas Tuchel"
+  },
+  {
+    "id": "liverpool-2005",
+    "annee": 2005,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (3-3, 3-2 t.a.b. vs AC Milan, Miracle d'Istanbul)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Jerzy Dudek",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 2,
+        "nom": "Stéphane Henchoz",
+        "poste": "DC",
+        "note": 74
+      },
+      {
+        "numero": 3,
+        "nom": "Steve Finnan",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 4,
+        "nom": "Sami Hyypiä",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 5,
+        "nom": "Milan Baroš",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 6,
+        "nom": "John Arne Riise",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 7,
+        "nom": "Harry Kewell",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 8,
+        "nom": "Steven Gerrard",
+        "poste": "MIL",
+        "note": 92
+      },
+      {
+        "numero": 9,
+        "nom": "Djibril Cissé",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 10,
+        "nom": "Michael Owen",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 23,
+        "nom": "Jamie Carragher",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 14,
+        "nom": "Xabi Alonso",
+        "poste": "MIL",
+        "note": 86
+      },
+      {
+        "numero": 19,
+        "nom": "Vladimír Šmicer",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 18,
+        "nom": "Djimi Traoré",
+        "poste": "DG",
+        "note": 72
+      },
+      {
+        "numero": 15,
+        "nom": "Luis García",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 16,
+        "nom": "Dietmar Hamann",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 13,
+        "nom": "Antonio Núñez",
+        "poste": "ATT",
+        "note": 68
+      },
+      {
+        "numero": 22,
+        "nom": "Chris Kirkland",
+        "poste": "GB",
+        "note": 68
+      },
+      {
+        "numero": 17,
+        "nom": "Igor Bišćan",
+        "poste": "DC",
+        "note": 70
+      }
+    ],
+    "pays": "Liverpool",
+    "selectionneur": "Rafael Benítez"
+  },
+  {
+    "id": "dortmund-2013",
+    "annee": 2013,
+    "competition": "Ligue des Champions",
+    "resultat": "Finaliste (1-2 vs Bayern Munich, Wembley)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Roman Weidenfeller",
+        "poste": "GB",
+        "note": 80
+      },
+      {
+        "numero": 26,
+        "nom": "Łukasz Piszczek",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 15,
+        "nom": "Mats Hummels",
+        "poste": "DC",
+        "note": 84
+      },
+      {
+        "numero": 25,
+        "nom": "Neven Subotić",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 29,
+        "nom": "Marcel Schmelzer",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 8,
+        "nom": "İlkay Gündoğan",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 6,
+        "nom": "Sven Bender",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 23,
+        "nom": "Jakub Błaszczykowski",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 11,
+        "nom": "Marco Reus",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Robert Lewandowski",
+        "poste": "ATT",
+        "note": 89
+      },
+      {
+        "numero": 21,
+        "nom": "Mario Götze",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 18,
+        "nom": "Kevin Großkreutz",
+        "poste": "DD",
+        "note": 76
+      },
+      {
+        "numero": 24,
+        "nom": "Sebastian Kehl",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 37,
+        "nom": "Julian Schieber",
+        "poste": "ATT",
+        "note": 70
+      },
+      {
+        "numero": 4,
+        "nom": "Felipe Santana",
+        "poste": "DC",
+        "note": 72
+      },
+      {
+        "numero": 34,
+        "nom": "Milos Jojić",
+        "poste": "MIL",
+        "note": 70
+      },
+      {
+        "numero": 22,
+        "nom": "Roman Bürki",
+        "poste": "GB",
+        "note": 70
+      }
+    ],
+    "pays": "Borussia Dortmund",
+    "selectionneur": "Jürgen Klopp"
+  },
+  {
+    "id": "tottenham-2019",
+    "annee": 2019,
+    "competition": "Ligue des Champions",
+    "resultat": "Finaliste (0-2 vs Liverpool)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Hugo Lloris",
+        "poste": "GB",
+        "note": 85
+      },
+      {
+        "numero": 2,
+        "nom": "Kieran Trippier",
+        "poste": "DD",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Toby Alderweireld",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 5,
+        "nom": "Jan Vertonghen",
+        "poste": "DC",
+        "note": 81
+      },
+      {
+        "numero": 3,
+        "nom": "Danny Rose",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 8,
+        "nom": "Harry Winks",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 12,
+        "nom": "Victor Wanyama",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 17,
+        "nom": "Moussa Sissoko",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 23,
+        "nom": "Christian Eriksen",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 7,
+        "nom": "Son Heung-min",
+        "poste": "ATT",
+        "note": 83
+      },
+      {
+        "numero": 10,
+        "nom": "Harry Kane",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 27,
+        "nom": "Lucas Moura",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 18,
+        "nom": "Fernando Llorente",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 6,
+        "nom": "Davinson Sánchez",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 11,
+        "nom": "Erik Lamela",
+        "poste": "ATT",
+        "note": 75
+      },
+      {
+        "numero": 15,
+        "nom": "Eric Dier",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Michel Vorm",
+        "poste": "GB",
+        "note": 70
+      },
+      {
+        "numero": 33,
+        "nom": "Ben Davies",
+        "poste": "DG",
+        "note": 74
+      }
+    ],
+    "pays": "Tottenham Hotspur",
+    "selectionneur": "Mauricio Pochettino"
+  }
+]

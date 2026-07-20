@@ -1,6 +1,22 @@
-export type PosteJoueur = 'GB' | 'DC' | 'DD' | 'DG' | 'MIL' | 'ATT'
+export type PosteJoueur = 'GB' | 'DC' | 'DD' | 'DG' | 'MIL' | 'ATT' | 'EXT' | 'INT'
 
-export type SlotId = 'GB' | 'DG' | 'DC1' | 'DC2' | 'DD' | 'MG' | 'MC1' | 'MC2' | 'MD' | 'BU1' | 'BU2'
+export type SlotId =
+  | 'GB'
+  | 'DG'
+  | 'DC1'
+  | 'DC2'
+  | 'DD'
+  | 'MC1'
+  | 'MC2'
+  | 'MC3'
+  | 'AG'
+  | 'BU'
+  | 'AD'
+  | 'EXT1'
+  | 'EXT2'
+  | 'EXT3'
+  | 'INT1'
+  | 'INT2'
 
 export interface DefinitionSlot {
   id: SlotId
@@ -16,6 +32,7 @@ export interface Joueur {
   nom: string
   poste: PosteJoueur
   note: number
+  note_booster?: number
 }
 
 export interface Campagne {

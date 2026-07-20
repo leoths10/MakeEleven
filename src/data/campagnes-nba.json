@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "spurs-2026",
+    "pays": "San Antonio Spurs",
+    "annee": 2026,
+    "competition": "NBA",
+    "resultat": "Saison en cours",
+    "selectionneur": "Mitch Johnson",
+    "joueurs": [
+      {
+        "numero": 0,
+        "nom": "Jordan McLaughlin",
+        "poste": "EXT",
+        "note": 71
+      },
+      {
+        "numero": 1,
+        "nom": "Victor Wembanyama",
+        "poste": "INT",
+        "note": 92
+      },
+      {
+        "numero": 2,
+        "nom": "Dylan Harper",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 3,
+        "nom": "Keldon Johnson",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "De'Aaron Fox",
+        "poste": "EXT",
+        "note": 85
+      },
+      {
+        "numero": 5,
+        "nom": "Stephon Castle",
+        "poste": "EXT",
+        "note": 80
+      },
+      {
+        "numero": 7,
+        "nom": "Luke Kornet",
+        "poste": "INT",
+        "note": 74
+      },
+      {
+        "numero": 8,
+        "nom": "Kelly Olynyk",
+        "poste": "INT",
+        "note": 74
+      },
+      {
+        "numero": 11,
+        "nom": "Carter Bryant",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 14,
+        "nom": "Emanuel Miller",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 18,
+        "nom": "Bismack Biyombo",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 24,
+        "nom": "Devin Vassell",
+        "poste": "EXT",
+        "note": 80
+      },
+      {
+        "numero": 25,
+        "nom": "David Jones García",
+        "poste": "EXT",
+        "note": 69
+      },
+      {
+        "numero": 30,
+        "nom": "Julian Champagnie",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 40,
+        "nom": "Harrison Barnes",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 43,
+        "nom": "Lindy Waters III",
+        "poste": "EXT",
+        "note": 69
+      },
+      {
+        "numero": 45,
+        "nom": "Mason Plumlee",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 55,
+        "nom": "Harrison Ingram",
+        "poste": "EXT",
+        "note": 70
+      }
+    ]
+  },
+  {
+    "id": "lakers-2001",
+    "pays": "Los Angeles Lakers",
+    "annee": 2001,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Phil Jackson",
+    "joueurs": [
+      {
+        "numero": 8,
+        "nom": "Kobe Bryant",
+        "poste": "EXT",
+        "note": 96
+      },
+      {
+        "numero": 34,
+        "nom": "Shaquille O'Neal",
+        "poste": "INT",
+        "note": 98
+      },
+      {
+        "numero": 2,
+        "nom": "Derek Fisher",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "Rick Fox",
+        "poste": "EXT",
+        "note": 80
+      },
+      {
+        "numero": 54,
+        "nom": "Horace Grant",
+        "poste": "INT",
+        "note": 80
+      },
+      {
+        "numero": 4,
+        "nom": "Ron Harper",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 5,
+        "nom": "Robert Horry",
+        "poste": "INT",
+        "note": 79
+      },
+      {
+        "numero": 10,
+        "nom": "Tyronn Lue",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 35,
+        "nom": "Mark Madsen",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 14,
+        "nom": "Stanislav Medvedenko",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 12,
+        "nom": "Mike Penberthy",
+        "poste": "EXT",
+        "note": 67
+      },
+      {
+        "numero": 7,
+        "nom": "Isaiah Rider",
+        "poste": "EXT",
+        "note": 74
+      },
+      {
+        "numero": 20,
+        "nom": "Brian Shaw",
+        "poste": "EXT",
+        "note": 73
+      },
+      {
+        "numero": 3,
+        "nom": "Devean George",
+        "poste": "EXT",
+        "note": 69
+      },
+      {
+        "numero": 40,
+        "nom": "Greg Foster",
+        "poste": "INT",
+        "note": 66
+      }
+    ]
+  },
+  {
+    "id": "bulls-1996",
+    "pays": "Chicago Bulls",
+    "annee": 1996,
+    "competition": "NBA",
+    "resultat": "Champion NBA (72 victoires en saison régulière)",
+    "selectionneur": "Phil Jackson",
+    "joueurs": [
+      {
+        "numero": 23,
+        "nom": "Michael Jordan",
+        "poste": "EXT",
+        "note": 99
+      },
+      {
+        "numero": 33,
+        "nom": "Scottie Pippen",
+        "poste": "EXT",
+        "note": 94
+      },
+      {
+        "numero": 91,
+        "nom": "Dennis Rodman",
+        "poste": "INT",
+        "note": 88
+      },
+      {
+        "numero": 13,
+        "nom": "Luc Longley",
+        "poste": "INT",
+        "note": 75
+      },
+      {
+        "numero": 7,
+        "nom": "Toni Kukoč",
+        "poste": "EXT",
+        "note": 82
+      },
+      {
+        "numero": 9,
+        "nom": "Ron Harper",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Steve Kerr",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 34,
+        "nom": "Bill Wennington",
+        "poste": "INT",
+        "note": 70
+      },
+      {
+        "numero": 8,
+        "nom": "Dickey Simpkins",
+        "poste": "INT",
+        "note": 67
+      },
+      {
+        "numero": 22,
+        "nom": "John Salley",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 11,
+        "nom": "Jud Buechler",
+        "poste": "EXT",
+        "note": 67
+      },
+      {
+        "numero": 0,
+        "nom": "Randy Brown",
+        "poste": "EXT",
+        "note": 66
+      },
+      {
+        "numero": 53,
+        "nom": "James Edwards",
+        "poste": "INT",
+        "note": 65
+      },
+      {
+        "numero": 35,
+        "nom": "Jason Caffey",
+        "poste": "INT",
+        "note": 66
+      },
+      {
+        "numero": 54,
+        "nom": "Jack Haley",
+        "poste": "INT",
+        "note": 62
+      }
+    ]
+  },
+  {
+    "id": "thunder-2025",
+    "pays": "Oklahoma City Thunder",
+    "annee": 2025,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Mark Daigneault",
+    "joueurs": [
+      {
+        "numero": 2,
+        "nom": "Shai Gilgeous-Alexander",
+        "poste": "EXT",
+        "note": 97
+      },
+      {
+        "numero": 8,
+        "nom": "Jalen Williams",
+        "poste": "EXT",
+        "note": 88
+      },
+      {
+        "numero": 5,
+        "nom": "Luguentz Dort",
+        "poste": "EXT",
+        "note": 80
+      },
+      {
+        "numero": 55,
+        "nom": "Isaiah Hartenstein",
+        "poste": "INT",
+        "note": 81
+      },
+      {
+        "numero": 22,
+        "nom": "Cason Wallace",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 7,
+        "nom": "Chet Holmgren",
+        "poste": "INT",
+        "note": 84
+      },
+      {
+        "numero": 21,
+        "nom": "Aaron Wiggins",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 11,
+        "nom": "Isaiah Joe",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 9,
+        "nom": "Alex Caruso",
+        "poste": "EXT",
+        "note": 79
+      },
+      {
+        "numero": 6,
+        "nom": "Jaylin Williams",
+        "poste": "INT",
+        "note": 74
+      },
+      {
+        "numero": 25,
+        "nom": "Ajay Mitchell",
+        "poste": "EXT",
+        "note": 73
+      },
+      {
+        "numero": 34,
+        "nom": "Kenrich Williams",
+        "poste": "INT",
+        "note": 73
+      },
+      {
+        "numero": 13,
+        "nom": "Ousmane Dieng",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 3,
+        "nom": "Dillon Jones",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 15,
+        "nom": "Branden Carlson",
+        "poste": "INT",
+        "note": 66
+      }
+    ]
+  },
+  {
+    "id": "spurs-2007",
+    "pays": "San Antonio Spurs",
+    "annee": 2007,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Gregg Popovich",
+    "joueurs": [
+      {
+        "numero": 21,
+        "nom": "Tim Duncan",
+        "poste": "INT",
+        "note": 95
+      },
+      {
+        "numero": 9,
+        "nom": "Tony Parker",
+        "poste": "EXT",
+        "note": 90
+      },
+      {
+        "numero": 20,
+        "nom": "Manu Ginóbili",
+        "poste": "EXT",
+        "note": 90
+      },
+      {
+        "numero": 12,
+        "nom": "Bruce Bowen",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Michael Finley",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 44,
+        "nom": "Fabricio Oberto",
+        "poste": "INT",
+        "note": 73
+      },
+      {
+        "numero": 17,
+        "nom": "Francisco Elson",
+        "poste": "INT",
+        "note": 69
+      },
+      {
+        "numero": 22,
+        "nom": "Beno Udrih",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 5,
+        "nom": "Robert Horry",
+        "poste": "INT",
+        "note": 76
+      },
+      {
+        "numero": 2,
+        "nom": "Brent Barry",
+        "poste": "EXT",
+        "note": 75
+      },
+      {
+        "numero": 3,
+        "nom": "Ime Udoka",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 25,
+        "nom": "Jackie Butler",
+        "poste": "INT",
+        "note": 65
+      },
+      {
+        "numero": 24,
+        "nom": "Matt Bonner",
+        "poste": "INT",
+        "note": 70
+      }
+    ]
+  },
+  {
+    "id": "boston-2024",
+    "pays": "Boston Celtics",
+    "annee": 2024,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Joe Mazzulla",
+    "joueurs": [
+      {
+        "numero": 0,
+        "nom": "Jayson Tatum",
+        "poste": "EXT",
+        "note": 93
+      },
+      {
+        "numero": 7,
+        "nom": "Jaylen Brown",
+        "poste": "EXT",
+        "note": 89
+      },
+      {
+        "numero": 4,
+        "nom": "Jrue Holiday",
+        "poste": "EXT",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Derrick White",
+        "poste": "EXT",
+        "note": 83
+      },
+      {
+        "numero": 8,
+        "nom": "Kristaps Porziņģis",
+        "poste": "INT",
+        "note": 84
+      },
+      {
+        "numero": 42,
+        "nom": "Al Horford",
+        "poste": "INT",
+        "note": 78
+      },
+      {
+        "numero": 30,
+        "nom": "Sam Hauser",
+        "poste": "EXT",
+        "note": 74
+      },
+      {
+        "numero": 11,
+        "nom": "Payton Pritchard",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 12,
+        "nom": "Oshae Brissett",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 40,
+        "nom": "Luke Kornet",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 5,
+        "nom": "Neemias Queta",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 26,
+        "nom": "Svi Mykhailiuk",
+        "poste": "EXT",
+        "note": 67
+      },
+      {
+        "numero": 44,
+        "nom": "Xavier Tillman",
+        "poste": "INT",
+        "note": 69
+      }
+    ]
+  },
+  {
+    "id": "boston-2008",
+    "pays": "Boston Celtics",
+    "annee": 2008,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Doc Rivers",
+    "joueurs": [
+      {
+        "numero": 34,
+        "nom": "Paul Pierce",
+        "poste": "EXT",
+        "note": 91
+      },
+      {
+        "numero": 5,
+        "nom": "Kevin Garnett",
+        "poste": "INT",
+        "note": 93
+      },
+      {
+        "numero": 20,
+        "nom": "Ray Allen",
+        "poste": "EXT",
+        "note": 88
+      },
+      {
+        "numero": 9,
+        "nom": "Rajon Rondo",
+        "poste": "EXT",
+        "note": 80
+      },
+      {
+        "numero": 43,
+        "nom": "Kendrick Perkins",
+        "poste": "INT",
+        "note": 74
+      },
+      {
+        "numero": 18,
+        "nom": "James Posey",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 50,
+        "nom": "Eddie House",
+        "poste": "EXT",
+        "note": 71
+      },
+      {
+        "numero": 30,
+        "nom": "Sam Cassell",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 45,
+        "nom": "P.J. Brown",
+        "poste": "INT",
+        "note": 70
+      },
+      {
+        "numero": 41,
+        "nom": "Glen Davis",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 15,
+        "nom": "Tony Allen",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 8,
+        "nom": "Leon Powe",
+        "poste": "INT",
+        "note": 68
+      }
+    ]
+  },
+  {
+    "id": "miami-2012",
+    "pays": "Miami Heat",
+    "annee": 2012,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Erik Spoelstra",
+    "joueurs": [
+      {
+        "numero": 6,
+        "nom": "LeBron James",
+        "poste": "EXT",
+        "note": 97
+      },
+      {
+        "numero": 3,
+        "nom": "Dwyane Wade",
+        "poste": "EXT",
+        "note": 89
+      },
+      {
+        "numero": 1,
+        "nom": "Chris Bosh",
+        "poste": "INT",
+        "note": 85
+      },
+      {
+        "numero": 31,
+        "nom": "Shane Battier",
+        "poste": "EXT",
+        "note": 74
+      },
+      {
+        "numero": 30,
+        "nom": "Norris Cole",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 15,
+        "nom": "Mario Chalmers",
+        "poste": "EXT",
+        "note": 75
+      },
+      {
+        "numero": 40,
+        "nom": "Udonis Haslem",
+        "poste": "INT",
+        "note": 73
+      },
+      {
+        "numero": 50,
+        "nom": "Joel Anthony",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 8,
+        "nom": "Mike Miller",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 25,
+        "nom": "James Jones",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 21,
+        "nom": "Ronny Turiaf",
+        "poste": "INT",
+        "note": 65
+      }
+    ]
+  },
+  {
+    "id": "cleveland-2016",
+    "pays": "Cleveland Cavaliers",
+    "annee": 2016,
+    "competition": "NBA",
+    "resultat": "Champion NBA (remontada 1-3)",
+    "selectionneur": "Tyronn Lue",
+    "joueurs": [
+      {
+        "numero": 23,
+        "nom": "LeBron James",
+        "poste": "EXT",
+        "note": 96
+      },
+      {
+        "numero": 2,
+        "nom": "Kyrie Irving",
+        "poste": "EXT",
+        "note": 90
+      },
+      {
+        "numero": 0,
+        "nom": "Kevin Love",
+        "poste": "INT",
+        "note": 84
+      },
+      {
+        "numero": 5,
+        "nom": "J.R. Smith",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 20,
+        "nom": "Timofey Mozgov",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 24,
+        "nom": "Richard Jefferson",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 1,
+        "nom": "Iman Shumpert",
+        "poste": "EXT",
+        "note": 73
+      },
+      {
+        "numero": 9,
+        "nom": "Channing Frye",
+        "poste": "INT",
+        "note": 72
+      },
+      {
+        "numero": 3,
+        "nom": "Matthew Dellavedova",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 32,
+        "nom": "Tristan Thompson",
+        "poste": "INT",
+        "note": 76
+      },
+      {
+        "numero": 6,
+        "nom": "James Jones",
+        "poste": "EXT",
+        "note": 66
+      }
+    ]
+  },
+  {
+    "id": "warriors-2016",
+    "pays": "Golden State Warriors",
+    "annee": 2016,
+    "competition": "NBA",
+    "resultat": "Finaliste (73 victoires en saison régulière, record NBA)",
+    "selectionneur": "Steve Kerr",
+    "joueurs": [
+      {
+        "numero": 30,
+        "nom": "Stephen Curry",
+        "poste": "EXT",
+        "note": 98
+      },
+      {
+        "numero": 11,
+        "nom": "Klay Thompson",
+        "poste": "EXT",
+        "note": 88
+      },
+      {
+        "numero": 23,
+        "nom": "Draymond Green",
+        "poste": "INT",
+        "note": 88
+      },
+      {
+        "numero": 12,
+        "nom": "Andrew Bogut",
+        "poste": "INT",
+        "note": 76
+      },
+      {
+        "numero": 40,
+        "nom": "Harrison Barnes",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 9,
+        "nom": "Andre Iguodala",
+        "poste": "EXT",
+        "note": 79
+      },
+      {
+        "numero": 34,
+        "nom": "Shaun Livingston",
+        "poste": "EXT",
+        "note": 73
+      },
+      {
+        "numero": 3,
+        "nom": "Leandro Barbosa",
+        "poste": "EXT",
+        "note": 69
+      },
+      {
+        "numero": 31,
+        "nom": "Festus Ezeli",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 4,
+        "nom": "Brandon Rush",
+        "poste": "EXT",
+        "note": 67
+      },
+      {
+        "numero": 5,
+        "nom": "Marreese Speights",
+        "poste": "INT",
+        "note": 68
+      }
+    ]
+  },
+  {
+    "id": "warriors-2017",
+    "pays": "Golden State Warriors",
+    "annee": 2017,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Steve Kerr",
+    "joueurs": [
+      {
+        "numero": 30,
+        "nom": "Stephen Curry",
+        "poste": "EXT",
+        "note": 96
+      },
+      {
+        "numero": 35,
+        "nom": "Kevin Durant",
+        "poste": "EXT",
+        "note": 96
+      },
+      {
+        "numero": 11,
+        "nom": "Klay Thompson",
+        "poste": "EXT",
+        "note": 87
+      },
+      {
+        "numero": 23,
+        "nom": "Draymond Green",
+        "poste": "INT",
+        "note": 87
+      },
+      {
+        "numero": 9,
+        "nom": "Andre Iguodala",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 27,
+        "nom": "Zaza Pachulia",
+        "poste": "INT",
+        "note": 72
+      },
+      {
+        "numero": 34,
+        "nom": "Shaun Livingston",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 0,
+        "nom": "Patrick McCaw",
+        "poste": "EXT",
+        "note": 67
+      },
+      {
+        "numero": 3,
+        "nom": "David West",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 6,
+        "nom": "Ian Clark",
+        "poste": "EXT",
+        "note": 67
+      },
+      {
+        "numero": 5,
+        "nom": "Kevon Looney",
+        "poste": "INT",
+        "note": 68
+      }
+    ]
+  },
+  {
+    "id": "wizards-2018",
+    "pays": "Washington Wizards",
+    "annee": 2018,
+    "competition": "NBA",
+    "resultat": "Éliminé au premier tour des playoffs",
+    "selectionneur": "Scott Brooks",
+    "joueurs": [
+      {
+        "numero": 2,
+        "nom": "John Wall",
+        "poste": "EXT",
+        "note": 84
+      },
+      {
+        "numero": 3,
+        "nom": "Bradley Beal",
+        "poste": "EXT",
+        "note": 83
+      },
+      {
+        "numero": 22,
+        "nom": "Otto Porter Jr.",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Marcin Gortat",
+        "poste": "INT",
+        "note": 73
+      },
+      {
+        "numero": 12,
+        "nom": "Kelly Oubre Jr.",
+        "poste": "EXT",
+        "note": 74
+      },
+      {
+        "numero": 5,
+        "nom": "Markieff Morris",
+        "poste": "INT",
+        "note": 73
+      },
+      {
+        "numero": 31,
+        "nom": "Tomáš Satoranský",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 15,
+        "nom": "Mike Scott",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 9,
+        "nom": "Jodie Meeks",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 25,
+        "nom": "Ian Mahinmi",
+        "poste": "INT",
+        "note": 66
+      }
+    ]
+  },
+  {
+    "id": "rockets-2018",
+    "pays": "Houston Rockets",
+    "annee": 2018,
+    "competition": "NBA",
+    "resultat": "Finale de conférence (élim. par Golden State, 3-4)",
+    "selectionneur": "Mike D'Antoni",
+    "joueurs": [
+      {
+        "numero": 13,
+        "nom": "James Harden",
+        "poste": "EXT",
+        "note": 95
+      },
+      {
+        "numero": 3,
+        "nom": "Chris Paul",
+        "poste": "EXT",
+        "note": 88
+      },
+      {
+        "numero": 15,
+        "nom": "Clint Capela",
+        "poste": "INT",
+        "note": 78
+      },
+      {
+        "numero": 10,
+        "nom": "Eric Gordon",
+        "poste": "EXT",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "P.J. Tucker",
+        "poste": "EXT",
+        "note": 74
+      },
+      {
+        "numero": 1,
+        "nom": "Trevor Ariza",
+        "poste": "EXT",
+        "note": 75
+      },
+      {
+        "numero": 33,
+        "nom": "Ryan Anderson",
+        "poste": "INT",
+        "note": 72
+      },
+      {
+        "numero": 12,
+        "nom": "Luc Mbah a Moute",
+        "poste": "EXT",
+        "note": 71
+      },
+      {
+        "numero": 42,
+        "nom": "Nenê",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 4,
+        "nom": "Gerald Green",
+        "poste": "EXT",
+        "note": 67
+      }
+    ]
+  },
+  {
+    "id": "bucks-2021",
+    "pays": "Milwaukee Bucks",
+    "annee": 2021,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Mike Budenholzer",
+    "joueurs": [
+      {
+        "numero": 34,
+        "nom": "Giannis Antetokounmpo",
+        "poste": "INT",
+        "note": 96
+      },
+      {
+        "numero": 22,
+        "nom": "Khris Middleton",
+        "poste": "EXT",
+        "note": 87
+      },
+      {
+        "numero": 21,
+        "nom": "Jrue Holiday",
+        "poste": "EXT",
+        "note": 86
+      },
+      {
+        "numero": 11,
+        "nom": "Brook Lopez",
+        "poste": "INT",
+        "note": 79
+      },
+      {
+        "numero": 0,
+        "nom": "Donte DiVincenzo",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 9,
+        "nom": "Bobby Portis",
+        "poste": "INT",
+        "note": 74
+      },
+      {
+        "numero": 24,
+        "nom": "Pat Connaughton",
+        "poste": "EXT",
+        "note": 71
+      },
+      {
+        "numero": 3,
+        "nom": "George Hill",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 6,
+        "nom": "P.J. Tucker",
+        "poste": "EXT",
+        "note": 73
+      },
+      {
+        "numero": 1,
+        "nom": "Bryn Forbes",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 43,
+        "nom": "Thanasis Antetokounmpo",
+        "poste": "EXT",
+        "note": 65
+      }
+    ]
+  },
+  {
+    "id": "rockets-1994",
+    "pays": "Houston Rockets",
+    "annee": 1994,
+    "competition": "NBA",
+    "resultat": "Champion NBA",
+    "selectionneur": "Rudy Tomjanovich",
+    "joueurs": [
+      {
+        "numero": 34,
+        "nom": "Hakeem Olajuwon",
+        "poste": "INT",
+        "note": 97
+      },
+      {
+        "numero": 33,
+        "nom": "Otis Thorpe",
+        "poste": "INT",
+        "note": 78
+      },
+      {
+        "numero": 11,
+        "nom": "Vernon Maxwell",
+        "poste": "EXT",
+        "note": 76
+      },
+      {
+        "numero": 25,
+        "nom": "Robert Horry",
+        "poste": "INT",
+        "note": 75
+      },
+      {
+        "numero": 17,
+        "nom": "Mario Elie",
+        "poste": "EXT",
+        "note": 72
+      },
+      {
+        "numero": 19,
+        "nom": "Sam Cassell",
+        "poste": "EXT",
+        "note": 74
+      },
+      {
+        "numero": 5,
+        "nom": "Kenny Smith",
+        "poste": "EXT",
+        "note": 73
+      },
+      {
+        "numero": 21,
+        "nom": "Carl Herrera",
+        "poste": "INT",
+        "note": 68
+      },
+      {
+        "numero": 15,
+        "nom": "Scott Brooks",
+        "poste": "EXT",
+        "note": 66
+      },
+      {
+        "numero": 32,
+        "nom": "Matt Bullard",
+        "poste": "INT",
+        "note": 67
+      }
+    ]
+  },
+  {
+    "id": "sixers-2019",
+    "pays": "Philadelphia 76ers",
+    "annee": 2019,
+    "competition": "NBA",
+    "resultat": "Demi-finale de conférence (élim. par Toronto sur buzzer-beater)",
+    "selectionneur": "Brett Brown",
+    "joueurs": [
+      {
+        "numero": 21,
+        "nom": "Joel Embiid",
+        "poste": "INT",
+        "note": 89
+      },
+      {
+        "numero": 25,
+        "nom": "Ben Simmons",
+        "poste": "EXT",
+        "note": 83
+      },
+      {
+        "numero": 23,
+        "nom": "Jimmy Butler",
+        "poste": "EXT",
+        "note": 87
+      },
+      {
+        "numero": 12,
+        "nom": "Tobias Harris",
+        "poste": "EXT",
+        "note": 80
+      },
+      {
+        "numero": 17,
+        "nom": "J.J. Redick",
+        "poste": "EXT",
+        "note": 77
+      },
+      {
+        "numero": 33,
+        "nom": "Robert Covington",
+        "poste": "EXT",
+        "note": 75
+      },
+      {
+        "numero": 22,
+        "nom": "Wilson Chandler",
+        "poste": "EXT",
+        "note": 70
+      },
+      {
+        "numero": 27,
+        "nom": "T.J. McConnell",
+        "poste": "EXT",
+        "note": 71
+      },
+      {
+        "numero": 5,
+        "nom": "Furkan Korkmaz",
+        "poste": "EXT",
+        "note": 68
+      },
+      {
+        "numero": 1,
+        "nom": "Mike Scott",
+        "poste": "INT",
+        "note": 71
+      },
+      {
+        "numero": 51,
+        "nom": "Boban Marjanović",
+        "poste": "INT",
+        "note": 67
+      },
+      {
+        "numero": 45,
+        "nom": "Jonah Bolden",
+        "poste": "INT",
+        "note": 65
+      }
+    ]
+  }
+]

@@ -1,19 +1,22 @@
-import { FORMATION_442 } from './formation'
-import type { Campagne, JoueurComposition, JoueurPioche, SlotId } from './types'
+import type { Campagne, DefinitionSlot, JoueurComposition, JoueurPioche, SlotId } from './types'
 
-export function slotsLibres(composition: JoueurComposition[]): SlotId[] {
+export function slotsLibres(composition: JoueurComposition[], formation: DefinitionSlot[]): SlotId[] {
   const occupes = new Set(composition.map((j) => j.slotId))
-  return FORMATION_442.filter((slot) => !occupes.has(slot.id)).map((slot) => slot.id)
+  return formation.filter((slot) => !occupes.has(slot.id)).map((slot) => slot.id)
 }
 
-export function slotsCompatibles(poste: JoueurPioche['poste'], slotsDisponibles: SlotId[]): SlotId[] {
-  return FORMATION_442.filter(
+export function slotsCompatibles(
+  poste: JoueurPioche['poste'],
+  slotsDisponibles: SlotId[],
+  formation: DefinitionSlot[]
+): SlotId[] {
+  return formation.filter(
     (slot) => slotsDisponibles.includes(slot.id) && slot.postesEligibles.includes(poste)
   ).map((slot) => slot.id)
 }
 
-function estEligible(poste: JoueurPioche['poste'], slotsDisponibles: SlotId[]): boolean {
-  return slotsCompatibles(poste, slotsDisponibles).length > 0
+function estEligible(poste: JoueurPioche['poste'], slotsDisponibles: SlotId[], formation: DefinitionSlot[]): boolean {
+  return slotsCompatibles(poste, slotsDisponibles, formation).length > 0
 }
 
 function melanger<T>(tableau: T[]): T[] {
@@ -33,16 +36,17 @@ export interface ResultatTirage {
 export function tirerCinqJoueurs(
   campagnes: Campagne[],
   composition: JoueurComposition[],
-  nomsDejaUtilises: Set<string>
+  nomsDejaUtilises: Set<string>,
+  formation: DefinitionSlot[]
 ): ResultatTirage | null {
-  const disponibles = slotsLibres(composition)
+  const disponibles = slotsLibres(composition, formation)
   if (disponibles.length === 0) return null
 
   const campagnesMelangees = melanger(campagnes)
 
   for (const campagne of campagnesMelangees) {
     const eligibles = campagne.joueurs.filter(
-      (j) => estEligible(j.poste, disponibles) && !nomsDejaUtilises.has(j.nom)
+      (j) => estEligible(j.poste, disponibles, formation) && !nomsDejaUtilises.has(j.nom)
     )
     if (eligibles.length >= 1) {
       const choisis = melanger(eligibles).slice(0, Math.min(5, eligibles.length))
@@ -59,4 +63,30 @@ export function tirerCinqJoueurs(
   }
 
   return null
+}
+
+export function tirerCinqAutresJoueurs(
+  campagne: Campagne,
+  composition: JoueurComposition[],
+  nomsDejaUtilises: Set<string>,
+  nomsDejaProposes: Set<string>,
+  formation: DefinitionSlot[]
+): JoueurPioche[] | null {
+  const disponibles = slotsLibres(composition, formation)
+  if (disponibles.length === 0) return null
+
+  const eligibles = campagne.joueurs.filter(
+    (j) => estEligible(j.poste, disponibles, formation) && !nomsDejaUtilises.has(j.nom) && !nomsDejaProposes.has(j.nom)
+  )
+  if (eligibles.length === 0) return null
+
+  return melanger(eligibles)
+    .slice(0, Math.min(5, eligibles.length))
+    .map((j) => ({
+      ...j,
+      campagneId: campagne.id,
+      pays: campagne.pays,
+      annee: campagne.annee,
+    }))
+    .sort((a, b) => a.note - b.note)
 }
