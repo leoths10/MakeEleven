@@ -52,7 +52,7 @@
         "numero": 10,
         "nom": "Ousmane Dembélé",
         "poste": "ATT",
-        "note": 90,
+        "note": 89,
         "note_booster": 116
       },
       {
@@ -66,7 +66,7 @@
         "numero": 17,
         "nom": "Vitinha",
         "poste": "MIL",
-        "note": 85,
+        "note": 87,
         "note_booster": 99
       },
       {
@@ -91,7 +91,7 @@
         "numero": 25,
         "nom": "Nuno Mendes",
         "poste": "DG",
-        "note": 83
+        "note": 86
       },
       {
         "numero": 29,
@@ -127,7 +127,7 @@
         "numero": 51,
         "nom": "Willian Pacho",
         "poste": "DC",
-        "note": 81
+        "note": 83
       },
       {
         "numero": 80,
@@ -139,7 +139,7 @@
         "numero": 87,
         "nom": "João Neves",
         "poste": "MIL",
-        "note": 83
+        "note": 85
       }
     ],
     "pays": "Paris Saint-Germain",
@@ -457,7 +457,7 @@
         "numero": 2,
         "nom": "Thiago Silva",
         "poste": "DC",
-        "note": 85
+        "note": 87
       },
       {
         "numero": 3,
@@ -517,7 +517,7 @@
         "numero": 18,
         "nom": "Zlatan Ibrahimović",
         "poste": "ATT",
-        "note": 90,
+        "note": 91,
         "note_booster": 106
       },
       {
@@ -1327,7 +1327,7 @@
         "numero": 2,
         "nom": "William Saliba",
         "poste": "DC",
-        "note": 88
+        "note": 89
       },
       {
         "numero": 3,
@@ -1351,7 +1351,7 @@
         "numero": 6,
         "nom": "Gabriel Magalhães",
         "poste": "DC",
-        "note": 86
+        "note": 89
       },
       {
         "numero": 12,
@@ -1375,7 +1375,7 @@
         "numero": 8,
         "nom": "Martin Ødegaard",
         "poste": "MIL",
-        "note": 87,
+        "note": 88,
         "note_booster": 100
       },
       {
@@ -1400,7 +1400,7 @@
         "numero": 41,
         "nom": "Declan Rice",
         "poste": "MIL",
-        "note": 88,
+        "note": 90,
         "note_booster": 102
       },
       {
@@ -2252,7 +2252,7 @@
         "numero": 2,
         "nom": "Dayot Upamecano",
         "poste": "DC",
-        "note": 84
+        "note": 88
       },
       {
         "numero": 4,
@@ -2288,7 +2288,7 @@
         "numero": 10,
         "nom": "Michael Olise",
         "poste": "ATT",
-        "note": 86,
+        "note": 89,
         "note_booster": 100
       },
       {
@@ -2308,7 +2308,7 @@
         "numero": 9,
         "nom": "Harry Kane",
         "poste": "ATT",
-        "note": 90,
+        "note": 92,
         "note_booster": 108
       },
       {
@@ -3301,13 +3301,14 @@
         "numero": 40,
         "nom": "Matvey Safonov",
         "poste": "GB",
-        "note": 82
+        "note": 78
       },
       {
         "numero": 2,
         "nom": "Achraf Hakimi",
         "poste": "DD",
-        "note": 88
+        "note": 88,
+        "note_booster": 103
       },
       {
         "numero": 5,
@@ -3319,25 +3320,26 @@
         "numero": 51,
         "nom": "Willian Pacho",
         "poste": "DC",
-        "note": 86
+        "note": 85
       },
       {
         "numero": 25,
         "nom": "Nuno Mendes",
         "poste": "DG",
-        "note": 88
+        "note": 89
       },
       {
         "numero": 87,
         "nom": "João Neves",
         "poste": "MIL",
-        "note": 87
+        "note": 88
       },
       {
         "numero": 17,
         "nom": "Vitinha",
         "poste": "MIL",
-        "note": 88
+        "note": 90,
+        "note_booster": 101
       },
       {
         "numero": 8,
@@ -3349,25 +3351,26 @@
         "numero": 14,
         "nom": "Désiré Doué",
         "poste": "ATT",
-        "note": 85
+        "note": 86
       },
       {
         "numero": 10,
         "nom": "Ousmane Dembélé",
         "poste": "ATT",
-        "note": 91
+        "note": 92,
+        "note_booster": 118
       },
       {
         "numero": 7,
         "nom": "Khvicha Kvaratskhelia",
         "poste": "ATT",
-        "note": 87
+        "note": 89
       },
       {
         "numero": 1,
         "nom": "Gianluigi Donnarumma",
         "poste": "GB",
-        "note": 85
+        "note": 86
       },
       {
         "numero": 21,
@@ -3391,7 +3394,7 @@
         "numero": 29,
         "nom": "Bradley Barcola",
         "poste": "ATT",
-        "note": 81
+        "note": 84
       },
       {
         "numero": 35,
@@ -3449,7 +3452,8 @@
         "numero": 5,
         "nom": "Jude Bellingham",
         "poste": "MIL",
-        "note": 89
+        "note": 89,
+        "note_booster": 108
       },
       {
         "numero": 12,
@@ -3461,7 +3465,7 @@
         "numero": 15,
         "nom": "Federico Valverde",
         "poste": "MIL",
-        "note": 85
+        "note": 86
       },
       {
         "numero": 24,
@@ -3473,7 +3477,8 @@
         "numero": 7,
         "nom": "Kylian Mbappé",
         "poste": "ATT",
-        "note": 95
+        "note": 95,
+        "note_booster": 117
       },
       {
         "numero": 11,
@@ -3503,7 +3508,8 @@
         "numero": 20,
         "nom": "Vinícius Júnior",
         "poste": "ATT",
-        "note": 89
+        "note": 89,
+        "note_booster": 106
       },
       {
         "numero": 22,
@@ -3555,7 +3561,7 @@
         "numero": 5,
         "nom": "Pau Cubarsí",
         "poste": "DC",
-        "note": 84
+        "note": 86
       },
       {
         "numero": 4,
@@ -3591,7 +3597,8 @@
         "numero": 8,
         "nom": "Pedri",
         "poste": "MIL",
-        "note": 88
+        "note": 88,
+        "note_booster": 103
       },
       {
         "numero": 21,
@@ -3621,19 +3628,21 @@
         "numero": 10,
         "nom": "Lamine Yamal",
         "poste": "ATT",
-        "note": 91
+        "note": 91,
+        "note_booster": 112
       },
       {
         "numero": 9,
         "nom": "Robert Lewandowski",
         "poste": "ATT",
-        "note": 85
+        "note": 86,
+        "note_booster": 101
       },
       {
         "numero": 11,
         "nom": "Raphinha",
         "poste": "ATT",
-        "note": 86
+        "note": 87
       },
       {
         "numero": 7,
@@ -3703,7 +3712,8 @@
         "numero": 10,
         "nom": "Luís Figo",
         "poste": "ATT",
-        "note": 93
+        "note": 93,
+        "note_booster": 110
       },
       {
         "numero": 16,
@@ -3721,13 +3731,15 @@
         "numero": 5,
         "nom": "Zinedine Zidane",
         "poste": "MIL",
-        "note": 96
+        "note": 96,
+        "note_booster": 118
       },
       {
         "numero": 7,
         "nom": "Raúl",
         "poste": "ATT",
-        "note": 91
+        "note": 91,
+        "note_booster": 106
       },
       {
         "numero": 9,
@@ -3785,7 +3797,8 @@
         "numero": 16,
         "nom": "Édouard Mendy",
         "poste": "GB",
-        "note": 83
+        "note": 83,
+        "note_booster": 98
       },
       {
         "numero": 24,
@@ -3797,7 +3810,8 @@
         "numero": 6,
         "nom": "Thiago Silva",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 100
       },
       {
         "numero": 4,
@@ -3821,7 +3835,8 @@
         "numero": 7,
         "nom": "N'Golo Kanté",
         "poste": "MIL",
-        "note": 88
+        "note": 88,
+        "note_booster": 104
       },
       {
         "numero": 8,
@@ -3951,7 +3966,8 @@
         "numero": 8,
         "nom": "Steven Gerrard",
         "poste": "MIL",
-        "note": 92
+        "note": 92,
+        "note_booster": 112
       },
       {
         "numero": 9,
@@ -3969,13 +3985,15 @@
         "numero": 23,
         "nom": "Jamie Carragher",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 97
       },
       {
         "numero": 14,
         "nom": "Xabi Alonso",
         "poste": "MIL",
-        "note": 86
+        "note": 86,
+        "note_booster": 101
       },
       {
         "numero": 19,
@@ -4045,7 +4063,8 @@
         "numero": 15,
         "nom": "Mats Hummels",
         "poste": "DC",
-        "note": 84
+        "note": 84,
+        "note_booster": 98
       },
       {
         "numero": 25,
@@ -4081,13 +4100,15 @@
         "numero": 11,
         "nom": "Marco Reus",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 101
       },
       {
         "numero": 9,
         "nom": "Robert Lewandowski",
         "poste": "ATT",
-        "note": 89
+        "note": 89,
+        "note_booster": 106
       },
       {
         "numero": 21,
@@ -4145,7 +4166,8 @@
         "numero": 1,
         "nom": "Hugo Lloris",
         "poste": "GB",
-        "note": 85
+        "note": 88,
+        "note_booster": 103
       },
       {
         "numero": 2,
@@ -4199,13 +4221,15 @@
         "numero": 7,
         "nom": "Son Heung-min",
         "poste": "ATT",
-        "note": 83
+        "note": 87,
+        "note_booster": 104
       },
       {
         "numero": 10,
         "nom": "Harry Kane",
         "poste": "ATT",
-        "note": 88
+        "note": 90,
+        "note_booster": 108
       },
       {
         "numero": 27,
@@ -4252,5 +4276,271 @@
     ],
     "pays": "Tottenham Hotspur",
     "selectionneur": "Mauricio Pochettino"
+  },
+  {
+    "id": "real-madrid-2016",
+    "annee": 2016,
+    "competition": "Ligue des Champions",
+    "resultat": "Champion (1-1, 5-3 t.a.b. vs Atlético Madrid, La Undécima)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Keylor Navas",
+        "poste": "GB",
+        "note": 87
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Carvajal",
+        "poste": "DD",
+        "note": 80
+      },
+      {
+        "numero": 15,
+        "nom": "Sergio Ramos",
+        "poste": "DC",
+        "note": 89
+      },
+      {
+        "numero": 5,
+        "nom": "Raphaël Varane",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 12,
+        "nom": "Marcelo",
+        "poste": "DG",
+        "note": 86
+      },
+      {
+        "numero": 14,
+        "nom": "Casemiro",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 8,
+        "nom": "Toni Kroos",
+        "poste": "MIL",
+        "note": 88,
+        "note_booster": 103
+      },
+      {
+        "numero": 19,
+        "nom": "Luka Modrić",
+        "poste": "MIL",
+        "note": 89,
+        "note_booster": 106
+      },
+      {
+        "numero": 7,
+        "nom": "Cristiano Ronaldo",
+        "poste": "ATT",
+        "note": 95,
+        "note_booster": 119
+      },
+      {
+        "numero": 9,
+        "nom": "Karim Benzema",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 11,
+        "nom": "Gareth Bale",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 25,
+        "nom": "Kiko Casilla",
+        "poste": "GB",
+        "note": 74
+      },
+      {
+        "numero": 4,
+        "nom": "Pepe",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 6,
+        "nom": "Nacho",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 13,
+        "nom": "Danilo",
+        "poste": "DD",
+        "note": 75
+      },
+      {
+        "numero": 18,
+        "nom": "Lucas Vázquez",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 20,
+        "nom": "Jesé",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 22,
+        "nom": "Isco",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 23,
+        "nom": "Mateo Kovačić",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 24,
+        "nom": "Denis Cheryshev",
+        "poste": "ATT",
+        "note": 70
+      }
+    ],
+    "pays": "Real Madrid",
+    "selectionneur": "Zinédine Zidane"
+  },
+  {
+    "id": "bayern-2019",
+    "annee": 2019,
+    "competition": "Ligue des Champions",
+    "resultat": "Huitième de finale (élim. par Liverpool, 0-0 puis 1-3)",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Manuel Neuer",
+        "poste": "GB",
+        "note": 88,
+        "note_booster": 101
+      },
+      {
+        "numero": 32,
+        "nom": "Joshua Kimmich",
+        "poste": "DD",
+        "note": 86,
+        "note_booster": 100
+      },
+      {
+        "numero": 4,
+        "nom": "Niklas Süle",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 5,
+        "nom": "Mats Hummels",
+        "poste": "DC",
+        "note": 83
+      },
+      {
+        "numero": 27,
+        "nom": "David Alaba",
+        "poste": "DG",
+        "note": 86
+      },
+      {
+        "numero": 6,
+        "nom": "Thiago Alcântara",
+        "poste": "MIL",
+        "note": 85
+      },
+      {
+        "numero": 8,
+        "nom": "Javi Martínez",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 18,
+        "nom": "Leon Goretzka",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 25,
+        "nom": "Thomas Müller",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 9,
+        "nom": "Robert Lewandowski",
+        "poste": "ATT",
+        "note": 93,
+        "note_booster": 115
+      },
+      {
+        "numero": 29,
+        "nom": "Kingsley Coman",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 17,
+        "nom": "Jérôme Boateng",
+        "poste": "DC",
+        "note": 80
+      },
+      {
+        "numero": 13,
+        "nom": "Rafinha",
+        "poste": "DD",
+        "note": 72
+      },
+      {
+        "numero": 7,
+        "nom": "Franck Ribéry",
+        "poste": "ATT",
+        "note": 81
+      },
+      {
+        "numero": 10,
+        "nom": "Arjen Robben",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 11,
+        "nom": "James Rodríguez",
+        "poste": "MIL",
+        "note": 83
+      },
+      {
+        "numero": 22,
+        "nom": "Serge Gnabry",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 24,
+        "nom": "Corentin Tolisso",
+        "poste": "MIL",
+        "note": 76
+      },
+      {
+        "numero": 35,
+        "nom": "Renato Sanches",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 2,
+        "nom": "Sandro Wagner",
+        "poste": "ATT",
+        "note": 70
+      }
+    ],
+    "pays": "Bayern Munich",
+    "selectionneur": "Niko Kovač"
   }
 ]

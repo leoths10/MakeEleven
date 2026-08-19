@@ -6,6 +6,8 @@ set -euo pipefail
 RACINE_PROJET="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DATA_DIR="$RACINE_PROJET/src/data"
 SCRIPTS_DIR="$RACINE_PROJET/scripts"
+ETAT_DIR="$RACINE_PROJET/.data-sources-sha"
+mkdir -p "$ETAT_DIR"
 
 SRC_CAMPAGNES="/home/dev/campagnes-v2.json"
 SRC_LDC="/home/dev/ldc.json"
@@ -16,6 +18,7 @@ CIBLE_LDC="$DATA_DIR/campagnes-ldc.json"
 CIBLE_NBA="$DATA_DIR/campagnes-nba.json"
 
 quelque_chose_a_change=false
+declare -A SHA_EN_ATTENTE
 
 log() { printf '\n\033[1;34m▶ %s\033[0m\n' "$1"; }
 ok()  { printf '\033[1;32m✓ %s\033[0m\n' "$1"; }
@@ -72,8 +75,7 @@ print(len(transformed))
 PY
 }
 
-# $1 = label, $2 = fichier source, $3 = fichier cible actuel (déjà transformé, pour comparaison sur ids),
-# $4 = sport (foot|ldc|nba), $5 = fonction de copie/transform
+# $1 = label, $2 = fichier source, $3 = fichier cible, $4 = sport (foot|ldc|nba), $5 = fonction de copie/transform
 traiter() {
   local label="$1" src="$2" cible="$3" sport="$4" fonction_copie="$5"
 
@@ -84,25 +86,13 @@ traiter() {
 
   log "$label : vérification des changements"
 
-  if [ -f "$cible" ] && cmp -s <(python3 -c "
-import json,sys
-d=json.load(open('$src'))
-print(json.dumps(sorted(c['id'] for c in d)))
-") <(python3 -c "
-import json,sys
-d=json.load(open('$cible'))
-print(json.dumps(sorted(c['id'] for c in d)))
-"); then
-    # Même liste d'ids : on vérifie quand même si le contenu diffère (notes, joueurs modifiés).
-    if python3 -c "
-import json, sys
-with open('$src') as f: a = json.load(f)
-with open('$cible') as f: b = json.load(f)
-sys.exit(0 if a == b else 1)
-" 2>/dev/null; then
-      ok "$label : aucun changement détecté."
-      return
-    fi
+  local fichier_sha="$ETAT_DIR/$(basename "$src").sha256"
+  local sha_actuel
+  sha_actuel="$(sha256sum "$src" | cut -d' ' -f1)"
+
+  if [ -f "$fichier_sha" ] && [ -f "$cible" ] && [ "$(cat "$fichier_sha")" = "$sha_actuel" ]; then
+    ok "$label : aucun changement détecté."
+    return
   fi
 
   ok "$label : changement détecté, mise à jour en cours."
@@ -117,6 +107,7 @@ sys.exit(0 if a == b else 1)
   $fonction_copie
   ok "$label : copié."
 
+  SHA_EN_ATTENTE["$fichier_sha"]="$sha_actuel"
   quelque_chose_a_change=true
 }
 
@@ -148,5 +139,9 @@ node "$SCRIPTS_DIR/simulate.mjs" "$CIBLE_NBA" nba 500
 
 log "Reconstruction du conteneur Docker"
 (cd "$RACINE_PROJET" && docker compose up -d --build)
+
+for fichier_sha in "${!SHA_EN_ATTENTE[@]}"; do
+  echo "${SHA_EN_ATTENTE[$fichier_sha]}" > "$fichier_sha"
+done
 
 ok "Mise à jour terminée : http://localhost:8080"

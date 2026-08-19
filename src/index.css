@@ -1519,13 +1519,21 @@ body {
 
 /* Écran de choix de mode */
 
+.toggles-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin: 0 auto 28px;
+}
+
 .toggle-boost {
   position: relative;
   display: flex;
   align-items: center;
   gap: 14px;
+  width: 100%;
   max-width: 420px;
-  margin: 0 auto 28px;
   padding: 14px 18px;
   border-radius: 14px;
   border: 1px solid var(--contour);
@@ -1548,6 +1556,17 @@ body {
     linear-gradient(100deg, #ff5f6d, #ffc371, #f2f26f, #6fdc8c, #4fd2e8, #6a8bf2, #c869e0) border-box;
   border: 1px solid transparent;
   box-shadow: 0 12px 28px -16px rgba(120, 90, 220, 0.55);
+}
+
+.toggle-infini.toggle-boost-actif {
+  background:
+    linear-gradient(165deg, var(--fond-elevee), var(--carte-fond)) padding-box,
+    linear-gradient(100deg, #4fd2e8, #6a8bf2) border-box;
+  box-shadow: 0 12px 28px -16px rgba(79, 210, 232, 0.55);
+}
+
+.toggle-infini.toggle-boost-actif .toggle-boost-piste {
+  background: linear-gradient(90deg, #4fd2e8, #6a8bf2);
 }
 
 .toggle-boost-piste {
@@ -1715,9 +1734,151 @@ body {
   .alerte-choix-limite,
   .joker-piocher.joker-actif,
   .carte-mode,
-  .progression-remplissage {
+  .progression-remplissage,
+  .badge-nouveau-record,
+  .modal-fond,
+  .modal-contenu {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* Liste de tous les joueurs */
+
+.lien-liste-joueurs {
+  display: block;
+  margin: 28px auto 0;
+  font-family: var(--police-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.lien-liste-joueurs:hover {
+  color: var(--accent-vif);
+  transform: translateY(-1px);
+}
+
+.liste-joueurs-filtres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.filtre-groupe {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.filtre-groupe label {
+  font-family: var(--police-data);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--texte-att);
+}
+
+.filtre-groupe select {
+  font-family: var(--police-corps);
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--contour);
+  background: var(--fond-elevee);
+  color: var(--texte);
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.filtre-groupe select:focus-visible {
+  outline: 2px solid var(--accent-vif);
+  outline-offset: 2px;
+}
+
+.toggle-liste {
+  max-width: 320px;
+  margin: 0;
+  padding: 10px 16px;
+}
+
+.liste-joueurs-tableau-conteneur {
+  overflow-x: auto;
+  border: 1px solid var(--contour);
+  border-radius: 14px;
+  background: var(--fond-elevee);
+}
+
+.liste-joueurs-tableau {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.liste-joueurs-tableau th {
+  position: sticky;
+  top: 0;
+  background: var(--carte-fond);
+  font-family: var(--police-data);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--texte-att);
+  text-align: left;
+  padding: 12px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  border-bottom: 1px solid var(--contour);
+}
+
+.liste-joueurs-tableau th:hover {
+  color: var(--accent-vif);
+}
+
+.liste-joueurs-tableau td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--contour);
+  color: var(--texte);
+  white-space: nowrap;
+}
+
+.liste-joueurs-tableau tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.liste-joueurs-tableau tbody tr:hover {
+  background: rgba(224, 179, 76, 0.06);
+}
+
+.liste-joueurs-note {
+  display: flex;
+  align-items: center;
+}
+
+.liste-joueurs-note-boostee {
+  filter: drop-shadow(0 0 6px rgba(224, 179, 76, 0.5));
+}
+
+@media (max-width: 640px) {
+  .liste-joueurs-filtres {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filtre-groupe select {
+    min-width: 0;
+    width: 100%;
   }
 }
 
@@ -1743,5 +1904,232 @@ body {
   .bouton-changer-mode {
     position: static;
     margin-bottom: 4px;
+  }
+}
+
+/* Liens secondaires (accueil sport) */
+
+.liens-secondaires {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin-top: 28px;
+}
+
+.liens-secondaires .lien-liste-joueurs {
+  margin: 0;
+}
+
+/* Formulaire de connexion */
+
+.formulaire-connexion {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 28px 24px;
+  border-radius: 18px;
+  border: 1px solid var(--contour);
+  background: linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
+}
+
+.formulaire-connexion .filtre-groupe {
+  gap: 6px;
+}
+
+.formulaire-connexion input {
+  font-family: var(--police-corps);
+  font-size: 0.95rem;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--contour);
+  background: var(--fond-elevee);
+  color: var(--texte);
+}
+
+.formulaire-connexion input:focus-visible {
+  outline: 2px solid var(--accent-vif);
+  outline-offset: 2px;
+}
+
+.formulaire-erreur {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #e05a5a;
+}
+
+/* Badge nouveau record */
+
+.badge-nouveau-record {
+  color: var(--accent-vif);
+  font-weight: 700;
+  animation: lueur-badge-record 1.6s ease-in-out infinite;
+}
+
+@keyframes lueur-badge-record {
+  0%,
+  100% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Profil */
+
+.profil-grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 24px auto 0;
+}
+
+.carte-score-profil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 20px;
+  border-radius: 18px;
+  border: 1px solid var(--contour);
+  background: linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
+}
+
+.carte-score-profil-titre {
+  font-family: var(--police-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--texte);
+}
+
+.carte-score-profil-vide {
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+  opacity: 0.55;
+}
+
+.carte-score-profil-vide p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--texte-att);
+  text-align: center;
+}
+
+.carte-score-profil .terrain {
+  width: 100%;
+}
+
+.bouton-voir-formation {
+  font-family: var(--police-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--contour);
+  background: var(--fond-elevee);
+  color: var(--accent);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.bouton-voir-formation:hover {
+  border-color: var(--accent);
+  color: var(--accent-vif);
+  transform: translateY(-1px);
+}
+
+.bouton-voir-formation:focus-visible {
+  outline: 2px solid var(--accent-vif);
+  outline-offset: 2px;
+}
+
+/* Modal formation */
+
+.modal-fond {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(5, 8, 6, 0.72);
+  backdrop-filter: blur(3px);
+  animation: modal-fondu 0.18s ease;
+}
+
+@keyframes modal-fondu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-contenu {
+  position: relative;
+  max-width: 640px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 24px;
+  border-radius: 18px;
+  border: 1px solid var(--contour);
+  background: linear-gradient(165deg, var(--fond-elevee), var(--carte-fond));
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6);
+  animation: monter-apparaitre 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.modal-entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.modal-entete h3 {
+  margin: 0;
+  font-family: var(--police-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--texte);
+}
+
+.modal-fermer {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--contour);
+  background: var(--fond);
+  color: var(--texte-att);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.modal-fermer:hover {
+  border-color: var(--accent);
+  color: var(--accent-vif);
+}
+
+@media (max-width: 640px) {
+  .modal-contenu {
+    padding: 16px;
+    max-height: 85vh;
   }
 }

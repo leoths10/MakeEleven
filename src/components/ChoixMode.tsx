@@ -8,11 +8,13 @@ interface ModeJeu {
 interface ChoixModeProps {
   modes: ModeJeu[]
   boosteActif: boolean
+  infiniActif: boolean
   onChangerBoost: (actif: boolean) => void
+  onChangerInfini: (actif: boolean) => void
   onChoisir: (id: string) => void
 }
 
-export default function ChoixMode({ modes, boosteActif, onChangerBoost, onChoisir }: ChoixModeProps) {
+export default function ChoixMode({ modes, boosteActif, infiniActif, onChangerBoost, onChangerInfini, onChoisir }: ChoixModeProps) {
   return (
     <div className="app">
       <header className="entete">
@@ -21,20 +23,37 @@ export default function ChoixMode({ modes, boosteActif, onChangerBoost, onChoisi
         <p>Choisis ton univers avant de composer ton onze de légende.</p>
       </header>
 
-      <label className={`toggle-boost${boosteActif ? ' toggle-boost-actif' : ''}`}>
-        <input
-          type="checkbox"
-          checked={boosteActif}
-          onChange={(e) => onChangerBoost(e.target.checked)}
-        />
-        <span className="toggle-boost-piste" aria-hidden="true">
-          <span className="toggle-boost-curseur" />
-        </span>
-        <span className="toggle-boost-texte">
-          <span className="toggle-boost-titre">Mode Boosté</span>
-          <span className="toggle-boost-detail">Les légendes jouent avec des notes surpuissantes</span>
-        </span>
-      </label>
+      <div className="toggles-options">
+        <label className={`toggle-boost${boosteActif ? ' toggle-boost-actif' : ''}`}>
+          <input
+            type="checkbox"
+            checked={boosteActif}
+            onChange={(e) => onChangerBoost(e.target.checked)}
+          />
+          <span className="toggle-boost-piste" aria-hidden="true">
+            <span className="toggle-boost-curseur" />
+          </span>
+          <span className="toggle-boost-texte">
+            <span className="toggle-boost-titre">Mode Boosté</span>
+            <span className="toggle-boost-detail">Les légendes jouent avec des notes surpuissantes</span>
+          </span>
+        </label>
+
+        <label className={`toggle-boost toggle-infini${infiniActif ? ' toggle-boost-actif' : ''}`}>
+          <input
+            type="checkbox"
+            checked={infiniActif}
+            onChange={(e) => onChangerInfini(e.target.checked)}
+          />
+          <span className="toggle-boost-piste" aria-hidden="true">
+            <span className="toggle-boost-curseur" />
+          </span>
+          <span className="toggle-boost-texte">
+            <span className="toggle-boost-titre">Jokers illimités</span>
+            <span className="toggle-boost-detail">Retirage et repioche disponibles sans limite</span>
+          </span>
+        </label>
+      </div>
 
       <div className="choix-mode-grille">
         {modes.map((mode) => (

@@ -8,7 +8,7 @@ POSTES_VALIDES = {
 }
 
 
-def valider(data, cle_equipe, cle_coach, postes_valides):
+def valider(data, cle_equipe, cle_coach, cle_competition, postes_valides):
     erreurs = []
     ids = set()
     for c in data:
@@ -17,7 +17,7 @@ def valider(data, cle_equipe, cle_coach, postes_valides):
             erreurs.append(f'id dupliqué: {cid}')
         ids.add(cid)
 
-        for req in ['id', cle_equipe, 'annee', 'competition', 'resultat', cle_coach, 'joueurs']:
+        for req in ['id', cle_equipe, 'annee', cle_competition, 'resultat', cle_coach, 'joueurs']:
             if req not in c:
                 erreurs.append(f'{cid}: champ manquant {req}')
 
@@ -51,16 +51,16 @@ def main():
         data = json.load(f)
 
     if sport == 'nba':
-        cle_equipe, cle_coach = 'equipe', 'entraineur'
+        cle_equipe, cle_coach, cle_competition = 'equipe', 'entraineur', 'ligue'
         postes = POSTES_VALIDES['nba']
     elif sport == 'ldc':
-        cle_equipe, cle_coach = 'club', 'entraineur'
+        cle_equipe, cle_coach, cle_competition = 'club', 'entraineur', 'competition'
         postes = POSTES_VALIDES['foot']
     else:
-        cle_equipe, cle_coach = 'pays', 'selectionneur'
+        cle_equipe, cle_coach, cle_competition = 'pays', 'selectionneur', 'competition'
         postes = POSTES_VALIDES['foot']
 
-    erreurs = valider(data, cle_equipe, cle_coach, postes)
+    erreurs = valider(data, cle_equipe, cle_coach, cle_competition, postes)
 
     bloquantes = [e for e in erreurs if 'non bloquant' not in e]
     avertissements = [e for e in erreurs if 'non bloquant' in e]

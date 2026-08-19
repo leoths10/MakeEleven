@@ -8,9 +8,12 @@ interface SportInfo {
 interface ChoixSportProps {
   sports: SportInfo[]
   onChoisir: (id: string) => void
+  onVoirJoueurs: () => void
+  onOuvrirProfil: () => void
+  libelleProfil: string
 }
 
-export default function ChoixSport({ sports, onChoisir }: ChoixSportProps) {
+export default function ChoixSport({ sports, onChoisir, onVoirJoueurs, onOuvrirProfil, libelleProfil }: ChoixSportProps) {
   return (
     <div className="app">
       <header className="entete">
@@ -28,6 +31,15 @@ export default function ChoixSport({ sports, onChoisir }: ChoixSportProps) {
             <span className="carte-mode-cta">Continuer →</span>
           </button>
         ))}
+      </div>
+
+      <div className="liens-secondaires">
+        <button type="button" className="lien-liste-joueurs" onClick={onVoirJoueurs}>
+          Voir tous les joueurs →
+        </button>
+        <button type="button" className="lien-liste-joueurs" onClick={onOuvrirProfil}>
+          {libelleProfil} →
+        </button>
       </div>
     </div>
   )

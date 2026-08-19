@@ -28,25 +28,33 @@ function melanger<T>(tableau: T[]): T[] {
   return copie
 }
 
+const CHANCE_NOTE_BOOSTEE = 0.05
+
+// En mode normal, un joueur disposant d'une note_booster a une petite chance
+// d'apparaître avec cette note surpuissante au lieu de sa note habituelle.
+function appliquerNoteAleatoire<T extends { note: number; note_booster?: number }>(joueur: T): T {
+  if (joueur.note_booster !== undefined && Math.random() < CHANCE_NOTE_BOOSTEE) {
+    return { ...joueur, note: joueur.note_booster }
+  }
+  return joueur
+}
+
 export interface ResultatTirage {
   campagne: Campagne
   joueurs: JoueurPioche[]
 }
 
-export function tirerCinqJoueurs(
+function tirerParmi(
   campagnes: Campagne[],
-  composition: JoueurComposition[],
-  nomsDejaUtilises: Set<string>,
-  formation: DefinitionSlot[]
+  disponibles: SlotId[],
+  formation: DefinitionSlot[],
+  nomsExclus: Set<string>
 ): ResultatTirage | null {
-  const disponibles = slotsLibres(composition, formation)
-  if (disponibles.length === 0) return null
-
   const campagnesMelangees = melanger(campagnes)
 
   for (const campagne of campagnesMelangees) {
     const eligibles = campagne.joueurs.filter(
-      (j) => estEligible(j.poste, disponibles, formation) && !nomsDejaUtilises.has(j.nom)
+      (j) => estEligible(j.poste, disponibles, formation) && !nomsExclus.has(j.nom)
     )
     if (eligibles.length >= 1) {
       const choisis = melanger(eligibles).slice(0, Math.min(5, eligibles.length))
@@ -57,12 +65,56 @@ export function tirerCinqJoueurs(
           pays: campagne.pays,
           annee: campagne.annee,
         }))
+        .map(appliquerNoteAleatoire)
         .sort((a, b) => a.note - b.note)
       return { campagne, joueurs }
     }
   }
 
   return null
+}
+
+export function tirerCinqJoueurs(
+  campagnes: Campagne[],
+  composition: JoueurComposition[],
+  nomsDejaUtilises: Set<string>,
+  formation: DefinitionSlot[],
+  nomsDejaProposes: Set<string> = new Set()
+): ResultatTirage | null {
+  const disponibles = slotsLibres(composition, formation)
+  if (disponibles.length === 0) return null
+
+  const nomsExclus = new Set([...nomsDejaUtilises, ...nomsDejaProposes])
+  const resultat = tirerParmi(campagnes, disponibles, formation, nomsExclus)
+  if (resultat) return resultat
+
+  // Plus aucune campagne ne peut fournir de joueur inédit : on retombe sur le
+  // pool complet (seuls les joueurs déjà utilisés dans l'équipe restent exclus)
+  // plutôt que de bloquer le tirage.
+  return tirerParmi(campagnes, disponibles, formation, nomsDejaUtilises)
+}
+
+function tirerAutresParmi(
+  campagne: Campagne,
+  disponibles: SlotId[],
+  formation: DefinitionSlot[],
+  nomsExclus: Set<string>
+): JoueurPioche[] | null {
+  const eligibles = campagne.joueurs.filter(
+    (j) => estEligible(j.poste, disponibles, formation) && !nomsExclus.has(j.nom)
+  )
+  if (eligibles.length === 0) return null
+
+  return melanger(eligibles)
+    .slice(0, Math.min(5, eligibles.length))
+    .map((j) => ({
+      ...j,
+      campagneId: campagne.id,
+      pays: campagne.pays,
+      annee: campagne.annee,
+    }))
+    .map(appliquerNoteAleatoire)
+    .sort((a, b) => a.note - b.note)
 }
 
 export function tirerCinqAutresJoueurs(
@@ -75,18 +127,12 @@ export function tirerCinqAutresJoueurs(
   const disponibles = slotsLibres(composition, formation)
   if (disponibles.length === 0) return null
 
-  const eligibles = campagne.joueurs.filter(
-    (j) => estEligible(j.poste, disponibles, formation) && !nomsDejaUtilises.has(j.nom) && !nomsDejaProposes.has(j.nom)
-  )
-  if (eligibles.length === 0) return null
+  const nomsExclus = new Set([...nomsDejaUtilises, ...nomsDejaProposes])
+  const resultat = tirerAutresParmi(campagne, disponibles, formation, nomsExclus)
+  if (resultat) return resultat
 
-  return melanger(eligibles)
-    .slice(0, Math.min(5, eligibles.length))
-    .map((j) => ({
-      ...j,
-      campagneId: campagne.id,
-      pays: campagne.pays,
-      annee: campagne.annee,
-    }))
-    .sort((a, b) => a.note - b.note)
+  // Effectif de la campagne épuisé : on retombe sur le pool complet de la
+  // campagne (seuls les joueurs déjà utilisés dans l'équipe restent exclus)
+  // plutôt que de bloquer la repioche.
+  return tirerAutresParmi(campagne, disponibles, formation, nomsDejaUtilises)
 }

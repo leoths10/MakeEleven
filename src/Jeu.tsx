@@ -3,7 +3,10 @@ import ZoneTirage from './components/ZoneTirage'
 import Terrain from './components/Terrain'
 import Recapitulatif from './components/Recapitulatif'
 import { slotsCompatibles, slotsLibres, tirerCinqAutresJoueurs, tirerCinqJoueurs } from './game/tirage'
-import type { Campagne, DefinitionSlot, JoueurComposition, JoueurPioche, PosteJoueur, SlotId } from './game/types'
+import { calculerNoteEquipe } from './game/palier'
+import { apiSaveScore } from './api/client'
+import { useAuth } from './auth/AuthContext'
+import type { Campagne, CombinaisonJeu, DefinitionSlot, JoueurComposition, JoueurPioche, PosteJoueur, SlotId } from './game/types'
 
 export type PhaseTirage = 'inactif' | 'suspense' | 'pays' | 'annee' | 'joueurs'
 
@@ -24,10 +27,23 @@ interface JeuProps {
   formation: DefinitionSlot[]
   labelPoste: Record<PosteJoueur, string>
   variante?: 'foot' | 'nba'
+  jokersInfinis?: boolean
+  combinaison: CombinaisonJeu
   onChangerMode: () => void
 }
 
-export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPoste, variante = 'foot', onChangerMode }: JeuProps) {
+export default function Jeu({
+  campagnes,
+  eyebrow,
+  sousTitre,
+  formation,
+  labelPoste,
+  variante = 'foot',
+  jokersInfinis = false,
+  combinaison,
+  onChangerMode,
+}: JeuProps) {
+  const { user } = useAuth()
   const [composition, setComposition] = useState<JoueurComposition[]>([])
   const [nomsUtilises, setNomsUtilises] = useState<Set<string>>(new Set())
   const [nomsProposes, setNomsProposes] = useState<Set<string>>(new Set())
@@ -37,6 +53,7 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
   const [pioche5AutresDisponible, setPioche5AutresDisponible] = useState(true)
   const [phase, setPhase] = useState<PhaseTirage>('inactif')
   const [nbJoueursRevele, setNbJoueursRevele] = useState(0)
+  const [nouveauRecord, setNouveauRecord] = useState(false)
 
   const minuteurs = useRef<ReturnType<typeof setTimeout>[]>([])
 
@@ -56,6 +73,21 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
     return () => minuteurs.current.forEach(clearTimeout)
   }, [])
 
+  useEffect(() => {
+    if (!compositionComplete || !user) return
+    const noteEquipe = calculerNoteEquipe(composition)
+    apiSaveScore({
+      ...combinaison,
+      noteEquipe,
+      variante,
+      formation: composition,
+    })
+      .then((reponse) => setNouveauRecord(reponse.isNewRecord))
+      .catch(() => {
+        // Sauvegarde optionnelle : une erreur réseau ne doit jamais bloquer l'affichage du récap.
+      })
+  }, [compositionComplete])
+
   const planifier = (delai: number, action: () => void) => {
     const id = setTimeout(action, delai)
     minuteurs.current.push(id)
@@ -63,12 +95,12 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
 
   const lancerTirage = () => {
     if (tirageBloque || animationEnCours) return
-    if (tirageEnCours) setRetirageDisponible(false)
+    if (tirageEnCours && !jokersInfinis) setRetirageDisponible(false)
 
     minuteurs.current.forEach(clearTimeout)
     minuteurs.current = []
 
-    const resultat = tirerCinqJoueurs(campagnes, composition, nomsUtilises, formation)
+    const resultat = tirerCinqJoueurs(campagnes, composition, nomsUtilises, formation, nomsProposes)
     if (!resultat) {
       setTirage({ campagne: null, joueurs: [] })
       return
@@ -89,7 +121,7 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
 
     planifier(DELAI_SUSPENSE + DELAI_PAYS + DELAI_ANNEE, () => {
       setTirage({ campagne: resultat.campagne, joueurs: resultat.joueurs })
-      setNomsProposes(new Set(resultat.joueurs.map((j) => j.nom)))
+      setNomsProposes((prev) => new Set([...prev, ...resultat.joueurs.map((j) => j.nom)]))
       setPhase('joueurs')
     })
 
@@ -109,7 +141,7 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
     minuteurs.current.forEach(clearTimeout)
     minuteurs.current = []
 
-    setPioche5AutresDisponible(false)
+    if (!jokersInfinis) setPioche5AutresDisponible(false)
     setNbJoueursRevele(0)
     setTirage({ campagne: tirage.campagne, joueurs: [] })
     setPhase('joueurs')
@@ -156,6 +188,7 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
     setPioche5AutresDisponible(true)
     setPhase('inactif')
     setNbJoueursRevele(0)
+    setNouveauRecord(false)
   }
 
   return (
@@ -183,6 +216,7 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
           formation={formation}
           labelPoste={labelPoste}
           variante={variante}
+          nouveauRecord={nouveauRecord}
           onRecommencer={recommencer}
         />
       ) : (
@@ -198,6 +232,7 @@ export default function Jeu({ campagnes, eyebrow, sousTitre, formation, labelPos
               phase={phase}
               nbJoueursRevele={nbJoueursRevele}
               labelPoste={labelPoste}
+              jokersInfinis={jokersInfinis}
               onChoisir={choisirJoueur}
               onTirer={lancerTirage}
               onPiocherCinqAutres={piocherCinqAutres}

@@ -4912,5 +4912,485 @@
         "note": 76
       }
     ]
+  },
+  {
+    "id": "france-euro2021",
+    "pays": "France",
+    "annee": 2021,
+    "competition": "Euro",
+    "resultat": "Huitième de finale (élim. 4-5 t.a.b. vs Suisse, après 3-3)",
+    "selectionneur": "Didier Deschamps",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Hugo Lloris",
+        "poste": "GB",
+        "note": 86
+      },
+      {
+        "numero": 2,
+        "nom": "Benjamin Pavard",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 3,
+        "nom": "Presnel Kimpembe",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Raphaël Varane",
+        "poste": "DC",
+        "note": 85
+      },
+      {
+        "numero": 5,
+        "nom": "Clément Lenglet",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 6,
+        "nom": "Paul Pogba",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 7,
+        "nom": "Antoine Griezmann",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 8,
+        "nom": "Thomas Lemar",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 9,
+        "nom": "Olivier Giroud",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 10,
+        "nom": "Kylian Mbappé",
+        "poste": "ATT",
+        "note": 90
+      },
+      {
+        "numero": 11,
+        "nom": "Ousmane Dembélé",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 12,
+        "nom": "Corentin Tolisso",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 13,
+        "nom": "Kingsley Coman",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 14,
+        "nom": "Adrien Rabiot",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 15,
+        "nom": "Marcus Thuram",
+        "poste": "ATT",
+        "note": 76
+      },
+      {
+        "numero": 16,
+        "nom": "Steve Mandanda",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 17,
+        "nom": "Léo Dubois",
+        "poste": "DD",
+        "note": 73
+      },
+      {
+        "numero": 18,
+        "nom": "Moussa Sissoko",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 19,
+        "nom": "Karim Benzema",
+        "poste": "ATT",
+        "note": 88
+      },
+      {
+        "numero": 20,
+        "nom": "Jules Koundé",
+        "poste": "DD",
+        "note": 79
+      },
+      {
+        "numero": 21,
+        "nom": "Lucas Digne",
+        "poste": "DG",
+        "note": 78
+      },
+      {
+        "numero": 22,
+        "nom": "Benjamin Mendy",
+        "poste": "DG",
+        "note": 76
+      },
+      {
+        "numero": 23,
+        "nom": "Alphonse Areola",
+        "poste": "GB",
+        "note": 75
+      },
+      {
+        "numero": 24,
+        "nom": "Wissam Ben Yedder",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 25,
+        "nom": "Jonathan Clauss",
+        "poste": "DD",
+        "note": 70
+      },
+      {
+        "numero": 26,
+        "nom": "N'Golo Kanté",
+        "poste": "MIL",
+        "note": 86
+      }
+    ]
+  },
+  {
+    "id": "espagne-euro2024",
+    "pays": "Espagne",
+    "annee": 2024,
+    "competition": "Euro",
+    "resultat": "Championne d'Europe (2-1 vs Angleterre)",
+    "selectionneur": "Luis de la Fuente",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Unai Simón",
+        "poste": "GB",
+        "note": 82
+      },
+      {
+        "numero": 2,
+        "nom": "Dani Carvajal",
+        "poste": "DD",
+        "note": 82
+      },
+      {
+        "numero": 3,
+        "nom": "Robin Le Normand",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Aymeric Laporte",
+        "poste": "DC",
+        "note": 82
+      },
+      {
+        "numero": 5,
+        "nom": "Marc Cucurella",
+        "poste": "DG",
+        "note": 80
+      },
+      {
+        "numero": 6,
+        "nom": "Mikel Merino",
+        "poste": "MIL",
+        "note": 79
+      },
+      {
+        "numero": 7,
+        "nom": "Álvaro Morata",
+        "poste": "ATT",
+        "note": 80
+      },
+      {
+        "numero": 8,
+        "nom": "Fabián Ruiz",
+        "poste": "MIL",
+        "note": 82
+      },
+      {
+        "numero": 9,
+        "nom": "Joselu",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 10,
+        "nom": "Dani Olmo",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 11,
+        "nom": "Ferran Torres",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 12,
+        "nom": "Jesús Navas",
+        "poste": "DD",
+        "note": 74
+      },
+      {
+        "numero": 13,
+        "nom": "Álex Remiro",
+        "poste": "GB",
+        "note": 76
+      },
+      {
+        "numero": 14,
+        "nom": "Aleix García",
+        "poste": "MIL",
+        "note": 75
+      },
+      {
+        "numero": 15,
+        "nom": "Dani Vivian",
+        "poste": "DC",
+        "note": 74
+      },
+      {
+        "numero": 16,
+        "nom": "Pedri",
+        "poste": "MIL",
+        "note": 87
+      },
+      {
+        "numero": 17,
+        "nom": "Ayoze Pérez",
+        "poste": "ATT",
+        "note": 73
+      },
+      {
+        "numero": 18,
+        "nom": "Marcos Llorente",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 19,
+        "nom": "Alejandro Grimaldo",
+        "poste": "DG",
+        "note": 79
+      },
+      {
+        "numero": 20,
+        "nom": "Nacho",
+        "poste": "DC",
+        "note": 76
+      },
+      {
+        "numero": 21,
+        "nom": "Mikel Oyarzabal",
+        "poste": "ATT",
+        "note": 82
+      },
+      {
+        "numero": 22,
+        "nom": "Nico Williams",
+        "poste": "ATT",
+        "note": 85
+      },
+      {
+        "numero": 23,
+        "nom": "David Raya",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 24,
+        "nom": "Fermín López",
+        "poste": "MIL",
+        "note": 77
+      },
+      {
+        "numero": 25,
+        "nom": "Martín Zubimendi",
+        "poste": "MIL",
+        "note": 80
+      },
+      {
+        "numero": 26,
+        "nom": "Lamine Yamal",
+        "poste": "ATT",
+        "note": 88
+      }
+    ]
+  },
+  {
+    "id": "pays-bas-2014",
+    "pays": "Pays-Bas",
+    "annee": 2014,
+    "competition": "Coupe du Monde",
+    "resultat": "3e place (bat le Brésil 3-0, élim. par l'Argentine en demi aux t.a.b.)",
+    "selectionneur": "Louis van Gaal",
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Jasper Cillessen",
+        "poste": "GB",
+        "note": 78
+      },
+      {
+        "numero": 2,
+        "nom": "Ron Vlaar",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 3,
+        "nom": "Stefan de Vrij",
+        "poste": "DC",
+        "note": 78
+      },
+      {
+        "numero": 4,
+        "nom": "Bruno Martins Indi",
+        "poste": "DC",
+        "note": 74
+      },
+      {
+        "numero": 5,
+        "nom": "Daley Blind",
+        "poste": "DG",
+        "note": 79
+      },
+      {
+        "numero": 6,
+        "nom": "Nigel de Jong",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 7,
+        "nom": "Daryl Janmaat",
+        "poste": "DD",
+        "note": 74
+      },
+      {
+        "numero": 8,
+        "nom": "Jonathan de Guzmán",
+        "poste": "MIL",
+        "note": 71
+      },
+      {
+        "numero": 9,
+        "nom": "Robin van Persie",
+        "poste": "ATT",
+        "note": 87
+      },
+      {
+        "numero": 10,
+        "nom": "Wesley Sneijder",
+        "poste": "MIL",
+        "note": 84
+      },
+      {
+        "numero": 11,
+        "nom": "Arjen Robben",
+        "poste": "ATT",
+        "note": 90
+      },
+      {
+        "numero": 12,
+        "nom": "Paul Verhaegh",
+        "poste": "DD",
+        "note": 68
+      },
+      {
+        "numero": 13,
+        "nom": "Joël Veltman",
+        "poste": "DD",
+        "note": 70
+      },
+      {
+        "numero": 14,
+        "nom": "Terence Kongolo",
+        "poste": "DC",
+        "note": 69
+      },
+      {
+        "numero": 15,
+        "nom": "Dirk Kuyt",
+        "poste": "ATT",
+        "note": 77
+      },
+      {
+        "numero": 16,
+        "nom": "Jordy Clasie",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 17,
+        "nom": "Jeremain Lens",
+        "poste": "ATT",
+        "note": 74
+      },
+      {
+        "numero": 18,
+        "nom": "Leroy Fer",
+        "poste": "MIL",
+        "note": 73
+      },
+      {
+        "numero": 19,
+        "nom": "Klaas-Jan Huntelaar",
+        "poste": "ATT",
+        "note": 79
+      },
+      {
+        "numero": 20,
+        "nom": "Georginio Wijnaldum",
+        "poste": "MIL",
+        "note": 78
+      },
+      {
+        "numero": 21,
+        "nom": "Memphis Depay",
+        "poste": "ATT",
+        "note": 78
+      },
+      {
+        "numero": 22,
+        "nom": "Michel Vorm",
+        "poste": "GB",
+        "note": 72
+      },
+      {
+        "numero": 23,
+        "nom": "Tim Krul",
+        "poste": "GB",
+        "note": 74
+      }
+    ]
   }
 ]

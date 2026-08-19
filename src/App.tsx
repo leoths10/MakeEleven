@@ -4,9 +4,13 @@ import campagnesLdc from './data/campagnes-ldc.json'
 import campagnesNba from './data/campagnes-nba.json'
 import ChoixSport from './components/ChoixSport'
 import ChoixMode from './components/ChoixMode'
+import ListeJoueurs, { type JoueurCatalogue } from './components/ListeJoueurs'
+import Connexion from './components/Connexion'
+import Profil from './components/Profil'
 import Jeu from './Jeu'
 import { FORMATION_433, FORMATION_NBA } from './game/formation'
-import type { Campagne, PosteJoueur } from './game/types'
+import type { Campagne, CombinaisonJeu, PosteJoueur } from './game/types'
+import { useAuth } from './auth/AuthContext'
 
 const CAMPAGNES_SELECTIONS = campagnesSelections as Campagne[]
 const CAMPAGNES_LDC = campagnesLdc as Campagne[]
@@ -68,10 +72,38 @@ const MODES = [
   },
 ]
 
+function construireCatalogue(): JoueurCatalogue[] {
+  const sources: { campagnes: Campagne[]; source: JoueurCatalogue['source'] }[] = [
+    { campagnes: CAMPAGNES_SELECTIONS, source: 'selections' },
+    { campagnes: CAMPAGNES_LDC, source: 'ldc' },
+    { campagnes: CAMPAGNES_NBA, source: 'nba' },
+  ]
+  return sources.flatMap(({ campagnes, source }) =>
+    campagnes.flatMap((campagne) =>
+      campagne.joueurs.map((joueur) => ({
+        nom: joueur.nom,
+        poste: joueur.poste,
+        note: joueur.note,
+        note_booster: joueur.note_booster,
+        equipe: campagne.pays,
+        annee: campagne.annee,
+        source,
+      }))
+    )
+  )
+}
+
+const CATALOGUE_JOUEURS = construireCatalogue()
+
+type Vue = 'jeu' | 'liste' | 'profil' | 'connexion'
+
 export default function App() {
+  const { user } = useAuth()
   const [sport, setSport] = useState<SportId | null>(null)
   const [mode, setMode] = useState<ModeId | null>(null)
   const [boosteActif, setBoosteActif] = useState(false)
+  const [infiniActif, setInfiniActif] = useState(false)
+  const [vue, setVue] = useState<Vue>('jeu')
 
   const campagnesSelectionsFinal = useMemo(
     () => (boosteActif ? appliquerBoost(CAMPAGNES_SELECTIONS) : CAMPAGNES_SELECTIONS),
@@ -86,7 +118,26 @@ export default function App() {
     setMode(null)
   }
 
+  if (vue === 'liste') {
+    return <ListeJoueurs joueurs={CATALOGUE_JOUEURS} labelPoste={LABEL_POSTE_FOOT} onRetour={() => setVue('jeu')} />
+  }
+
+  if (vue === 'profil') {
+    return (
+      <Profil
+        labelPoste={LABEL_POSTE_FOOT}
+        onRetour={() => setVue('jeu')}
+        onOuvrirConnexion={() => setVue('connexion')}
+      />
+    )
+  }
+
+  if (vue === 'connexion') {
+    return <Connexion onSucces={() => setVue('profil')} onRetour={() => setVue('jeu')} />
+  }
+
   if (sport === 'nba') {
+    const combinaison: CombinaisonJeu = { sport: 'nba', mode: 'nba', boost: false, infini: false }
     return (
       <Jeu
         campagnes={CAMPAGNES_NBA}
@@ -95,12 +146,14 @@ export default function App() {
         formation={FORMATION_NBA}
         labelPoste={LABEL_POSTE_NBA}
         variante="nba"
+        combinaison={combinaison}
         onChangerMode={retourAccueil}
       />
     )
   }
 
   if (sport === 'foot' && mode === 'selections') {
+    const combinaison: CombinaisonJeu = { sport: 'foot', mode: 'selections', boost: boosteActif, infini: infiniActif }
     return (
       <Jeu
         campagnes={campagnesSelectionsFinal}
@@ -108,12 +161,15 @@ export default function App() {
         sousTitre="Pioche 5 joueurs, garde-en un, compose ton onze de légende."
         formation={FORMATION_433}
         labelPoste={LABEL_POSTE_FOOT}
+        jokersInfinis={infiniActif}
+        combinaison={combinaison}
         onChangerMode={() => setMode(null)}
       />
     )
   }
 
   if (sport === 'foot' && mode === 'ldc') {
+    const combinaison: CombinaisonJeu = { sport: 'foot', mode: 'ldc', boost: boosteActif, infini: infiniActif }
     return (
       <Jeu
         campagnes={campagnesLdcFinal}
@@ -121,6 +177,8 @@ export default function App() {
         sousTitre="Pioche 5 joueurs parmi les plus grands clubs, garde-en un, compose ton onze de légende."
         formation={FORMATION_433}
         labelPoste={LABEL_POSTE_FOOT}
+        jokersInfinis={infiniActif}
+        combinaison={combinaison}
         onChangerMode={() => setMode(null)}
       />
     )
@@ -131,11 +189,21 @@ export default function App() {
       <ChoixMode
         modes={MODES}
         boosteActif={boosteActif}
+        infiniActif={infiniActif}
         onChangerBoost={setBoosteActif}
+        onChangerInfini={setInfiniActif}
         onChoisir={(id) => setMode(id as ModeId)}
       />
     )
   }
 
-  return <ChoixSport sports={SPORTS} onChoisir={(id) => setSport(id as SportId)} />
+  return (
+    <ChoixSport
+      sports={SPORTS}
+      onChoisir={(id) => setSport(id as SportId)}
+      onVoirJoueurs={() => setVue('liste')}
+      onOuvrirProfil={() => setVue(user ? 'profil' : 'connexion')}
+      libelleProfil={user ? 'Mon profil' : 'Connexion'}
+    />
+  )
 }

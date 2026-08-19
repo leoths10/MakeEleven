@@ -1,5 +1,5 @@
 import type { DefinitionSlot, JoueurComposition, PosteJoueur } from '../game/types'
-import { palierNote } from '../game/palier'
+import { calculerNoteEquipe, palierNote } from '../game/palier'
 import Terrain from './Terrain'
 
 interface RecapitulatifProps {
@@ -7,6 +7,7 @@ interface RecapitulatifProps {
   formation: DefinitionSlot[]
   labelPoste: Record<PosteJoueur, string>
   variante?: 'foot' | 'nba'
+  nouveauRecord?: boolean
   onRecommencer: () => void
 }
 
@@ -19,9 +20,16 @@ const LABEL_PALIER: Record<string, string> = {
   goat: 'GOAT',
 }
 
-export default function Recapitulatif({ composition, formation, labelPoste, variante = 'foot', onRecommencer }: RecapitulatifProps) {
+export default function Recapitulatif({
+  composition,
+  formation,
+  labelPoste,
+  variante = 'foot',
+  nouveauRecord = false,
+  onRecommencer,
+}: RecapitulatifProps) {
   const campagnesOrigine = Array.from(new Set(composition.map((j) => `${j.pays} ${j.annee}`))).sort()
-  const noteMoyenne = Math.round(composition.reduce((somme, j) => somme + j.note, 0) / composition.length)
+  const noteMoyenne = calculerNoteEquipe(composition)
   const palierEquipe = palierNote(noteMoyenne)
   const badgeComplet = variante === 'nba' ? 'Cinq complet' : 'Onze complet'
 
@@ -29,6 +37,7 @@ export default function Recapitulatif({ composition, formation, labelPoste, vari
     <div className="recapitulatif">
       <div className="recapitulatif-entete">
         <span className="recapitulatif-badge">{badgeComplet}</span>
+        {nouveauRecord && <span className="recapitulatif-badge badge-nouveau-record">Nouveau record !</span>}
         <h2>Ton équipe de légende</h2>
         <p>
           Composée de joueurs piochés dans {campagnesOrigine.length} campagne{campagnesOrigine.length > 1 ? 's' : ''}.

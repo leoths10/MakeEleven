@@ -54,3 +54,21 @@ export interface JoueurPioche extends Joueur {
 export interface JoueurComposition extends JoueurPioche {
   slotId: SlotId
 }
+
+export interface CombinaisonJeu {
+  sport: 'foot' | 'nba'
+  mode: 'selections' | 'ldc' | 'nba'
+  boost: boolean
+  infini: boolean
+}
+
+export interface ScoreSauvegarde {
+  sport: string
+  mode: string
+  boost: boolean
+  infini: boolean
+  noteEquipe: number
+  variante: 'foot' | 'nba'
+  formation: JoueurComposition[]
+  updatedAt: string
+}

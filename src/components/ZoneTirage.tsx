@@ -14,6 +14,7 @@ interface ZoneTirageProps {
   phase: PhaseTirage
   nbJoueursRevele: number
   labelPoste: Record<PosteJoueur, string>
+  jokersInfinis?: boolean
   onChoisir: (joueur: JoueurPioche) => void
   onTirer: () => void
   onPiocherCinqAutres: () => void
@@ -29,6 +30,7 @@ export default function ZoneTirage({
   phase,
   nbJoueursRevele,
   labelPoste,
+  jokersInfinis = false,
   onChoisir,
   onTirer,
   onPiocherCinqAutres,
@@ -47,8 +49,14 @@ export default function ZoneTirage({
 
       <div className="jokers">
         <span
-          className={`joker joker-retirage${retirageDisponible ? ' joker-disponible' : ' joker-utilise'}`}
-          title={retirageDisponible ? 'Change de campagne et retire un nouveau lot de 5 joueurs' : 'Retirage déjà utilisé'}
+          className={`joker joker-retirage${retirageDisponible ? ' joker-disponible' : ' joker-utilise'}${jokersInfinis ? ' joker-infini' : ''}`}
+          title={
+            jokersInfinis
+              ? 'Retirages illimités'
+              : retirageDisponible
+                ? 'Change de campagne et retire un nouveau lot de 5 joueurs'
+                : 'Retirage déjà utilisé'
+          }
         >
           <span className="joker-icone" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -58,19 +66,21 @@ export default function ZoneTirage({
           </span>
           <span className="joker-texte">
             <span className="joker-label">Retirage</span>
-            <span className="joker-etat">{retirageDisponible ? 'Disponible' : 'Utilisé'}</span>
+            <span className="joker-etat">{jokersInfinis ? 'Illimité' : retirageDisponible ? 'Disponible' : 'Utilisé'}</span>
           </span>
         </span>
 
         <button
           type="button"
-          className={`joker joker-piocher${pioche5AutresDisponible ? ' joker-disponible' : ' joker-utilise'}${piocheCinqAutresPossible ? ' joker-actif' : ''}`}
+          className={`joker joker-piocher${pioche5AutresDisponible ? ' joker-disponible' : ' joker-utilise'}${piocheCinqAutresPossible ? ' joker-actif' : ''}${jokersInfinis ? ' joker-infini' : ''}`}
           onClick={piocheCinqAutresPossible ? onPiocherCinqAutres : undefined}
           disabled={!piocheCinqAutresPossible}
           title={
-            pioche5AutresDisponible
-              ? 'Repioche 5 autres joueurs dans la même équipe'
-              : 'Repioche déjà utilisée'
+            jokersInfinis
+              ? 'Repioches illimitées'
+              : pioche5AutresDisponible
+                ? 'Repioche 5 autres joueurs dans la même équipe'
+                : 'Repioche déjà utilisée'
           }
         >
           <span className="joker-icone" aria-hidden="true">
@@ -83,7 +93,7 @@ export default function ZoneTirage({
           </span>
           <span className="joker-texte">
             <span className="joker-label">Autres joueurs</span>
-            <span className="joker-etat">{pioche5AutresDisponible ? 'Disponible' : 'Utilisé'}</span>
+            <span className="joker-etat">{jokersInfinis ? 'Illimité' : pioche5AutresDisponible ? 'Disponible' : 'Utilisé'}</span>
           </span>
         </button>
       </div>
@@ -92,7 +102,7 @@ export default function ZoneTirage({
         <p className={`zone-tirage-aide${tirageBloque && phase === 'joueurs' ? ' zone-tirage-aide-alerte' : ''}`}>
           {phase === 'joueurs' && tirageBloque
             ? 'Retirage déjà utilisé : choisis un joueur parmi ces 5.'
-            : phase === 'joueurs'
+            : phase === 'joueurs' && !jokersInfinis
               ? 'Dernier retirage disponible pour cette partie.'
               : 'Tirage en cours…'}
         </p>
