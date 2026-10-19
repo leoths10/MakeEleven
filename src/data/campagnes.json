@@ -12,141 +12,161 @@
         "nom": "Iker Casillas",
         "poste": "GB",
         "note": 89,
-        "note_booster": 100
+        "note_booster": 109
       },
       {
         "numero": 2,
         "nom": "Raúl Albiol",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 3,
         "nom": "Gerard Piqué",
         "poste": "DC",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 4,
         "nom": "Carlos Marchena",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 5,
         "nom": "Carles Puyol",
         "poste": "DC",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 6,
         "nom": "Andrés Iniesta",
         "poste": "MIL",
         "note": 91,
-        "note_booster": 108
+        "note_booster": 112
       },
       {
         "numero": 7,
         "nom": "David Villa",
         "poste": "ATT",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 8,
         "nom": "Xavi",
         "poste": "MIL",
         "note": 92,
-        "note_booster": 105
+        "note_booster": 113
       },
       {
         "numero": 9,
         "nom": "Fernando Torres",
         "poste": "ATT",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 10,
         "nom": "Cesc Fàbregas",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 11,
         "nom": "Joan Capdevila",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 12,
         "nom": "Víctor Valdés",
         "poste": "GB",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 13,
         "nom": "Juan Mata",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 14,
         "nom": "Xabi Alonso",
         "poste": "MIL",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       },
       {
         "numero": 15,
         "nom": "Sergio Ramos",
         "poste": "DD",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 16,
         "nom": "Sergio Busquets",
         "poste": "MIL",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 17,
         "nom": "Álvaro Arbeloa",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 18,
         "nom": "Pedro",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 19,
         "nom": "Fernando Llorente",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 20,
         "nom": "Javi Martínez",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 21,
         "nom": "David Silva",
         "poste": "MIL",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 22,
         "nom": "Jesús Navas",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 23,
         "nom": "Pepe Reina",
         "poste": "GB",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       }
     ]
   },
@@ -162,110 +182,127 @@
         "numero": 1,
         "nom": "David Raya",
         "poste": "GB",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 2,
         "nom": "Marc Pubill",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Alejandro Grimaldo",
         "poste": "DG",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 4,
         "nom": "Eric García",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 5,
         "nom": "Marcos Llorente",
         "poste": "DD",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Mikel Merino",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 7,
         "nom": "Ferran Torres",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 8,
         "nom": "Fabián Ruiz",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 9,
         "nom": "Gavi",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 10,
         "nom": "Dani Olmo",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 11,
         "nom": "Yeremy Pino",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 12,
         "nom": "Pedro Porro",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 13,
         "nom": "Joan García",
         "poste": "GB",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 14,
         "nom": "Aymeric Laporte",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 15,
         "nom": "Álex Baena",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Rodri",
         "poste": "MIL",
         "note": 90,
-        "note_booster": 100
+        "note_booster": 110
       },
       {
         "numero": 17,
         "nom": "Nico Williams",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 18,
         "nom": "Martín Zubimendi",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 19,
@@ -279,43 +316,49 @@
         "nom": "Pedri",
         "poste": "MIL",
         "note": 89,
-        "note_booster": 103
+        "note_booster": 109
       },
       {
         "numero": 21,
         "nom": "Mikel Oyarzabal",
         "poste": "ATT",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 22,
         "nom": "Pau Cubarsí",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 23,
         "nom": "Unai Simón",
         "poste": "GB",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 24,
         "nom": "Marc Cucurella",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 25,
         "nom": "Víctor Muñoz",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 26,
         "nom": "Borja Iglesias",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       }
     ]
   },
@@ -331,141 +374,162 @@
         "numero": 1,
         "nom": "Rui Patrício",
         "poste": "GB",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 2,
         "nom": "Bruno Alves",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 3,
         "nom": "Pepe",
         "poste": "DC",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 4,
         "nom": "José Fonte",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 5,
         "nom": "Raphaël Guerreiro",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Ricardo Carvalho",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 7,
         "nom": "Cristiano Ronaldo",
         "poste": "ATT",
         "note": 91,
-        "note_booster": 110
+        "note_booster": 112
       },
       {
         "numero": 8,
         "nom": "João Moutinho",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 9,
         "nom": "Éder",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 10,
         "nom": "João Mário",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 11,
         "nom": "Vieirinha",
         "poste": "DD",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 12,
         "nom": "Anthony Lopes",
         "poste": "GB",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 13,
         "nom": "Danilo Pereira",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "William Carvalho",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 15,
         "nom": "André Gomes",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 16,
         "nom": "Renato Sanches",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 17,
         "nom": "Nani",
         "poste": "ATT",
         "note": 81,
-        "note_booster": 96
+        "note_booster": 97
       },
       {
         "numero": 18,
         "nom": "Rafa Silva",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 19,
         "nom": "Eliseu",
         "poste": "DG",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 20,
         "nom": "Ricardo Quaresma",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 21,
         "nom": "Cédric Soares",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 22,
         "nom": "Eduardo",
         "poste": "GB",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 23,
         "nom": "Adrien Silva",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       }
     ]
   },
@@ -481,56 +545,64 @@
         "numero": 1,
         "nom": "Lovre Kalinić",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 2,
         "nom": "Šime Vrsaljko",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 3,
         "nom": "Ivan Strinić",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 4,
         "nom": "Ivan Perišić",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 5,
         "nom": "Vedran Ćorluka",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 6,
         "nom": "Dejan Lovren",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 7,
         "nom": "Ivan Rakitić",
         "poste": "MIL",
         "note": 84,
-        "note_booster": 97
+        "note_booster": 101
       },
       {
         "numero": 8,
         "nom": "Mateo Kovačić",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 9,
         "nom": "Andrej Kramarić",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 10,
@@ -543,80 +615,92 @@
         "numero": 11,
         "nom": "Marcelo Brozović",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 12,
         "nom": "Lovre Kalinić",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 13,
         "nom": "Tin Jedvaj",
         "poste": "DD",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 14,
         "nom": "Filip Bradarić",
         "poste": "MIL",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 15,
         "nom": "Duje Ćaleta-Car",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 16,
         "nom": "Nikola Kalinić",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 17,
         "nom": "Mario Mandžukić",
         "poste": "ATT",
         "note": 83,
-        "note_booster": 98
+        "note_booster": 100
       },
       {
         "numero": 18,
         "nom": "Ante Rebić",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 19,
         "nom": "Milan Badelj",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 20,
         "nom": "Marko Pjaca",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 21,
         "nom": "Domagoj Vida",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 22,
         "nom": "Josip Pivarić",
         "poste": "DG",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 23,
         "nom": "Danijel Subašić",
         "poste": "GB",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       }
     ]
   },
@@ -632,159 +716,183 @@
         "numero": 1,
         "nom": "Remko Pasveer",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 2,
         "nom": "Jurriën Timber",
         "poste": "DD",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 3,
         "nom": "Matthijs de Ligt",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 4,
         "nom": "Virgil van Dijk",
         "poste": "DC",
         "note": 90,
-        "note_booster": 105
+        "note_booster": 110
       },
       {
         "numero": 5,
         "nom": "Nathan Aké",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 6,
         "nom": "Stefan de Vrij",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 7,
         "nom": "Steven Bergwijn",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 8,
         "nom": "Cody Gakpo",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 9,
         "nom": "Luuk de Jong",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 10,
         "nom": "Memphis Depay",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 11,
         "nom": "Steven Berghuis",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 12,
         "nom": "Noa Lang",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Justin Bijlow",
         "poste": "GB",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 14,
         "nom": "Davy Klaassen",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Marten de Roon",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 16,
         "nom": "Tyrell Malacia",
         "poste": "DG",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 17,
         "nom": "Daley Blind",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 18,
         "nom": "Vincent Janssen",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 19,
         "nom": "Wout Weghorst",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 20,
         "nom": "Teun Koopmeiners",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 21,
         "nom": "Frenkie de Jong",
         "poste": "MIL",
         "note": 87,
-        "note_booster": 100
+        "note_booster": 106
       },
       {
         "numero": 22,
         "nom": "Denzel Dumfries",
         "poste": "DD",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 23,
         "nom": "Andries Noppert",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 24,
         "nom": "Kenneth Taylor",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 25,
         "nom": "Xavi Simons",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 26,
         "nom": "Jeremie Frimpong",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       }
     ]
   },
@@ -801,57 +909,63 @@
         "nom": "Hugo Lloris",
         "poste": "GB",
         "note": 88,
-        "note_booster": 98
+        "note_booster": 107
       },
       {
         "numero": 2,
         "nom": "Benjamin Pavard",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 3,
         "nom": "Presnel Kimpembe",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 4,
         "nom": "Raphaël Varane",
         "poste": "DC",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 5,
         "nom": "Samuel Umtiti",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 6,
         "nom": "Paul Pogba",
         "poste": "MIL",
         "note": 86,
-        "note_booster": 100
+        "note_booster": 104
       },
       {
         "numero": 7,
         "nom": "Antoine Griezmann",
         "poste": "ATT",
         "note": 87,
-        "note_booster": 105
+        "note_booster": 106
       },
       {
         "numero": 8,
         "nom": "Thomas Lemar",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 9,
         "nom": "Olivier Giroud",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 10,
@@ -864,79 +978,92 @@
         "numero": 11,
         "nom": "Ousmane Dembélé",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 12,
         "nom": "Corentin Tolisso",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 13,
         "nom": "N'Golo Kanté",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 14,
         "nom": "Blaise Matuidi",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 15,
         "nom": "Steven N'Zonzi",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Steve Mandanda",
         "poste": "GB",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 17,
         "nom": "Nabil Fekir",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 18,
         "nom": "Florian Thauvin",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 19,
         "nom": "Djibril Sidibé",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 20,
         "nom": "Adil Rami",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 21,
         "nom": "Lucas Hernandez",
         "poste": "DG",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 22,
         "nom": "Benjamin Mendy",
         "poste": "DG",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 23,
         "nom": "Alphonse Areola",
         "poste": "GB",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       }
     ]
   },
@@ -952,56 +1079,64 @@
         "numero": 1,
         "nom": "Hugo Lloris",
         "poste": "GB",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 2,
         "nom": "Benjamin Pavard",
         "poste": "DD",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 3,
         "nom": "Axel Disasi",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 4,
         "nom": "Raphaël Varane",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 5,
         "nom": "Jules Koundé",
         "poste": "DD",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Aurélien Tchouaméni",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 7,
         "nom": "Antoine Griezmann",
         "poste": "MIL",
         "note": 87,
-        "note_booster": 102
+        "note_booster": 106
       },
       {
         "numero": 8,
         "nom": "Youssouf Fofana",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 9,
         "nom": "Olivier Giroud",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 10,
@@ -1014,98 +1149,113 @@
         "numero": 11,
         "nom": "Ousmane Dembélé",
         "poste": "ATT",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 12,
         "nom": "Randal Kolo Muani",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 13,
         "nom": "Matteo Guendouzi",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Adrien Rabiot",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 15,
         "nom": "Jordan Veretout",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 16,
         "nom": "Steve Mandanda",
         "poste": "GB",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 17,
         "nom": "William Saliba",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 18,
         "nom": "Dayot Upamecano",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 19,
         "nom": "Karim Benzema",
         "poste": "ATT",
         "note": 88,
-        "note_booster": 99
+        "note_booster": 107
       },
       {
         "numero": 20,
         "nom": "Kingsley Coman",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 21,
         "nom": "Lucas Hernandez",
         "poste": "DG",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 22,
         "nom": "Théo Hernandez",
         "poste": "DG",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 23,
         "nom": "Alphonse Areola",
         "poste": "GB",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 24,
         "nom": "Ibrahima Konaté",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 25,
         "nom": "Eduardo Camavinga",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 26,
         "nom": "Marcus Thuram",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       }
     ]
   },
@@ -1135,146 +1285,169 @@
         "numero": 3,
         "nom": "Noussair Mazraoui",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 4,
         "nom": "Sofyan Amrabat",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 5,
         "nom": "Nayef Aguerd",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 6,
         "nom": "Romain Saïss",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 7,
         "nom": "Hakim Ziyech",
         "poste": "ATT",
         "note": 81,
-        "note_booster": 96
+        "note_booster": 97
       },
       {
         "numero": 8,
         "nom": "Azzedine Ounahi",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 9,
         "nom": "Abderrazak Hamdallah",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 10,
         "nom": "Anass Zaroury",
         "poste": "ATT",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 11,
         "nom": "Abdelhamid Sabiri",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 12,
         "nom": "Munir Mohamedi",
         "poste": "GB",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 13,
         "nom": "Ilias Chair",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Zakaria Aboukhlal",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 15,
         "nom": "Selim Amallah",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 16,
         "nom": "Abde Ezzalzouli",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 17,
         "nom": "Sofiane Boufal",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 18,
         "nom": "Jawad El Yamiq",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "Youssef En-Nesyri",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 20,
         "nom": "Achraf Dari",
         "poste": "DC",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 21,
         "nom": "Walid Cheddira",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 22,
         "nom": "Ahmed Reda Tagnaouti",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 23,
         "nom": "Bilal El Khannouss",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 24,
         "nom": "Badr Benoun",
         "poste": "DD",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 25,
         "nom": "Yahia Attiyat Allah",
         "poste": "DG",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 26,
         "nom": "Yahya Jabrane",
         "poste": "MIL",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       }
     ]
   },
@@ -1290,50 +1463,57 @@
         "numero": 1,
         "nom": "Marcos",
         "poste": "GB",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 2,
         "nom": "Cafu",
         "poste": "DD",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 3,
         "nom": "Lúcio",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 4,
         "nom": "Roque Júnior",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 5,
         "nom": "Edmílson",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 6,
         "nom": "Roberto Carlos",
         "poste": "DG",
         "note": 92,
-        "note_booster": 98
+        "note_booster": 113
       },
       {
         "numero": 7,
         "nom": "Ricardinho",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 8,
         "nom": "Gilberto Silva",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 9,
@@ -1347,86 +1527,98 @@
         "nom": "Rivaldo",
         "poste": "MIL",
         "note": 91,
-        "note_booster": 104
+        "note_booster": 112
       },
       {
         "numero": 11,
         "nom": "Ronaldinho",
         "poste": "ATT",
         "note": 88,
-        "note_booster": 106
+        "note_booster": 107
       },
       {
         "numero": 12,
         "nom": "Dida",
         "poste": "GB",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 13,
         "nom": "Juliano Belletti",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Anderson Polga",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 15,
         "nom": "Kléberson",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Júnior",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 17,
         "nom": "Denílson",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 18,
         "nom": "Vampeta",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 19,
         "nom": "Juninho Paulista",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 20,
         "nom": "Edílson",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 21,
         "nom": "Luizão",
         "poste": "ATT",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 22,
         "nom": "Rogério Ceni",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 23,
         "nom": "Kaká",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       }
     ]
   },
@@ -1442,56 +1634,64 @@
         "numero": 1,
         "nom": "Bernard Lama",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 2,
         "nom": "Vincent Candela",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Bixente Lizarazu",
         "poste": "DG",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 4,
         "nom": "Patrick Vieira",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 5,
         "nom": "Laurent Blanc",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 6,
         "nom": "Youri Djorkaeff",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 7,
         "nom": "Didier Deschamps",
         "poste": "MIL",
         "note": 83,
-        "note_booster": 98
+        "note_booster": 100
       },
       {
         "numero": 8,
         "nom": "Marcel Desailly",
         "poste": "DC",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 9,
         "nom": "Stéphane Guivarc'h",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 10,
@@ -1504,31 +1704,36 @@
         "numero": 11,
         "nom": "Robert Pirès",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 12,
         "nom": "Thierry Henry",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Bernard Diomède",
         "poste": "ATT",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 14,
         "nom": "Alain Boghossian",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 15,
         "nom": "Lilian Thuram",
         "poste": "DD",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 16,
@@ -1541,37 +1746,43 @@
         "numero": 17,
         "nom": "Emmanuel Petit",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 18,
         "nom": "Frank Leboeuf",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 19,
         "nom": "Christian Karembeu",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 20,
         "nom": "David Trezeguet",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 21,
         "nom": "Christophe Dugarry",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 22,
         "nom": "Lionel Charbonnier",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       }
     ]
   },
@@ -1588,141 +1799,161 @@
         "nom": "Gianluigi Buffon",
         "poste": "GB",
         "note": 91,
-        "note_booster": 110
+        "note_booster": 112
       },
       {
         "numero": 2,
         "nom": "Cristian Zaccardo",
         "poste": "DD",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 3,
         "nom": "Fabio Grosso",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 4,
         "nom": "Daniele De Rossi",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 5,
         "nom": "Fabio Cannavaro",
         "poste": "DC",
         "note": 90,
-        "note_booster": 108
+        "note_booster": 110
       },
       {
         "numero": 6,
         "nom": "Andrea Barzagli",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 7,
         "nom": "Alessandro Del Piero",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 8,
         "nom": "Gennaro Gattuso",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 9,
         "nom": "Luca Toni",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 10,
         "nom": "Francesco Totti",
         "poste": "MIL",
         "note": 88,
-        "note_booster": 100
+        "note_booster": 107
       },
       {
         "numero": 11,
         "nom": "Alberto Gilardino",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 12,
         "nom": "Angelo Peruzzi",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Alessandro Nesta",
         "poste": "DC",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 14,
         "nom": "Marco Amelia",
         "poste": "GB",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 15,
         "nom": "Vincenzo Iaquinta",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 16,
         "nom": "Mauro Camoranesi",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 17,
         "nom": "Simone Barone",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 18,
         "nom": "Filippo Inzaghi",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 19,
         "nom": "Gianluca Zambrotta",
         "poste": "DD",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 20,
         "nom": "Simone Perrotta",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 21,
         "nom": "Andrea Pirlo",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 22,
         "nom": "Massimo Oddo",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 23,
         "nom": "Marco Materazzi",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       }
     ]
   },
@@ -1738,57 +1969,64 @@
         "numero": 1,
         "nom": "Jordan Pickford",
         "poste": "GB",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 2,
         "nom": "Ezri Konsa",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 3,
         "nom": "Nico O'Reilly",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 4,
         "nom": "Declan Rice",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 5,
         "nom": "John Stones",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 6,
         "nom": "Marc Guéhi",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 7,
         "nom": "Bukayo Saka",
         "poste": "ATT",
         "note": 88,
-        "note_booster": 99
+        "note_booster": 107
       },
       {
         "numero": 8,
         "nom": "Elliot Anderson",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 9,
         "nom": "Harry Kane",
         "poste": "ATT",
         "note": 89,
-        "note_booster": 102
+        "note_booster": 109
       },
       {
         "numero": 10,
@@ -1801,97 +2039,113 @@
         "numero": 11,
         "nom": "Marcus Rashford",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 12,
         "nom": "Trevoh Chalobah",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Dean Henderson",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "Jordan Henderson",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Dan Burn",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 16,
         "nom": "Kobbie Mainoo",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 17,
         "nom": "Morgan Rogers",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 18,
         "nom": "Anthony Gordon",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 19,
         "nom": "Ollie Watkins",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 20,
         "nom": "Noni Madueke",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 21,
         "nom": "Eberechi Eze",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 22,
         "nom": "Ivan Toney",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 23,
         "nom": "James Trafford",
         "poste": "GB",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 24,
         "nom": "Reece James",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 25,
         "nom": "Djed Spence",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 26,
         "nom": "Jarell Quansah",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       }
     ]
   },
@@ -1907,142 +2161,162 @@
         "numero": 1,
         "nom": "Thibaut Courtois",
         "poste": "GB",
-        "note": 89
+        "note": 89,
+        "note_booster": 109
       },
       {
         "numero": 2,
         "nom": "Toby Alderweireld",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 3,
         "nom": "Thomas Vermaelen",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 4,
         "nom": "Vincent Kompany",
         "poste": "DC",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 5,
         "nom": "Jan Vertonghen",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 6,
         "nom": "Axel Witsel",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 7,
         "nom": "Kevin De Bruyne",
         "poste": "MIL",
         "note": 91,
-        "note_booster": 106
+        "note_booster": 112
       },
       {
         "numero": 8,
         "nom": "Marouane Fellaini",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 9,
         "nom": "Romelu Lukaku",
         "poste": "ATT",
         "note": 87,
-        "note_booster": 100
+        "note_booster": 106
       },
       {
         "numero": 10,
         "nom": "Eden Hazard",
         "poste": "ATT",
         "note": 90,
-        "note_booster": 104
+        "note_booster": 110
       },
       {
         "numero": 11,
         "nom": "Yannick Carrasco",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 12,
         "nom": "Simon Mignolet",
         "poste": "GB",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 13,
         "nom": "Koen Casteels",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "Dries Mertens",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 15,
         "nom": "Thomas Meunier",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 16,
         "nom": "Thorgan Hazard",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 17,
         "nom": "Youri Tielemans",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 18,
         "nom": "Adnan Januzaj",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 19,
         "nom": "Mousa Dembélé",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 20,
         "nom": "Dedryck Boyata",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 21,
         "nom": "Michy Batshuayi",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 22,
         "nom": "Nacer Chadli",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 23,
         "nom": "Leander Dendoncker",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       }
     ]
   },
@@ -2058,142 +2332,162 @@
         "numero": 1,
         "nom": "Dida",
         "poste": "GB",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 2,
         "nom": "Cafu",
         "poste": "DD",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 3,
         "nom": "Lúcio",
         "poste": "DC",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       },
       {
         "numero": 4,
         "nom": "Juan",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 5,
         "nom": "Emerson",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Roberto Carlos",
         "poste": "DG",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 7,
         "nom": "Ricardinho",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 8,
         "nom": "Kaká",
         "poste": "MIL",
         "note": 88,
-        "note_booster": 104
+        "note_booster": 107
       },
       {
         "numero": 9,
         "nom": "Ronaldo",
         "poste": "ATT",
         "note": 85,
-        "note_booster": 99
+        "note_booster": 103
       },
       {
         "numero": 10,
         "nom": "Ronaldinho",
         "poste": "MIL",
         "note": 91,
-        "note_booster": 108
+        "note_booster": 112
       },
       {
         "numero": 11,
         "nom": "Zé Roberto",
         "poste": "DG",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 12,
         "nom": "Rogério Ceni",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Cicinho",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Luisão",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 15,
         "nom": "Cris",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 16,
         "nom": "Gilberto",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 17,
         "nom": "Gilberto Silva",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 18,
         "nom": "Mineiro",
         "poste": "MIL",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 19,
         "nom": "Juninho Pernambucano",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 20,
         "nom": "Edmilson",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 21,
         "nom": "Fred",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 22,
         "nom": "Júlio César",
         "poste": "GB",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 23,
         "nom": "Robinho",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       }
     ]
   },
@@ -2209,158 +2503,183 @@
         "numero": 1,
         "nom": "Wojciech Szczęsny",
         "poste": "GB",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 2,
         "nom": "Tomasz Kędziora",
         "poste": "DD",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 3,
         "nom": "Jan Bednarek",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 4,
         "nom": "Kamil Glik",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 5,
         "nom": "Jakub Kiwior",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 6,
         "nom": "Jacek Góralski",
         "poste": "MIL",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 7,
         "nom": "Arkadiusz Milik",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 8,
         "nom": "Karol Świderski",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 9,
         "nom": "Robert Lewandowski",
         "poste": "ATT",
         "note": 90,
-        "note_booster": 108
+        "note_booster": 110
       },
       {
         "numero": 10,
         "nom": "Grzegorz Krychowiak",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 11,
         "nom": "Kamil Grosicki",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 12,
         "nom": "Kamil Grabara",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 13,
         "nom": "Artur Jędrzejczyk",
         "poste": "DC",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 14,
         "nom": "Mateusz Wieteska",
         "poste": "DC",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 15,
         "nom": "Matty Cash",
         "poste": "DD",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 16,
         "nom": "Taras Romanczuk",
         "poste": "MIL",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 17,
         "nom": "Sebastian Szymański",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 18,
         "nom": "Bartosz Bereszyński",
         "poste": "DD",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "Przemysław Frankowski",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 20,
         "nom": "Piotr Zieliński",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 21,
         "nom": "Nicola Zalewski",
         "poste": "DG",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 22,
         "nom": "Robert Gumny",
         "poste": "DD",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 23,
         "nom": "Krzysztof Piątek",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 24,
         "nom": "Damian Szymański",
         "poste": "MIL",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 25,
         "nom": "Kacper Kozłowski",
         "poste": "MIL",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 26,
         "nom": "Łukasz Skorupski",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       }
     ]
   },
@@ -2376,159 +2695,183 @@
         "numero": 1,
         "nom": "Zion Suzuki",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 2,
         "nom": "Yukinari Sugawara",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 3,
         "nom": "Shogo Taniguchi",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 4,
         "nom": "Ko Itakura",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 5,
         "nom": "Yuto Nagatomo",
         "poste": "DG",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 6,
         "nom": "Wataru Endo",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 7,
         "nom": "Ao Tanaka",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 8,
         "nom": "Takefusa Kubo",
         "poste": "MIL",
         "note": 85,
-        "note_booster": 100
+        "note_booster": 103
       },
       {
         "numero": 9,
         "nom": "Keisuke Goto",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 10,
         "nom": "Ritsu Doan",
         "poste": "MIL",
         "note": 84,
-        "note_booster": 98
+        "note_booster": 101
       },
       {
         "numero": 11,
         "nom": "Daizen Maeda",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 12,
         "nom": "Keisuke Osako",
         "poste": "GB",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 13,
         "nom": "Keito Nakamura",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Junya Ito",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Daichi Kamada",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 16,
         "nom": "Tsuyoshi Watanabe",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 17,
         "nom": "Kaishu Sano",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 18,
         "nom": "Kaishu Sano",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "Koki Ogawa",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 20,
         "nom": "Ayumu Seko",
         "poste": "DD",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 21,
         "nom": "Hiroki Ito",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 22,
         "nom": "Takehiro Tomiyasu",
         "poste": "DD",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 23,
         "nom": "Tomoki Hayakawa",
         "poste": "GB",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 24,
         "nom": "Ayase Ueda",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 25,
         "nom": "Junnosuke Suzuki",
         "poste": "DD",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 26,
         "nom": "Yuito Suzuki",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       }
     ]
   },
@@ -2544,142 +2887,162 @@
         "numero": 1,
         "nom": "Hugo Lloris",
         "poste": "GB",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 2,
         "nom": "Christophe Jallet",
         "poste": "DD",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 3,
         "nom": "Patrice Evra",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 4,
         "nom": "Adil Rami",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 5,
         "nom": "N'Golo Kanté",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 6,
         "nom": "Yohan Cabaye",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 7,
         "nom": "Antoine Griezmann",
         "poste": "ATT",
         "note": 88,
-        "note_booster": 106
+        "note_booster": 107
       },
       {
         "numero": 8,
         "nom": "Dimitri Payet",
         "poste": "MIL",
         "note": 84,
-        "note_booster": 100
+        "note_booster": 101
       },
       {
         "numero": 9,
         "nom": "Olivier Giroud",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 10,
         "nom": "André-Pierre Gignac",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 11,
         "nom": "Anthony Martial",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 12,
         "nom": "Morgan Schneiderlin",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Eliaquim Mangala",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 14,
         "nom": "Blaise Matuidi",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 15,
         "nom": "Paul Pogba",
         "poste": "MIL",
         "note": 87,
-        "note_booster": 98
+        "note_booster": 106
       },
       {
         "numero": 16,
         "nom": "Steve Mandanda",
         "poste": "GB",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 17,
         "nom": "Lucas Digne",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 18,
         "nom": "Moussa Sissoko",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 19,
         "nom": "Bacary Sagna",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 20,
         "nom": "Kingsley Coman",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 21,
         "nom": "Laurent Koscielny",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 22,
         "nom": "Samuel Umtiti",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 23,
         "nom": "Benoît Costil",
         "poste": "GB",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       }
     ]
   },
@@ -2702,153 +3065,176 @@
         "numero": 2,
         "nom": "Giovanni Di Lorenzo",
         "poste": "DD",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 3,
         "nom": "Giorgio Chiellini",
         "poste": "DC",
         "note": 85,
-        "note_booster": 100
+        "note_booster": 103
       },
       {
         "numero": 4,
         "nom": "Alessandro Florenzi",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 5,
         "nom": "Manuel Locatelli",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Leonardo Spinazzola",
         "poste": "DG",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 7,
         "nom": "Lorenzo Pellegrini",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 8,
         "nom": "Jorginho",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 9,
         "nom": "Andrea Belotti",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 10,
         "nom": "Lorenzo Insigne",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 11,
         "nom": "Federico Bernardeschi",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 12,
         "nom": "Salvatore Sirigu",
         "poste": "GB",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 13,
         "nom": "Emerson Palmieri",
         "poste": "DG",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "Domenico Berardi",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 15,
         "nom": "Francesco Acerbi",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Bryan Cristante",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 17,
         "nom": "Ciro Immobile",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 18,
         "nom": "Nicolò Barella",
         "poste": "MIL",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 19,
         "nom": "Leonardo Bonucci",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 20,
         "nom": "Federico Chiesa",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 21,
         "nom": "Marco Verratti",
         "poste": "MIL",
         "note": 85,
-        "note_booster": 98
+        "note_booster": 103
       },
       {
         "numero": 22,
         "nom": "Alessandro Bastoni",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 23,
         "nom": "Matteo Pessina",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 24,
         "nom": "Rafael Tolói",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 25,
         "nom": "Gaetano Castrovilli",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 26,
         "nom": "Salvatore Sirigu",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       }
     ]
   },
@@ -2864,159 +3250,183 @@
         "numero": 1,
         "nom": "Jordan Pickford",
         "poste": "GB",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 2,
         "nom": "Kyle Walker",
         "poste": "DD",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 3,
         "nom": "Luke Shaw",
         "poste": "DG",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 4,
         "nom": "Declan Rice",
         "poste": "MIL",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 5,
         "nom": "John Stones",
         "poste": "DC",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 6,
         "nom": "Harry Maguire",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 7,
         "nom": "Jack Grealish",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 8,
         "nom": "Jordan Henderson",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 9,
         "nom": "Harry Kane",
         "poste": "ATT",
         "note": 89,
-        "note_booster": 104
+        "note_booster": 109
       },
       {
         "numero": 10,
         "nom": "Raheem Sterling",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 11,
         "nom": "Marcus Rashford",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 12,
         "nom": "Kieran Trippier",
         "poste": "DD",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 13,
         "nom": "Nick Pope",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "Kalvin Phillips",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Eric Dier",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Conor Coady",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 17,
         "nom": "Bukayo Saka",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 18,
         "nom": "Trent Alexander-Arnold",
         "poste": "DD",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 19,
         "nom": "Mason Mount",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 20,
         "nom": "Phil Foden",
         "poste": "ATT",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 21,
         "nom": "Ben White",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 22,
         "nom": "Jude Bellingham",
         "poste": "MIL",
         "note": 85,
-        "note_booster": 100
+        "note_booster": 103
       },
       {
         "numero": 23,
         "nom": "Aaron Ramsdale",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 24,
         "nom": "Callum Wilson",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 25,
         "nom": "James Maddison",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 26,
         "nom": "Conor Gallagher",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       }
     ]
   },
@@ -3032,49 +3442,57 @@
         "numero": 1,
         "nom": "Franco Armani",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 2,
         "nom": "Juan Foyth",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Nicolás Tagliafico",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 4,
         "nom": "Gonzalo Montiel",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 5,
         "nom": "Leandro Paredes",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 6,
         "nom": "Germán Pezzella",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 7,
         "nom": "Rodrigo De Paul",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 8,
         "nom": "Marcos Acuña",
         "poste": "DG",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 9,
@@ -3095,98 +3513,112 @@
         "nom": "Ángel Di María",
         "poste": "ATT",
         "note": 84,
-        "note_booster": 98
+        "note_booster": 101
       },
       {
         "numero": 12,
         "nom": "Gerónimo Rulli",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 13,
         "nom": "Cristian Romero",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 14,
         "nom": "Exequiel Palacios",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Ángel Correa",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 16,
         "nom": "Thiago Almada",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 17,
         "nom": "Alejandro Gómez",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 18,
         "nom": "Guido Rodríguez",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 19,
         "nom": "Nicolás Otamendi",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 20,
         "nom": "Alexis Mac Allister",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 21,
         "nom": "Paulo Dybala",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 22,
         "nom": "Lautaro Martínez",
         "poste": "ATT",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 23,
         "nom": "Emiliano Martínez",
         "poste": "GB",
         "note": 87,
-        "note_booster": 100
+        "note_booster": 106
       },
       {
         "numero": 24,
         "nom": "Enzo Fernández",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 25,
         "nom": "Lisandro Martínez",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 26,
         "nom": "Nahuel Molina",
         "poste": "DD",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       }
     ]
   },
@@ -3202,140 +3634,162 @@
         "numero": 1,
         "nom": "Franco Armani",
         "poste": "GB",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 2,
         "nom": "Gabriel Mercado",
         "poste": "DD",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 3,
         "nom": "Nicolás Tagliafico",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 4,
         "nom": "Cristian Ansaldi",
         "poste": "DD",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 5,
         "nom": "Lucas Biglia",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 6,
         "nom": "Federico Fazio",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 7,
         "nom": "Ever Banega",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 8,
         "nom": "Marcos Acuña",
         "poste": "DG",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 9,
         "nom": "Gonzalo Higuaín",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 10,
         "nom": "Lionel Messi",
         "poste": "ATT",
         "note": 92,
-        "note_booster": 108
+        "note_booster": 113
       },
       {
         "numero": 11,
         "nom": "Ángel Di María",
         "poste": "ATT",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 12,
         "nom": "Franco Armani",
         "poste": "GB",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 13,
         "nom": "Maximiliano Meza",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 14,
         "nom": "Javier Mascherano",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Enzo Pérez",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 16,
         "nom": "Marcos Rojo",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 17,
         "nom": "Nicolás Otamendi",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 18,
         "nom": "Eduardo Salvio",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 19,
         "nom": "Sergio Agüero",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 20,
         "nom": "Giovani Lo Celso",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 21,
         "nom": "Paulo Dybala",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 22,
         "nom": "Cristian Pavón",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 23,
         "nom": "Willy Caballero",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       }
     ]
   },
@@ -3351,159 +3805,183 @@
         "numero": 1,
         "nom": "Alisson",
         "poste": "GB",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 2,
         "nom": "Wesley",
         "poste": "DD",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 3,
         "nom": "Gabriel Magalhães",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 4,
         "nom": "Marquinhos",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 5,
         "nom": "Casemiro",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 6,
         "nom": "Alex Sandro",
         "poste": "DG",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 7,
         "nom": "Vinícius Júnior",
         "poste": "ATT",
         "note": 90,
-        "note_booster": 106
+        "note_booster": 110
       },
       {
         "numero": 8,
         "nom": "Bruno Guimarães",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 9,
         "nom": "Matheus Cunha",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 10,
         "nom": "Neymar",
         "poste": "ATT",
         "note": 86,
-        "note_booster": 100
+        "note_booster": 104
       },
       {
         "numero": 11,
         "nom": "Raphinha",
         "poste": "ATT",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       },
       {
         "numero": 12,
         "nom": "Weverton",
         "poste": "GB",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 13,
         "nom": "Danilo",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "Bremer",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 15,
         "nom": "Léo Pereira",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Douglas Santos",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 17,
         "nom": "Lucas Paquetá",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 18,
         "nom": "Fabinho",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 19,
         "nom": "Endrick",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 20,
         "nom": "Gabriel Martinelli",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 21,
         "nom": "Luiz Henrique",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 22,
         "nom": "Ederson (milieu)",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 23,
         "nom": "Ederson",
         "poste": "GB",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 24,
         "nom": "Roger Ibañez",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 25,
         "nom": "Igor Thiago",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 26,
         "nom": "Rayan",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       }
     ]
   },
@@ -3520,74 +3998,84 @@
         "nom": "Manuel Neuer",
         "poste": "GB",
         "note": 90,
-        "note_booster": 105
+        "note_booster": 110
       },
       {
         "numero": 2,
         "nom": "Kevin Großkreutz",
         "poste": "DD",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 3,
         "nom": "Matthias Ginter",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 4,
         "nom": "Benedikt Höwedes",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 5,
         "nom": "Mats Hummels",
         "poste": "DC",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       },
       {
         "numero": 6,
         "nom": "Sami Khedira",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 7,
         "nom": "Bastian Schweinsteiger",
         "poste": "MIL",
         "note": 86,
-        "note_booster": 98
+        "note_booster": 104
       },
       {
         "numero": 8,
         "nom": "Mesut Özil",
         "poste": "MIL",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       },
       {
         "numero": 9,
         "nom": "André Schürrle",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 10,
         "nom": "Lukas Podolski",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 11,
         "nom": "Miroslav Klose",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 12,
         "nom": "Ron-Robert Zieler",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 13,
@@ -3600,62 +4088,71 @@
         "numero": 14,
         "nom": "Julian Draxler",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 15,
         "nom": "Erik Durm",
         "poste": "DG",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 16,
         "nom": "Philipp Lahm",
         "poste": "DD",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 17,
         "nom": "Per Mertesacker",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 18,
         "nom": "Toni Kroos",
         "poste": "MIL",
         "note": 86,
-        "note_booster": 100
+        "note_booster": 104
       },
       {
         "numero": 19,
         "nom": "Mario Götze",
         "poste": "MIL",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 20,
         "nom": "Jérôme Boateng",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 21,
         "nom": "Shkodran Mustafi",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 22,
         "nom": "Roman Weidenfeller",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 23,
         "nom": "Christoph Kramer",
         "poste": "MIL",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       }
     ]
   },
@@ -3672,103 +4169,119 @@
         "nom": "Mike Maignan",
         "poste": "GB",
         "note": 86,
-        "note_booster": 96
+        "note_booster": 104
       },
       {
         "numero": 1,
         "nom": "Brice Samba",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 23,
         "nom": "Robin Risser",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 2,
         "nom": "Malo Gusto",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 3,
         "nom": "Lucas Digne",
         "poste": "DG",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 4,
         "nom": "Dayot Upamecano",
         "poste": "DC",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 5,
         "nom": "Jules Koundé",
         "poste": "DD",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 15,
         "nom": "Ibrahima Konaté",
         "poste": "DC",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 17,
         "nom": "William Saliba",
         "poste": "DC",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 19,
         "nom": "Théo Hernandez",
         "poste": "DG",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 21,
         "nom": "Lucas Hernandez",
         "poste": "DG",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 26,
         "nom": "Maxence Lacroix",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 6,
         "nom": "Manu Koné",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 8,
         "nom": "Aurélien Tchouaméni",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 13,
         "nom": "N'Golo Kanté",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 14,
         "nom": "Adrien Rabiot",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 18,
         "nom": "Warren Zaïre-Emery",
         "poste": "MIL",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 7,
@@ -3781,7 +4294,8 @@
         "numero": 9,
         "nom": "Marcus Thuram",
         "poste": "ATT",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 10,
@@ -3794,37 +4308,43 @@
         "numero": 11,
         "nom": "Michael Olise",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 12,
         "nom": "Bradley Barcola",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 20,
         "nom": "Désiré Doué",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 22,
         "nom": "Jean-Philippe Mateta",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 24,
         "nom": "Rayan Cherki",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 25,
         "nom": "Maghnes Akliouche",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       }
     ]
   },
@@ -3840,62 +4360,71 @@
         "numero": 1,
         "nom": "Wayne Hennessey",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 2,
         "nom": "Chris Gunter",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Neil Taylor",
         "poste": "DG",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 4,
         "nom": "Ben Davies",
         "poste": "DG",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 5,
         "nom": "James Chester",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 6,
         "nom": "Ashley Williams",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 7,
         "nom": "Joe Allen",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 8,
         "nom": "Andy King",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 9,
         "nom": "Hal Robson-Kanu",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 10,
         "nom": "Aaron Ramsey",
         "poste": "MIL",
         "note": 85,
-        "note_booster": 98
+        "note_booster": 103
       },
       {
         "numero": 11,
@@ -3908,73 +4437,85 @@
         "numero": 12,
         "nom": "Owain Fôn Williams",
         "poste": "GB",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       },
       {
         "numero": 13,
         "nom": "George Williams",
         "poste": "ATT",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       },
       {
         "numero": 14,
         "nom": "David Edwards",
         "poste": "MIL",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 15,
         "nom": "Jazz Richards",
         "poste": "DD",
-        "note": 69
+        "note": 69,
+        "note_booster": 79
       },
       {
         "numero": 16,
         "nom": "Joe Ledley",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 17,
         "nom": "David Cotterill",
         "poste": "ATT",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 18,
         "nom": "Sam Vokes",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "James Collins",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 20,
         "nom": "Jonathan Williams",
         "poste": "ATT",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 21,
         "nom": "Danny Ward",
         "poste": "GB",
-        "note": 69
+        "note": 69,
+        "note_booster": 79
       },
       {
         "numero": 22,
         "nom": "David Vaughan",
         "poste": "MIL",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 23,
         "nom": "Simon Church",
         "poste": "ATT",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       }
     ]
   },
@@ -3990,55 +4531,64 @@
         "numero": 1,
         "nom": "Dayne St. Clair",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 16,
         "nom": "Maxime Crépeau",
         "poste": "GB",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 18,
         "nom": "Owen Goodman",
         "poste": "GB",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       },
       {
         "numero": 2,
         "nom": "Alistair Johnston",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 3,
         "nom": "Alfie Jones",
         "poste": "DC",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 4,
         "nom": "Luc de Fougerolles",
         "poste": "DC",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 5,
         "nom": "Joel Waterman",
         "poste": "DC",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 13,
         "nom": "Derek Cornelius",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 15,
         "nom": "Moïse Bombito",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
@@ -4051,98 +4601,113 @@
         "numero": 22,
         "nom": "Richie Laryea",
         "poste": "DD",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 23,
         "nom": "Niko Sigur",
         "poste": "DD",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 6,
         "nom": "Mathieu Choinière",
         "poste": "MIL",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 7,
         "nom": "Stephen Eustáquio",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 8,
         "nom": "Ismaël Koné",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 9,
         "nom": "Liam Millar",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 11,
         "nom": "Jacob Shaffelburg",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 14,
         "nom": "Jonathan Osorio",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 17,
         "nom": "Nathan Saliba",
         "poste": "MIL",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 20,
         "nom": "Marcelo Flores",
         "poste": "MIL",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 10,
         "nom": "Jonathan David",
         "poste": "ATT",
         "note": 83,
-        "note_booster": 96
+        "note_booster": 100
       },
       {
         "numero": 21,
         "nom": "Cyle Larin",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 12,
         "nom": "Tani Oluwaseyi",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 24,
         "nom": "Tajon Buchanan",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 25,
         "nom": "Ali Ahmed",
         "poste": "ATT",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 26,
         "nom": "Promise David",
         "poste": "ATT",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       }
     ]
   },
@@ -4158,141 +4723,162 @@
         "numero": 1,
         "nom": "Ørjan Nyland",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 5,
         "nom": "David Møller Wolfe",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 17,
         "nom": "Torbjørn Heggem",
         "poste": "DC",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 3,
         "nom": "Kristoffer Ajer",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 14,
         "nom": "Julian Ryerson",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 6,
         "nom": "Fredrik Bjørkan",
         "poste": "DG",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 15,
         "nom": "Leo Skiri Østigård",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 18,
         "nom": "Sondre Langås",
         "poste": "GB",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       },
       {
         "numero": 11,
         "nom": "Marcus Holmgren Pedersen",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 8,
         "nom": "Sander Berge",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 10,
         "nom": "Martin Ødegaard",
         "poste": "MIL",
         "note": 87,
-        "note_booster": 100
+        "note_booster": 106
       },
       {
         "numero": 20,
         "nom": "Antonio Nusa",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 16,
         "nom": "Patrick Berg",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "Kristian Thorstvedt",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 21,
         "nom": "Morten Thorsby",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 22,
         "nom": "Thelo Aasgaard",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 23,
         "nom": "Andreas Schjelderup",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 24,
         "nom": "Jens Petter Hauge",
         "poste": "ATT",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 25,
         "nom": "Fredrik Aursnes",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 9,
         "nom": "Erling Haaland",
         "poste": "ATT",
         "note": 93,
-        "note_booster": 112
+        "note_booster": 115
       },
       {
         "numero": 7,
         "nom": "Alexander Sørloth",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 13,
         "nom": "Jørgen Strand Larsen",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 26,
         "nom": "Oscar Bobb",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       }
     ]
   },
@@ -4308,56 +4894,64 @@
         "numero": 1,
         "nom": "Júlio César",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 2,
         "nom": "Dani Alves",
         "poste": "DD",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 3,
         "nom": "Thiago Silva",
         "poste": "DC",
         "note": 85,
-        "note_booster": 98
+        "note_booster": 103
       },
       {
         "numero": 4,
         "nom": "David Luiz",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 6,
         "nom": "Marcelo",
         "poste": "DG",
-        "note": 83
+        "note": 83,
+        "note_booster": 100
       },
       {
         "numero": 5,
         "nom": "Fernandinho",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 7,
         "nom": "Hulk",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 8,
         "nom": "Paulinho",
         "poste": "MIL",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 9,
         "nom": "Fred",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 10,
@@ -4370,79 +4964,92 @@
         "numero": 11,
         "nom": "Oscar",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 12,
         "nom": "Jefferson",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 13,
         "nom": "Dante",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Maxwell",
         "poste": "DG",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 15,
         "nom": "Luiz Gustavo",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Ramires",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 17,
         "nom": "Fernando",
         "poste": "MIL",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 18,
         "nom": "Hernanes",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "Willian",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 20,
         "nom": "Bernard",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 21,
         "nom": "Jô",
         "poste": "ATT",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 22,
         "nom": "Victor",
         "poste": "GB",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 23,
         "nom": "Henrique",
         "poste": "DD",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       }
     ]
   },
@@ -4458,141 +5065,162 @@
         "numero": 1,
         "nom": "Hugo Lloris",
         "poste": "GB",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 2,
         "nom": "Mathieu Debuchy",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Patrice Evra",
         "poste": "DG",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 4,
         "nom": "Raphaël Varane",
         "poste": "DC",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 5,
         "nom": "Mamadou Sakho",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 6,
         "nom": "Blaise Matuidi",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 7,
         "nom": "Antoine Griezmann",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 8,
         "nom": "Rémy Cabella",
         "poste": "ATT",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 9,
         "nom": "Karim Benzema",
         "poste": "ATT",
         "note": 86,
-        "note_booster": 102
+        "note_booster": 104
       },
       {
         "numero": 10,
         "nom": "Franck Ribéry",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 11,
         "nom": "Loïc Rémy",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 12,
         "nom": "Bacary Sagna",
         "poste": "DD",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 13,
         "nom": "Éric Abidal",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 14,
         "nom": "Blaise Matuidi (bis)",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 15,
         "nom": "Yohan Cabaye",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 16,
         "nom": "Steve Mandanda",
         "poste": "GB",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 17,
         "nom": "Paul Pogba",
         "poste": "MIL",
         "note": 83,
-        "note_booster": 98
+        "note_booster": 100
       },
       {
         "numero": 18,
         "nom": "Olivier Giroud",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 19,
         "nom": "Laurent Koscielny",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 20,
         "nom": "Rio Mavuba",
         "poste": "MIL",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 21,
         "nom": "Moussa Sissoko",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 22,
         "nom": "Morgan Schneiderlin",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 23,
         "nom": "Mickaël Landreau",
         "poste": "GB",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       }
     ]
   },
@@ -4615,49 +5243,57 @@
         "numero": 2,
         "nom": "Willy Sagnol",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Éric Abidal",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 4,
         "nom": "Patrick Vieira",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 5,
         "nom": "William Gallas",
         "poste": "DC",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Claude Makélélé",
         "poste": "MIL",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 7,
         "nom": "Franck Ribéry",
         "poste": "ATT",
-        "note": 81
+        "note": 81,
+        "note_booster": 97
       },
       {
         "numero": 8,
         "nom": "Vikash Dhorasoo",
         "poste": "MIL",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 9,
         "nom": "Sidney Govou",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 10,
@@ -4670,80 +5306,92 @@
         "numero": 11,
         "nom": "Sylvain Wiltord",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 12,
         "nom": "Thierry Henry",
         "poste": "ATT",
         "note": 90,
-        "note_booster": 104
+        "note_booster": 110
       },
       {
         "numero": 13,
         "nom": "Jean-Alain Boumsong",
         "poste": "DC",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 14,
         "nom": "Florent Malouda",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 15,
         "nom": "Lilian Thuram",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 16,
         "nom": "Grégory Coupet",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 17,
         "nom": "Alou Diarra",
         "poste": "MIL",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 18,
         "nom": "David Trezeguet",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 19,
         "nom": "Willy Sagnol (bis)",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 20,
         "nom": "Louis Saha",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 21,
         "nom": "Mikaël Silvestre",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 22,
         "nom": "Mickaël Landreau",
         "poste": "GB",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       },
       {
         "numero": 23,
         "nom": "Sébastien Frey",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       }
     ]
   },
@@ -4759,157 +5407,183 @@
         "numero": 1,
         "nom": "Diogo Costa",
         "poste": "GB",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 2,
         "nom": "Nélson Semedo",
         "poste": "DD",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 3,
         "nom": "Rúben Dias",
         "poste": "DC",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 4,
         "nom": "Tomás Araújo",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 5,
         "nom": "Diogo Dalot",
         "poste": "DD",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 6,
         "nom": "Matheus Nunes",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 7,
         "nom": "Cristiano Ronaldo",
         "poste": "ATT",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 8,
         "nom": "Bruno Fernandes",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 9,
         "nom": "Gonçalo Ramos",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 10,
         "nom": "Bernardo Silva",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 11,
         "nom": "João Félix",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 12,
         "nom": "José Sá",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 13,
         "nom": "Renato Veiga",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Gonçalo Inácio",
         "poste": "DC",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 15,
         "nom": "João Neves",
         "poste": "MIL",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 16,
         "nom": "Francisco Trincão",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 17,
         "nom": "Rafael Leão",
         "poste": "ATT",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 18,
         "nom": "Pedro Neto",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 19,
         "nom": "Gonçalo Guedes",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 20,
         "nom": "João Cancelo",
         "poste": "DD",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 21,
         "nom": "Rúben Neves",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 22,
         "nom": "Rui Silva",
         "poste": "GB",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 23,
         "nom": "Vitinha",
         "poste": "MIL",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 24,
         "nom": "Samu Costa",
         "poste": "MIL",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 25,
         "nom": "Nuno Mendes",
         "poste": "DG",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 26,
         "nom": "Francisco Conceição",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       }
     ]
   },
@@ -4925,157 +5599,183 @@
         "numero": 1,
         "nom": "Hugo Lloris",
         "poste": "GB",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       },
       {
         "numero": 2,
         "nom": "Benjamin Pavard",
         "poste": "DD",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 3,
         "nom": "Presnel Kimpembe",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 4,
         "nom": "Raphaël Varane",
         "poste": "DC",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 5,
         "nom": "Clément Lenglet",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 6,
         "nom": "Paul Pogba",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 7,
         "nom": "Antoine Griezmann",
         "poste": "ATT",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 8,
         "nom": "Thomas Lemar",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 9,
         "nom": "Olivier Giroud",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 10,
         "nom": "Kylian Mbappé",
         "poste": "ATT",
-        "note": 90
+        "note": 90,
+        "note_booster": 110
       },
       {
         "numero": 11,
         "nom": "Ousmane Dembélé",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 12,
         "nom": "Corentin Tolisso",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 13,
         "nom": "Kingsley Coman",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 14,
         "nom": "Adrien Rabiot",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 15,
         "nom": "Marcus Thuram",
         "poste": "ATT",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 16,
         "nom": "Steve Mandanda",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 17,
         "nom": "Léo Dubois",
         "poste": "DD",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 18,
         "nom": "Moussa Sissoko",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 19,
         "nom": "Karim Benzema",
         "poste": "ATT",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       },
       {
         "numero": 20,
         "nom": "Jules Koundé",
         "poste": "DD",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 21,
         "nom": "Lucas Digne",
         "poste": "DG",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 22,
         "nom": "Benjamin Mendy",
         "poste": "DG",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 23,
         "nom": "Alphonse Areola",
         "poste": "GB",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 24,
         "nom": "Wissam Ben Yedder",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 25,
         "nom": "Jonathan Clauss",
         "poste": "DD",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 26,
         "nom": "N'Golo Kanté",
         "poste": "MIL",
-        "note": 86
+        "note": 86,
+        "note_booster": 104
       }
     ]
   },
@@ -5091,157 +5791,183 @@
         "numero": 1,
         "nom": "Unai Simón",
         "poste": "GB",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 2,
         "nom": "Dani Carvajal",
         "poste": "DD",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 3,
         "nom": "Robin Le Normand",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 4,
         "nom": "Aymeric Laporte",
         "poste": "DC",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 5,
         "nom": "Marc Cucurella",
         "poste": "DG",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 6,
         "nom": "Mikel Merino",
         "poste": "MIL",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 7,
         "nom": "Álvaro Morata",
         "poste": "ATT",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 8,
         "nom": "Fabián Ruiz",
         "poste": "MIL",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 9,
         "nom": "Joselu",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 10,
         "nom": "Dani Olmo",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 11,
         "nom": "Ferran Torres",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 12,
         "nom": "Jesús Navas",
         "poste": "DD",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 13,
         "nom": "Álex Remiro",
         "poste": "GB",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 14,
         "nom": "Aleix García",
         "poste": "MIL",
-        "note": 75
+        "note": 75,
+        "note_booster": 88
       },
       {
         "numero": 15,
         "nom": "Dani Vivian",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 16,
         "nom": "Pedri",
         "poste": "MIL",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 17,
         "nom": "Ayoze Pérez",
         "poste": "ATT",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 18,
         "nom": "Marcos Llorente",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 19,
         "nom": "Alejandro Grimaldo",
         "poste": "DG",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 20,
         "nom": "Nacho",
         "poste": "DC",
-        "note": 76
+        "note": 76,
+        "note_booster": 89
       },
       {
         "numero": 21,
         "nom": "Mikel Oyarzabal",
         "poste": "ATT",
-        "note": 82
+        "note": 82,
+        "note_booster": 98
       },
       {
         "numero": 22,
         "nom": "Nico Williams",
         "poste": "ATT",
-        "note": 85
+        "note": 85,
+        "note_booster": 103
       },
       {
         "numero": 23,
         "nom": "David Raya",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 24,
         "nom": "Fermín López",
         "poste": "MIL",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 25,
         "nom": "Martín Zubimendi",
         "poste": "MIL",
-        "note": 80
+        "note": 80,
+        "note_booster": 95
       },
       {
         "numero": 26,
         "nom": "Lamine Yamal",
         "poste": "ATT",
-        "note": 88
+        "note": 88,
+        "note_booster": 107
       }
     ]
   },
@@ -5257,139 +5983,162 @@
         "numero": 1,
         "nom": "Jasper Cillessen",
         "poste": "GB",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 2,
         "nom": "Ron Vlaar",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 3,
         "nom": "Stefan de Vrij",
         "poste": "DC",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 4,
         "nom": "Bruno Martins Indi",
         "poste": "DC",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 5,
         "nom": "Daley Blind",
         "poste": "DG",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 6,
         "nom": "Nigel de Jong",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 7,
         "nom": "Daryl Janmaat",
         "poste": "DD",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 8,
         "nom": "Jonathan de Guzmán",
         "poste": "MIL",
-        "note": 71
+        "note": 71,
+        "note_booster": 82
       },
       {
         "numero": 9,
         "nom": "Robin van Persie",
         "poste": "ATT",
-        "note": 87
+        "note": 87,
+        "note_booster": 106
       },
       {
         "numero": 10,
         "nom": "Wesley Sneijder",
         "poste": "MIL",
-        "note": 84
+        "note": 84,
+        "note_booster": 101
       },
       {
         "numero": 11,
         "nom": "Arjen Robben",
         "poste": "ATT",
-        "note": 90
+        "note": 90,
+        "note_booster": 110
       },
       {
         "numero": 12,
         "nom": "Paul Verhaegh",
         "poste": "DD",
-        "note": 68
+        "note": 68,
+        "note_booster": 77
       },
       {
         "numero": 13,
         "nom": "Joël Veltman",
         "poste": "DD",
-        "note": 70
+        "note": 70,
+        "note_booster": 80
       },
       {
         "numero": 14,
         "nom": "Terence Kongolo",
         "poste": "DC",
-        "note": 69
+        "note": 69,
+        "note_booster": 79
       },
       {
         "numero": 15,
         "nom": "Dirk Kuyt",
         "poste": "ATT",
-        "note": 77
+        "note": 77,
+        "note_booster": 91
       },
       {
         "numero": 16,
         "nom": "Jordy Clasie",
         "poste": "MIL",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 17,
         "nom": "Jeremain Lens",
         "poste": "ATT",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       },
       {
         "numero": 18,
         "nom": "Leroy Fer",
         "poste": "MIL",
-        "note": 73
+        "note": 73,
+        "note_booster": 85
       },
       {
         "numero": 19,
         "nom": "Klaas-Jan Huntelaar",
         "poste": "ATT",
-        "note": 79
+        "note": 79,
+        "note_booster": 94
       },
       {
         "numero": 20,
         "nom": "Georginio Wijnaldum",
         "poste": "MIL",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 21,
         "nom": "Memphis Depay",
         "poste": "ATT",
-        "note": 78
+        "note": 78,
+        "note_booster": 92
       },
       {
         "numero": 22,
         "nom": "Michel Vorm",
         "poste": "GB",
-        "note": 72
+        "note": 72,
+        "note_booster": 83
       },
       {
         "numero": 23,
         "nom": "Tim Krul",
         "poste": "GB",
-        "note": 74
+        "note": 74,
+        "note_booster": 86
       }
     ]
   }
